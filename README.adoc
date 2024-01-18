@@ -1,0 +1,5 @@
+= Rainusage
+
+All the data collected from https://github.com/SWPhantom/Rainus[Rainuses] along with some code to crunch it all..
+
+Currently it's a mess.. 
