@@ -1,0 +1,31 @@
+{:date    #inst"2023-11-21"
+ :comment
+ "Long time gap. Nong went fishing and then come back sick.
+ He tried to ship the water with DHL but it didn't work out.
+ Water level was low again
+ Nong watched H and S and saw no drops
+ Seems a lot of spots either stopped dripping or were much slower
+ Nong leaves to BKK after
+ "
+ :sites   {:X  {:logger  :R01   ;;;;;;;;;;
+                :vial    :AEVW
+                :comment "Rate bit the cable. So log is probably truncated? Vial has wrong date written"}
+           :A  {:logger  :R16   ;;;;;;;;;
+                :vial    :AAMR
+                :comment ""}
+           :C  {:logger  :R14 ;;;;;;;;;;;;
+                :vial    :AKXF
+                :comment "Empty SD card"}
+           :B  {:logger  :R07  ;;;;;;;;;;;;
+                :vial    :AEYG
+                :comment ""}
+           :D {:logger  :R04   ;;;;;;;;;;;;;;;;
+                :vial    :ATLL
+                :comment "Pictures show R03 here"}
+           :H  {:logger  :R06   ;;;;;;;;;;;
+                :vial    nil
+                :comment "no water. Empty SD card"}
+           :S {:logger  :R08   ;;;;;;;;;;;;
+                :vial    ANKZ
+                :comment "Very little water. The cone has moved. Empty SD card"}]
+ :next    ""}

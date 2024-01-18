@@ -1,0 +1,69 @@
+:imagesdir: fig/photo/eastern-caves/
+:!webfonts:
+:stylesheet: ../web/adoc.css
+:table-caption!:
+:reproducible:
+:nofooter:
+
+= Log of Equipment installation
+
+== Glossary
+
+- rg* :: Rain Gauge * (where * is its ID)
+- wc* :: Water collector * (where * is its ID). These are bit plastic canisters
+- SC1 :: Side Chamber (Immediately on the right after you descend from window)
+- Sh1 :: Shelf 1 (Second Chamber, right hand side)
+- Sh2 :: Shelf 2 (Second Chamber, straight ahead)
+- T1 :: Tile 1 (First Chamber, near monitor lizard hole)
+
+== Rainus ID table
+
+- rg8:: 8373084
+-
+
+== 2022-11-24
+
+First rain gauge installation in Tham Murd
+
+- *rg8* is installed on *SC1* (no water collection)
+- *rg7* is installed on *T1* with *wcA* - the bottom funnel is loose b/c hot glue failed
+- *rg4* is installed on *Sh2* with *wcC* on the farther active stalagmite pair
+- *rg1* is installed on *Sh2* with *wcB* on the nearer active stalagmite (w/ likely extra drops)
+- *rg2* is installed on *Sh1* with *wcD* on the "thumb" slow grower in the back
+- *rg3* is installed on *Sh2* on the long active one near the shelf edge (no water collection)
+
+
+
+== 2022-11-28
+
+- *rg7* - The loose funnel didn't fall off, but the unit it removed to be reglued
+- *rg3* - Is moved to *T1* to replace *rg7*
+- *rg8* - Funnel is broken off by Nong during installation and it's also removed
+- *rg2* - Is put on *SC1* to replace *rg8*
+- *wcD* and *wcA* are left on *Sh2* to be collected next time
+
+== 2022-11-29
+
+*rg8* was fixed and reglued
+At 3PM *rg8* is installed outside of Tham Murd on the empty lot next to the baby palm
+
+== 2022-11-30
+
+- *rg7* is found to be broken. The internal Rainus board is replaced with board number *5*. It's now called *rg75*
+- *rg75* is put outside where *rg8* was (near baby palm on empty lot). Note, now it's writing to SD Card *5*
+- Hoods are added to *rg4* and *rg1* so that they both only get one drop site. Both seemed to get more than 1 drop before
+- *wcD* and *wcA*, left on *Sh1* last time, are both sampled and removed from the cave.
+- *wcC* *wcB* are both sampled from *Sh2*
+- *rg8* is moved from it's position to the homestay and added *wcX* (I think there was no rain, so *rg8* had no water to collect) *TODO*: CHECK RAIN GAUGE DATA TO SEE NO RAIN
+
+
+== 2022-12-12
+Collected at 3:10-20 PM (rain around that time)
+
+== 2022-12-141516
+No rain (empty bottles)
+
+== 2022-12-16
+
+installed sampler at the resort next to *rg8*
+It's on bottle number 15 (@4pm - no rain previous 2 days)

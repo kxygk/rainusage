@@ -1,0 +1,18 @@
+{:deps  {;; mine
+         ;; kxygk/geoprim           {:local/root "../geoprim"}
+         ;; kxygk/geogrid           {:local/root "../geogrid"}
+         ;; kxygk/geogrid2svg       {:local/root "../geogrid2svg"}
+         ;; kxygk/geogrid4image     {:local/root "../geogrid4image"}
+         ;; kxygk/geogrid4seq       {:local/root "../geogrid4seq"}
+         ;; kxygk/quickthing        {:local/root "../quickthing"}
+         ;; kxygk/geojson2svg       {:local/root "../geojson2svg"}
+         ;; kxygk/svgmaps           {:local/root "../svgmaps"}
+         ;; extern
+         ;; missionary/missionary {:mvn/version "b.28"}
+         tick/tick {:mvn/version "0.6.0"}
+#_#_         net.clojars.john/injest {:mvn/version "0.1.0-beta.8"}
+#_#_         cljfx/cljfx             {:mvn/version "1.7.22"
+                                  :exclusions  [org.openjfx/javafx-web
+                                                org.openjfx/javafx-media]}
+         org.clojure/data.csv    {:mvn/version "0.1.4"}}
+ :paths ["."]}

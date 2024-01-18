@@ -1,0 +1,29 @@
+{:date    #inst"2023-11-03"
+ :comment ""
+ :sites   {:X  {:logger  :R02
+                :vial    :AASZ
+                :comment ""}
+           :A  {:logger  :R13
+                :vial    :ACYG
+                :comment ""}
+           :C  {:logger  :R12
+                :vial    :ASNN
+                :comment ""}
+           :B  {:logger  :R03
+                :vial    :AURB
+                :comment ""}
+           :D {:logger  :R19
+                :vial    :AJMG
+                :comment ""}
+           :H  {:logger  :R10
+                :vial    :AACC
+                :comment "Short one on far end shelf No water .. seems it stopped dripping"}
+           :NA {:logger  :R15
+                :vial    nil
+                :comment "Long one on near end shelf (new!) LOCATION NUMBERS IS WEIRD"}]
+ :next    "For next time:
+- Move rain gauge from farm to some place closer to the cave
+- Buy covers
+- Install covers in the cave
+- Buy tubing
+- Install new bottles"}

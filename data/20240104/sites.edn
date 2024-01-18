@@ -1,0 +1,27 @@
+{:date    #inst"2024-00-00"
+ :comment ""
+ :sites   {:X  {:logger  :R11
+                :vial    :AVXC
+                :comment ""}
+           :A  {:logger  :R05
+                :vial    :AEFF
+                :comment "Bottle still has hole"}
+           :C  {:logger  :R13
+                :vial    :ATEJ
+                :comment ""}
+           :B  {:logger  :R03
+                :vial    :ARWT
+                :comment "SD card doesn't read it seems?? DOUBLE CHECK WITH NONG"}
+           :D {:logger  :R20
+                :vial   :AGYU
+                :comment ""}
+           :H  {:logger  :R15
+                :vial    :ABAB
+                :comment ""}
+           :S {:logger   :R12
+                :vial    :AAXP
+                :comment ""}
+           :P {:logger  :R02
+                :vial   :ASVJ
+                :comment "Former Wasp rain gauge"}]
+ :next    ""}

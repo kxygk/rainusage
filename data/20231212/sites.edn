@@ -1,0 +1,27 @@
+{:date    #inst"2023-12-12"
+ :comment "Long time gap again"
+ :sites   {:X  {:logger  :R20
+                :vial    :AYYB
+                :comment "Rate bit the cable. Rain gauge was changed"}
+           :A  {:logger  :R12 ;;;;;;;;;;;;
+                :vial    :ACNU
+                :comment
+               " Rat bit the cables again.
+                Nong maybe fixed the cable and installed a new loggers
+                But it's likely the wires are wired wrong! (see next log)"}
+           :C  {:logger  :R13 ;;;;;;;;;;;;
+                :vial    :AQLK
+                :comment "Hard to make our vial number tbh"}
+           :B  {:logger  :R11 ;;;;;;;;;;;;;
+                :vial    :AHRY
+                :comment ""}
+           :D {:logger   :R15   ;;;;;;;;;;;;;
+                :vial    :AJJT
+                :comment ""}
+           :H  {:logger  :R19   ;;;;;;;;;;
+                :vial    ATJP
+                :comment ""}
+           :S {:logger  :R05   ;;;;;;;;;
+                :vial    AHUQ
+                :comment ""}]
+ :next    ""}

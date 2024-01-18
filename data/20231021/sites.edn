@@ -1,0 +1,42 @@
+{:date    #inst"2023-10-21"
+ :comment "Nong didn't do a lot of the stuff that needed to be done
+- Still no new covers
+- Still no new bottles
+-
+All sites had less dripping
+-
+Went with water samples to DHL and they couldn't ship
+-
+Location `D` and `S` are both not from the chat logs. Maybe it's something I noted when I was there in person
+But it's a bit weird... I could have noted the loggers being used, but I couldn't have know the `vial-id` ahead of time
+-
+"
+ :sites   {:X  {:logger  :R16 ;;;;;;;;;;;;;;;;;;;;;;
+                :vial    :APUL
+                :comment ""}
+           :A  {:logger  :R01 ;;;;;;;;;;;;;;;;;;;;;;
+                :vial    :AYKX
+                :comment ""}
+           :C  {:logger  :R06 ;;;;;;;;;;;;;;;;;;;;;;
+                :vial    :AYNS
+                :comment ""}
+           :B  {:logger  :R08 ;;;;;;;;;;;;;;;;;;;;;;
+                :vial    :ADPF
+                :comment ""}
+           :D {:logger  :R04
+                :vial    :AYXP
+                :comment "NOT IN PHOTOS. I DON'T KNOW HOW I GOT THESE VALUES"}
+           :H  {:logger  :R14 ;;;;;;;;;;;;;;;;;;;;;;
+                :vial    nil
+                :comment "Short one on far end shelf. No water .. seems it stopped dripping"}
+           :S {:logger  :R15
+                :vial    nil
+                :comment
+                "Long one on near end shelf (new!) LOCATION NUMBERS IS WEIRD. I DON'T KNOW HOW I GOT THIS
+                The name `S` was given on the next trip into the cave"}]
+ :next    "For next time:
+- Move rain gauge from farm to some place closer to the cave
+- Buy covers
+- Install covers in the cave
+- Buy tubing
+- Install new bottles"}
