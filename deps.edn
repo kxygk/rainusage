@@ -9,7 +9,8 @@
          ;; kxygk/svgmaps           {:local/root "../svgmaps"}
          ;; extern
          ;; missionary/missionary {:mvn/version "b.28"}
-         tick/tick {:mvn/version "0.6.0"}
+         tick/tick {:mvn/version "0.7.5"}
+         techascent/tech.ml.dataset {:mvn/version "7.023"}
 #_#_         net.clojars.john/injest {:mvn/version "0.1.0-beta.8"}
 #_#_         cljfx/cljfx             {:mvn/version "1.7.22"
                                   :exclusions  [org.openjfx/javafx-web

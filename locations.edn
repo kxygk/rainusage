@@ -1,0 +1,29 @@
+{:cave { :ThMu {:name     "Tham Murd"
+               :location "Ao Leuk Krabi Thailand"
+               :coord    nil}}
+:regions {:ThMuCh0 {:comment "First side chamber after crawing down from the pig hole"}
+          :ThMuCh1 {:comment "First chamber with `tower of pisa` and the lizard hole"}
+          ;;:Tun1 "The tunnel connecting `Ch1` and `Ch2`"
+          :ThMuCh2 {:comment "Second chamber, with the sink hole and two shelves"}}
+:sepeleo {:ThMuCh0Dip01 {:cave    :ThMu
+                         :chamber :ThMuCh0
+                         :comment
+                         "In the dip at the back of the room, the lower stalagmite in a pair is being monitored"}
+          :ThMuCh1Liz01 {:cave    :ThMu
+                         :chamber :ThMuCh1
+                         :comment "The long clean stalagmite growing out of the mud in the muddy holes with lizard claw marks"}
+          :ThMuCh2Sh01Thumb {:cave    :ThMu
+                             :chamber :ThMuCh2
+                             :comment "First shelf on the immediate right once you enter the chamber. Clean white thumb"}
+          :ThMuCh2Sh01B {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "First shelf on the immediate right once you enter the chamber. Longer white"}
+          :ThMuCH2Sh02PairTall {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. Left most white pair, right/taller one (furthest from right-side ramp)"}
+          :ThMuCH2Sh02WhiteLoner {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. long white one on the right .. closer to ramp"}
+          :ThMuCH2SoloA {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Below the second shelf, as you go to the rimmed pool. Sticking out of the side wall"}}}

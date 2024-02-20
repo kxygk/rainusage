@@ -1,0 +1,79 @@
+{:gauges {:RG01 {:mechanism :spoon};; aka "tipping spoon"
+          :RG02 {:mechanism :seesaw} ;;aka "tipping bucket"
+          :RG03 {:mechanism :seesaw}
+          :RG04 {:mechanism :seesaw}
+          :RG05 {:mechanism :seesaw} ;; renamed 75 (used to be 7)
+          :RG06 {:mechanism :seesaw} ;; renamed 86 (used to be 8)
+          :RG07 {:mechanism :seesaw} ;; doesn't exist?
+          :RG08 {:mechanism :seesaw} ;; doesn't exist?
+          :RG09 {:mechanism :seesaw}
+          :RG10 {:mechanism :seesaw}}
+ :boards {;; First Rainuses
+          :FR5 {:chipid 1645240} ;;
+          :FR3 {:chipid 8373316} ;;
+          :FR4 {:chipid 7598252} ;;
+          :FR2 {:chipid 1683136} ;;
+          :FR1 {:chipid 8371400} ;;
+          :FR6 {:chipid 1641660} ;;
+          :FR7 {:chipid 7598984}
+          ;; Rainuses (v2)
+          :R01  {:chipid 8364224}
+          ;;:R02  {:chipid 000000}
+          ;:R03  {:chipid 000000}
+          :R04  {:chipid 11482312}
+          :R05  {:chipid 11823060}
+          :R06  {:chipid 11821160}
+          ;;:R07  {:chipid 000000}
+          :R08  {:chipid 11821380}
+          :R09  {:chipid 11823072}
+          ;;:R10  {:chipid 000000}
+          ;;:R11  {:chipid 000000}
+          ;;:R12  {:chipid 000000}
+          ;;:R13  {:chipid 000000}
+          :R14  {:chipid 11482308}
+          :R15  {:chipid 11822844}
+          :R16  {:chipid 11821084}
+          :R17  {:chipid 11823076} ;; seems to only do one reading
+          :R18  {:chipid 11822372} ;; also seems to do only one reading
+          ;;:R19  {:chipid 000000}
+          :R20  {:chipid 11821804}}
+ :bottles {:X {:type nil}
+           :A {:type nil}
+           :C {:type nil}
+           :B {:type nil}
+           :D {:type nil}
+           :N {:type nil}}} 
+ ;; :chips  {1645240  :FR5
+ ;;          8373316  :FR3
+ ;;          7598252  :FR4
+ ;;          1683136  :FR2
+ ;;          8371400  :FR1
+ ;;          1641660  :FR6
+ ;;          7598984  :FR7
+ ;;          :bottles {:X
+ ;;                    :A
+ ;;                    :C
+ ;;                    :B
+ ;;                    :D}}}
+
+
+;; :vial can have values of
+ {:EMPTY  "no water"
+ `;;:NONE   "Optional value.. water not collected. Collection stopped"
+  :START  "Collection restarted"
+   nil     "default: no water collection - still accumulating"}
+
+#_   ;; this was copied from `rainusage/data/logger-serial-numbers.edn`
+{11482312   :R04
+ 11821160   :R06
+ 11821380   :R08
+ 11823060   :R05
+ 11823072   :R09
+ 8364224    :R01
+ 11482308   :R14
+ 11822844   :R15
+ 11821084   :R16
+ 11823076   :R17 ;; broken?? Only does one reading
+ 11822372   :R18 ;; simiarly broken
+ 11821804   :R20
+ }

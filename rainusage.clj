@@ -1,147 +1,259 @@
-(ns
-    rainusage
-  "Utility library for data produced by Rainus loggers"
-  (:require clojure.data.csv
-            [tick.core :as tick]))
+(ns rainusage
+  "Injesting Rainus data - and analysis"
+  (:require [tick.core       :as tick]
+            [tech.v3.dataset :as ds ]
+            [clojure.edn     :as edn ]))
+
+(def collections
+  (->> "/home/kxygk/Projects/rainusage/collections.edn"
+       slurp
+       edn/read-string))
+
+(def equipment
+  (->> "/home/kxygk/Projects/rainusage/equipment.edn"
+       slurp
+       edn/read-string))
+
+(def locations
+  (->> "/home/kxygk/Projects/rainusage/locations.edn"
+       slurp
+       edn/read-string))
 
 (defn-
-  csv-2-map
-  "Takes a CSV (as coming from `clojure.data.csv`)
-  Turn it into Vec of Maps
-  With Map keys being the column names
-  Key names are cleaned to not have spaces.
-  Spaces are replaces with `-`
-  Data line that look incomplete are removed
-  ie. those where the first or last column is empty
-  This allows users to have pseudo comments in-file"
-  [csv]
-  (let [header [:id ;; unique ID strings on each board
-                :time ;; time in iso8601 format
-                :unix ;; secs since 1970-01-01 00:00:00
-                :millenium] ;; secs since 2000-01-01 00:00:00
-        body (->> 
-               (rest
-                 csv)
-               ;; remove line if looks like no data
-               (filterv
-                 #(and
-                     (-> ;; if first entry is empty ""
-                       %
-                       first
-                       empty?
-                       not)
-                     (-> ;; if last entry is empty ""
-                       %
-                       last
-                       empty?
-                       not))))]
-               (->>
-      body
-      (mapv
-        #(zipmap
-           header
-           %)))))
+  update-v1-log
+  "Take the Rainus V1 4 column format and convert to a 6 column V2 log
+  The Temp/Hum columns are padded with invalid values `-777.0`
+  NOTE:
+  The default values for when there is no temp/hum reading is `-666.0`
+  This allows updated logs to be distinguished
+  from ones that had a disconnected sensor"
+  [v1-log]
+  (-> v1-log
+      (ds/add-or-update-column "tempC"
+                               -777.0) ;;`tempC` col
+      (ds/add-or-update-column "humidityPerc"
+                               -777.0))) ;;`humidityPerc` col
 
 (defn
-  read-file
-  "Read a Rainus log file into a vector of maps.
-  keys are from the headers (hardcoded into the Rainus)
-  `:id` - unique ID strings on each board
-  `:time` - time in iso8601 format - read into a `tick/data-time`
-  `:unix` - secs since 1970-01-01 00:00:00
-  `:millenium` - secs since 2000-01-01 00:00:00"
-  [file]
-  (->>
-    file
-    slurp
-    clojure.data.csv/read-csv
-    csv-2-map
-    (mapv
-      (fn [log]
-        (->
-          log
-          (update
-            :id
-            #(Integer/parseInt
-               %))
-          (update
-            :time
-            tick/date-time)
-          (update
-            :unix
-            #(Integer/parseInt
-               %))
-          (update
-            :millenium
-            #(Integer/parseInt
-               %)))))))
-#_
-(read-file
-  "00rainLog.txt")
-;; => [{:id 8371400,
-;;      :time #time/date-time "2022-12-29T20:25:22",
-;;      :unix 1672345522,
-;;      :millenium 725660722}
-;;     {:id 8371400,
-;;      :time #time/date-time "2022-12-29T21:43:18",
-;;      :unix 1672350198,
-;;      :millenium 725665398}
-;;...
-;;...
-;;...
-;;     {:id 8371400,
-;;      :time #time/date-time "2023-01-08T08:31:04",
-;;      :unix 1673166664,
-;;      :millenium 726481864}]
+  read-rainus-log
+  "Reads a Rainus log file into a tech/ml/`dataset`"
+  [log-filestr]
+  (let [raw-log (-> log-filestr
+                    (ds/->dataset {:file-type   :csv
+                                   :header-row? false}))]
+    (-> (if (== 4.0
+                (ds/column-count raw-log))
+          (update-v1-log raw-log)
+          raw-log)
+        (ds/rename-columns ["chipId"
+                            "timestampUTC"
+                            "unixtime"
+                            "secondstime"
+                            "tempC"
+                            "humidityPerc" ])
+        (ds/add-or-update-column "sourceFile"
+                                 log-filestr))))
 
 (defn
-  update-ids
-  "Replace `rainusid`s
-  (ie. hardcoded IDs in the microcontroller boards)
-  with
-  `location` provided by the user in a mapping
-  (ie. ~human readable~ names)"
-  [rainusids-2-locations
-   logs]
-  (->>
-    logs
-    (mapv
-      (fn
-        [log]
-        (update
-          log
-          :id
-          #(get
-             rainusids-2-locations
-             %))))))
+  injest-all-logs
+  "Goes into the directory `log-dirstr`
+  and reads in all the files as logs
+  NOTE:
+  Rainus V1 logs will be updated to be V2 compatible"
+  [log-dirstr]
+  (let [filepaths (->> log-dirstr
+                       java.io.File.
+                       .list
+                       sort
+                       (mapv (partial str
+                                      log-dirstr
+                                      "/")))
+        all-logs  (->> filepaths
+                       (mapv read-rainus-log)
+                       (apply ds/concat))]
+    (-> all-logs
+        (ds/sort-by-column "timestampUTC") ;; sort by time
+        (ds/unique-by #(dissoc % ; remove redundant logs (should be a lot!)
+                               "sourceFile"))))) ;; can be across different files
 #_
-(->>
-  (read-file
-    "00rainLog.txt")
-  (update-ids
-    {8371400 "butts"
-     8371401 "tits"}))
+(-> "/home/kxygk/Projects/rainusage/gauge"
+    injest-all-logs
+    (ds/write! "out/all-logs.csv"))
 
+(def gauge-logs
+  (-> "/home/kxygk/Projects/rainusage/gauge"
+      injest-all-logs))
 
-
-
+(defn
+  sorted-dates?
+  "Test is the dates are in chronological order
+  If they are not, it's likely there was a typo"
+  [collection-vec]
+  (let [dates (->> collection-vec
+                   (mapv :date))] 
+    (->> dates
+         (partition 2 1)
+         (mapv (fn [[first-date
+                     second-date]]
+                 (assert (tick/> first-date
+                                 second-date)
+                         (str "\nDates out of order:\n"
+                              "What should be the later date: "
+                              first-date
+                              "\nWhat should be the earlier date: "
+                              second-date))))))
+  true)
 #_
-(let [input-dir  "/home/kxygk/Projects/stars/data/gauge/"]
-  (let [files (->>
-                input-dir
-                java.io.File.
-                .list
-                sort)]
-    (let [file-paths (->>
-                       files
-                       (map
-                         #(str
-                            input-dir
-                            %)))]
-      (->>
-        file-paths
-        (mapcat
-          read-file)
-        (group-by
-          :id)
-        keys))))
+(->> collections
+     sorted-dates?)
+
+(defn
+  no-duplicate-locations?
+  "Test is the dates are in chronological order
+  If they are not, it's likely there was a typo"
+  [collection-vec]
+  (->> collection-vec
+       (map (fn [one-day-collection]
+              (->> one-day-collection
+                   :samples
+                   (mapv :location)
+                   distinct?)))
+       (every? identity)))
+#_
+(->> collections
+     no-duplicate-locations?)
+
+(defn
+  collection-vec-to-map
+  [collection-vec]
+  (let [with-mapped-samples (->> collection-vec
+                                 (mapv (fn [one-collection-day]
+                                         (update one-collection-day
+                                                 :samples
+                                                 (fn [samples]
+                                                   (zipmap (->> samples
+                                                                (mapv :location))
+                                                           #_samples
+                                                           (->> samples
+                                                                (mapv #(assoc %
+                                                                              :date
+                                                                              (:date one-collection-day))))))))))]
+    
+    (sorted-dates? with-mapped-samples) ;; throws error if not sorted
+    (zipmap (->> with-mapped-samples
+                 (mapv :date))
+            (->> with-mapped-samples
+                 #_(mapv (fn [collection-day]
+                         (dissoc collection-day
+                                 :date)))))))
+#_
+(-> collections
+    collection-vec-to-map
+    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+
+
+(defn-
+  collections-before-date
+  [date
+   collections]
+  (println date)
+  (let [dates (keys collections)
+        dates-before (filter (partial tick/>
+                                      date)
+                             dates)]
+    (select-keys collections
+                 dates-before)))
+#_
+(-> collections
+    collection-vec-to-map
+    (collections-before-date #inst "2024-02-07")
+    keys
+    count)
+
+(defn
+  previous-collections
+  "Find all the collections at `location`
+  before `current-date`"
+  [current-date
+   location
+   collections]
+  (->> collections         ; take out collection
+       (collections-before-date current-date) ; get the ones after the `current-date`
+       (into (sorted-map)) ; sort them by time
+       vals                ; get the collection info
+       (mapv :samples)     ; get the samples
+       (mapv location)     ; get the sample that's at our location (can be `nil`)
+       (filterv some?)))   ; get the non-`nil` samples
+#_
+(->> collections
+     collection-vec-to-map
+     (previous-collections #inst "2024-02-07"
+                           :ThMuCh0ConjoinedBottom)
+     last)
+
+(defn
+  bottle-install-date
+  "Given some `collections`, a `current-date` and a `location`..
+  find the date the current bottle started collecting"
+  [collections
+   current-date
+   location]
+  (->> collections
+       (previous-collections current-date
+                             location)
+       (filter #(-> %
+                    :vial
+                    some?))
+       last
+       :date))
+#_
+(bottle-install-date (->> collections
+                          collection-vec-to-map)
+                     #inst"2023-07-22"
+                     :ThMuCh1LongLizard)
+;; => #inst "2024-02-06T00:00:00.000-00:00";; => #inst "2023-01-09T00:00:00.000-00:00"
+;; => #inst "2023-09-29T00:00:00.000-00:00"
+
+(defn
+  logger-install-date
+  "Given some `collections`, a `current-date` and a `location`..
+  find the date the current bottle was installed"
+  [collections
+   current-date
+   location]
+  (->> collections
+       (previous-collections current-date
+                             location)
+       (filter #(-> %
+                    :board
+                    some?))
+       last
+       :date))
+#_
+(bottle-install-date (->> collections
+                          collection-vec-to-map)
+                     #inst "2024-02-07"
+                     :ThMuCh2Sh01Thumb)
+;; => #inst "2023-09-29T00:00:00.000-00:00"
+;; => #inst "2023-01-09T00:00:00.000-00:00"
+
+(-> locations
+    :sepeleo
+    keys)
+;; => (:ThMuCh0Dip01
+;;     :ThMuCh1Liz01
+;;     :ThMuCh2Sh01Thumb
+;;     :ThMuCh2Sh01B
+;;     :ThMuCH2Sh02PairTall
+;;     :ThMuCH2Sh02WhiteLoner
+;;     :ThMuCH2SoloA)
+#_
+(-> gauge-logs
+    ds/column-names)
+;; => ("chipId"
+;;     "timestampUTC"
+;;     "unixtime"
+;;     "secondstime"
+;;     "tempC"
+;;     "humidityPerc"
+;;     "sourceFile")
