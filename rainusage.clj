@@ -283,3 +283,28 @@
 ;;     "tempC"
 ;;     "humidityPerc"
 ;;     "sourceFile")
+
+(defn
+  get-logs
+  "Filter logs to get logs that match a `chipId`
+  and a `start-time` `end-time` time range"
+  [logs
+   start-time
+   end-time
+   chip-id]
+  (-> logs
+      (ds/filter-column "chipId"
+                        (partial =
+                                 chip-id))
+      (ds/filter-column "timestampUTC"
+                        (fn [time-stamp]
+                          (let [tick-time (tick/instant (tick/date-time time-stamp))]
+                            (and (tick/> tick-time
+                                         start-time)
+                                 (tick/< tick-time
+                                         end-time)))))))
+#_
+(-> gauge-logs
+    (get-logs #inst"2022-11-27"
+              #inst"2022-11-29"
+              8373316))
