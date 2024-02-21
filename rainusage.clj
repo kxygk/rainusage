@@ -35,6 +35,31 @@
                                -777.0))) ;;`humidityPerc` col
 
 (defn
+  remove-invalid-logs
+  "Goes through the logs and removes invalid logs.
+  Spits them to `./out/invalid-logs.txt` file"
+  [logs]
+  (let [validated-logs (-> logs
+                           (ds/group-by (fn invalid-timestamp
+                                          [log]
+                                          (try
+                                            (-> log
+                                                (get "timestampUTC")
+                                                tick/date-time
+                                                tick/instant)
+                                            :valid
+                                            (catch Exception e
+                                              :invalid)))))]
+    (->  validated-logs
+         :invalid
+         (ds/write! "out/invalid-logs.csv"))
+    (-> validated-logs
+        :valid)))
+#_
+(-> gauge-logs
+    remove-invalid-logs)
+
+(defn
   read-rainus-log
   "Reads a Rainus log file into a tech/ml/`dataset`"
   [log-filestr]
@@ -82,7 +107,8 @@
 
 (def gauge-logs
   (-> "/home/kxygk/Projects/rainusage/gauge"
-      injest-all-logs))
+      injest-all-logs
+      remove-invalid-logs))
 
 (defn
   sorted-dates?
