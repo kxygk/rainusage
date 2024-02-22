@@ -182,7 +182,6 @@
   collections-before-date
   [date
    collections]
-  (println date)
   (let [dates (keys collections)
         dates-before (filter (partial tick/>
                                       date)
@@ -343,8 +342,7 @@
                                                                                "1. a prior board installed\n"
                                                                                "2. a `:START` indicator at a prior collection time\n"
                                                                                "Collection:"
-                                                                               (dissoc sample
-                                                                                       :comment))))
+                                                                               sample)))
                                                                (assoc sample
                                                                       :board-install-time
                                                                       install-date))))))))))
