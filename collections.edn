@@ -493,6 +493,7 @@ For next time:
             {:location :ThMuCh2Sh01Thumb
              :gauge    nil
              :bottle   :B
+             :board    :START
              :comment  "Note:
 - Had rain gauge `:RG01` before
 - Now has no-num new gauge
@@ -1275,32 +1276,32 @@ In photos you see duplicates, first from cave and then with stickers"}
   :samples [{:location :ThMuCH2Sh02WhiteLoner
              :bottle   :B
              :gauge    :RG01
-             :board    :FR1
+             :board    :START ;;:FR1
              :vial     :APSF
              :comment  ""}
             {:location :ThMuCH2Sh02PairTall
              :bottle   :C
              :gauge    :RG04
-             :board    :FR4
+             :board    :START ;;:FR4
              :vial     :ASWM}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02
-             :board    :FR02
+             :board    :START ;;:FR02
              :vial     :ASGE}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :START} ;;:FR03
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :START ;;:FR06
              :vial     :AGLD}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05 ;; or 7
-             :board    :FR05
+             :board    :START ;;:FR05
              :comment  "Notes:
 The gauge and board numbers seem different based on the pictures
 In the next sampling period there is no `FR07` log.
