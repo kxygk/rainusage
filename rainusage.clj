@@ -308,3 +308,49 @@
     (get-logs #inst"2022-11-27"
               #inst"2022-11-29"
               8373316))
+
+(defn
+  update-board-install-times
+  "Go through the collection events and add a
+  `install-time` to each,
+  Based on when the last board take out at the location
+  or a `:START` indicator"
+  [collections]
+  (update-vals collections
+               (fn update-collection
+                 [collection-day]
+                 (update  collection-day
+                          :samples
+                          (fn update-samples
+                            [samples]
+                            (update-vals samples
+                                         (fn update-sample
+                                           [sample]
+                                           (cond
+                                             (-> sample ;; no board collected
+                                                 :board
+                                                 nil?)       sample
+                                             (= :START  ;; no board collected by a new board was installed at the location
+                                                (-> sample
+                                                    :board)) sample
+                                             :else           (let [install-date (logger-install-date collections
+                                                                                                     (:date sample)
+                                                                                                     (:location sample))]
+                                                               (if (nil? install-date)
+                                                                 (println (str "ERROR: "
+                                                                               "Board collected with an unclear install time\n"
+                                                                               "Location needs either:\n"
+                                                                               "1. a prior board installed\n"
+                                                                               "2. a `:START` indicator at a prior collection time\n"
+                                                                               "Collection:"
+                                                                               (dissoc sample
+                                                                                       :comment))))
+                                                               (assoc sample
+                                                                      :board-install-time
+                                                                      install-date))))))))))
+  #_
+  (-> collections
+      collection-vec-to-map
+      update-board-install-times
+      (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+
