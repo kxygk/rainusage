@@ -390,14 +390,17 @@ For next time:
              :board    :R01
              :vial     :AYKX
              :comment  ""}
-            #_{:location :ThMuCh2Sh01BrownTop} ;; no cover
             {:location :ThMuCh2Sh01Thumb
              ;;:gauge nil
              ;;:bottle :B
              :board    :R08
              :vial     :ADPF
              :comment  ""}
-            #_{:location :ThMuCh2Sh01BrownTop} ;; no bottle + notes `:R15`
+            {:location :ThMuCh2Sh01BrownTop
+             :board    :START
+             :comment  "Note:
+- no bottle attached
+- notes say `:R15`, but unclear how it could have been already attached"}
             {:location :ThMuCH2Sh02WhiteLoner
              :bottle   :H
              :board    :R14
