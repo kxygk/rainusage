@@ -352,3 +352,48 @@
       update-board-install-times
       (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
+(defn
+  update-chipids
+  "Goes through the collection and adds `:chip-id`
+  based on the board name"
+  [collections]
+  (update-vals collections
+               (fn update-collection
+                 [collection-day]
+                 (update  collection-day
+                          :samples
+                          (fn update-samples
+                            [samples]
+                            (update-vals samples
+                                         (fn update-sample
+                                           [sample]
+                                           (let [board-id (:board sample)
+                                                 ]
+                                             (if (or (nil? board-id)
+                                                     (= :START
+                                                        board-id))
+                                               sample
+                                               (let [chipid (-> equipment
+                                                                :boards
+                                                                board-id
+                                                                :chipid)]
+                                                 (if (nil? chipid)
+                                                   (do (println (str "ERROR: "
+                                                                   "Specified `:board` "
+                                                                   "doesn't have a corresponding `chipid`\n"
+                                                                   "Collection:"
+                                                                   sample))
+                                                       sample)
+                                                   (assoc sample
+                                                          :chipid
+                                                          (-> equipment
+                                                              :boards
+                                                              board-id
+                                                              :chipid)))))))))))))
+  #_
+  (-> collections
+      collection-vec-to-map
+      update-board-install-times
+      update-chipids
+      (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+
