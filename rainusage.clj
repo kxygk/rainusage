@@ -170,8 +170,8 @@
                  (mapv :date))
             (->> with-mapped-samples
                  #_(mapv (fn [collection-day]
-                         (dissoc collection-day
-                                 :date)))))))
+                           (dissoc collection-day
+                                   :date)))))))
 #_
 (-> collections
     collection-vec-to-map
@@ -182,7 +182,7 @@
   collections-before-date
   [date
    collections]
-  (let [dates (keys collections)
+  (let [dates        (keys collections)
         dates-before (filter (partial tick/>
                                       date)
                              dates)]
@@ -346,11 +346,11 @@
                                                                (assoc sample
                                                                       :board-install-time
                                                                       install-date))))))))))
-  #_
-  (-> collections
-      collection-vec-to-map
-      update-board-install-times
-      (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
 (defn
   update-chipids
@@ -379,10 +379,10 @@
                                                                 :chipid)]
                                                  (if (nil? chipid)
                                                    (do (println (str "ERROR: "
-                                                                   "Specified `:board` "
-                                                                   "doesn't have a corresponding `chipid`\n"
-                                                                   "Collection:"
-                                                                   sample))
+                                                                     "Specified `:board` "
+                                                                     "doesn't have a corresponding `chipid`\n"
+                                                                     "Collection:"
+                                                                     sample))
                                                        sample)
                                                    (assoc sample
                                                           :chipid
@@ -390,12 +390,12 @@
                                                               :boards
                                                               board-id
                                                               :chipid)))))))))))))
-  #_
-  (-> collections
-      collection-vec-to-map
-      update-board-install-times
-      update-chipids
-      (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
 (defn
   extract-gauge-log
@@ -408,9 +408,9 @@
                         (partial =
                                  chip-id))
       (ds/filter-column "timestampUTC"
-                        #(let [time-inst (clojure.instant/read-instant-date %) #_(-> %
-                                             tick/date-time
-                                             tick/instant)]
+                        #(let [time-inst (clojure.instant/read-instant-date %) #_ (-> %
+                                                                                      tick/date-time
+                                                                                      tick/instant)]
                            (println (str "Start: "
                                          start-time
                                          "\nEnd: "
