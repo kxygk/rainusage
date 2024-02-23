@@ -1,5 +1,6 @@
 (ns rainusage
   "Injesting Rainus data - and analysis"
+  (:use [clojure.set])
   (:require [tick.core       :as tick]
             [tech.v3.dataset :as ds ]
             [clojure.edn     :as edn ]))
@@ -461,3 +462,41 @@
     update-chipids
     (import-gauge-logs gauge-logs)
     (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+
+(defn
+  get-all-locations
+  [collections]
+  (apply union
+         (->> collections
+              vals
+              (mapv :samples)
+              (mapv keys)
+              (mapv #(into #{} %)))))
+
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    get-all-locations)
+;; => #{:ThMuCH2Sh02PairTall
+;;      :ThMuOutsideWasp
+;;      :ThMuCH2Sh02WhiteLoner
+;;      :ThMuCh0ConjoinedBottom
+;;      :ThMuCh2Sh01Thumb
+;;      :ThMuOutsideDrone
+;;      :ThMuCh2Sh01BrownTop
+;;      :ThMuCh1LongLizard}
+
+(assert (= 8
+           (-> collections
+               collection-vec-to-map
+               update-board-install-times
+               update-chipids
+               get-all-locations
+               count))
+        (str "HI FUTURE GEORGE!! "
+             "Code expects 8 locations! "
+             "Either there was a typo"
+             "or a new location was added"
+             "and this assert needs to be updated haha ;)"))
+
