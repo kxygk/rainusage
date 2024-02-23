@@ -373,11 +373,10 @@
                                                      (= :START
                                                         board-id))
                                                sample
-                                               (let [chipid (-> equipment
-                                                                :boards
-                                                                board-id
-                                                                :chipid)]
-                                                 (if (nil? chipid)
+                                               (let [chip-id (-> equipment
+                                                                :board-name2chip-id
+                                                                board-id)]
+                                                 (if (nil? chip-id)
                                                    (do (println (str "ERROR: "
                                                                      "Specified `:board` "
                                                                      "doesn't have a corresponding `chipid`\n"
@@ -385,11 +384,8 @@
                                                                      sample))
                                                        sample)
                                                    (assoc sample
-                                                          :chipid
-                                                          (-> equipment
-                                                              :boards
-                                                              board-id
-                                                              :chipid)))))))))))))
+                                                          :chip-id
+                                                          chip-id))))))))))))
 #_
 (-> collections
     collection-vec-to-map
@@ -432,8 +428,7 @@
 (defn
   import-gauge-logs
   "Take a set of rain gauge `logs` and import them into a collection map.
-  For this to work it needs to have had `:board-install-time` and `:chipid` added"
-  [collection
+  For this to work it needs to have had `:board-install-time` and `:chip-id` added"
    logs]
   (update-vals collection
                (fn update-collection
@@ -445,10 +440,10 @@
                             (update-vals samples
                                          (fn update-sample
                                            [sample]
-                                           (let [{:keys [chipid
+                                           (let [{:keys [chip-id
                                                          date
                                                          board-install-time]} sample]
-                                             (if (and (some? chipid)
+                                             (if (and (some? chip-id)
                                                       (some? date)
                                                       (some? board-install-time))
                                                (assoc sample
@@ -456,7 +451,7 @@
                                                       (extract-gauge-log logs
                                                                          board-install-time
                                                                          date
-                                                                         chipid))
+                                                                         chip-id))
                                                sample)))))))))
 #_
 (-> collections
