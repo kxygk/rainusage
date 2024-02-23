@@ -429,8 +429,9 @@
   import-gauge-logs
   "Take a set of rain gauge `logs` and import them into a collection map.
   For this to work it needs to have had `:board-install-time` and `:chip-id` added"
+  [collections
    logs]
-  (update-vals collection
+  (update-vals collections
                (fn update-collection
                  [collection-day]
                  (update  collection-day
