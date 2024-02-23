@@ -397,3 +397,35 @@
       update-chipids
       (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
+(defn
+  extract-gauge-log
+  [gauge-log
+   start-time
+   end-time
+   chip-id]
+  (-> gauge-log
+      (ds/filter-column "chipId"
+                        (partial =
+                                 chip-id))
+      (ds/filter-column "timestampUTC"
+                        #(let [time-inst (clojure.instant/read-instant-date %) #_(-> %
+                                             tick/date-time
+                                             tick/instant)]
+                           (println (str "Start: "
+                                         start-time
+                                         "\nEnd: "
+                                         end-time
+                                         "\nOur: "
+                                         time-inst))
+                           (cond
+                             (tick/< time-inst
+                                     start-time) false
+                             (tick/> time-inst
+                                     end-time)   false
+                             :else               true)))))
+#_
+(extract-gauge-log gauge-logs
+                   #inst"2022-11-27"
+                   #inst"2022-11-29"
+                   8373316)
+
