@@ -1,5 +1,57 @@
 [;; Chronological listing of collection times by Nong
  ;;
+ {:date    #inst"2024-02-22"
+  :samples [{:location :ThMuOutsideWasp
+             :bottle   :P
+             ;;:gauge    :RG04
+             :board    :R01
+             :vial     :EMPTY
+             :comment  "Notes:
+- Seems the logger was destroyed by a weed whacker
+- Bottle disconnected and broken"}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R10
+             :vial     :ALSB
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R08
+             :vial     :ANQB
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R07
+             :vial     :ANKS
+             :comment  "Nong says: 'lesswater'"}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R04
+             :vial     :ASWD
+             :comment  "Rat bite! Nong wasn't able to fix it though"}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R16
+             :vial     :AFLS
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R06
+             :vial     :AXNM
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R14
+             :vial     :AWKN
+             :comment  ""}]
+  :comment ""}
+
  {:date    #inst"2024-02-06"
   :samples [{:location :ThMuOutsideWasp
              :bottle   :P
