@@ -429,3 +429,39 @@
                    #inst"2022-11-29"
                    8373316)
 
+(defn
+  import-gauge-logs
+  "Take a set of rain gauge `logs` and import them into a collection map.
+  For this to work it needs to have had `:board-install-time` and `:chipid` added"
+  [collection
+   logs]
+  (update-vals collection
+               (fn update-collection
+                 [collection-day]
+                 (update  collection-day
+                          :samples
+                          (fn update-samples
+                            [samples]
+                            (update-vals samples
+                                         (fn update-sample
+                                           [sample]
+                                           (let [{:keys [chipid
+                                                         date
+                                                         board-install-time]} sample]
+                                             (if (and (some? chipid)
+                                                      (some? date)
+                                                      (some? board-install-time))
+                                               (assoc sample
+                                                      :gauge-log
+                                                      (extract-gauge-log logs
+                                                                         board-install-time
+                                                                         date
+                                                                         chipid))
+                                               sample)))))))))
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    (import-gauge-logs gauge-logs)
+    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
