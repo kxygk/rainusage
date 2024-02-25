@@ -1,24 +1,41 @@
-:regions {:Ch0 "First side chamber after crawing down from the pig hole"
-          :Ch1 "First chamber with `tower of pisa` and the lizard hole"
+:cave { :ThMu {:name     "Tham Murd"
+               :location "Ao Leuk Krabi Thailand"
+               :coord    nil}}
+:regions {:ThMuCh0 {:comment "First side chamber after crawing down from the pig hole"}
+          :ThMuCh1 {:comment "First chamber with `tower of pisa` and the lizard hole"}
           ;;:Tun1 "The tunnel connecting `Ch1` and `Ch2`"
-          :Ch2 "Second chamber, with the sink hole and two shelves"}
-:sepeleo {:Ch0Dip01 "In the dip at the back of the room, the lower stalagmite in a pair is being monitored"
-          :Ch1Liz01 "The long clean stalagmite growing out of the mud in the muddy holes with lizard claw marks"
-          :Ch2Sh01A "First shelf on the immediate right once you enter the chamber. Clean white thumb"
-          :Ch2Sh01B "First shelf on the immediate right once you enter the chamber. Longer white"
-          :CH2Sh02A "Second shelf, at the back of the room. Left most pair, left one (furthest from right-side ramp)"
-          :CH2Sh02B "Second shelf, at the back of the room. Left most pair, right one"
-          :CH2SoloA "Below the second shelf, as you go to the rimmed pool. Sticking out of the side wall"}
-:gauges {:RG01 :spoon ;; aka "tipping spoon"
-         :RG02 :seesaw ;;aka "tipping bucket"
-         :RG03
-         :RG04
-         :RG05
-         :RG06
-         :RG07
-         :RG08
-         :RG09
-         :RG10}
+          :ThMuCh2 {:comment "Second chamber, with the sink hole and two shelves"}}
+:sepeleo {:ThMuCh0Dip01 {:cave    :ThMu
+                         :chamber :ThMuCh0
+                         :comment "In the dip at the back of the room, the lower stalagmite in a pair is being monitored"}
+          :ThMuCh1Liz01 {:cave    :ThMu
+                         :chamber :ThMuCh1
+                         :comment "The long clean stalagmite growing out of the mud in the muddy holes with lizard claw marks"}
+          :ThMuCh2Sh01A {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "First shelf on the immediate right once you enter the chamber. Clean white thumb"}
+          :ThMuCh2Sh01B {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "First shelf on the immediate right once you enter the chamber. Longer white"}
+          :ThMuCH2Sh02A {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. Left most pair, left one (furthest from right-side ramp)"}
+          :ThMuCH2Sh02B {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. Left most pair, right one"}
+          :ThMuCH2SoloA {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Below the second shelf, as you go to the rimmed pool. Sticking out of the side wall"}}
+:gauges {:RG01 {:mechanism :spoon};; aka "tipping spoon"
+         :RG02 {:mechanism :seesaw} ;;aka "tipping bucket"
+         :RG03 {:mechanism :seesaw}
+         :RG04 {:mechanism :seesaw}
+         :RG05 {:mechanism :seesaw}
+         :RG06 {:mechanism :seesaw}
+         :RG07 {:mechanism :seesaw}
+         :RG08 {:mechanism :seesaw}
+         :RG09 {:mechanism :seesaw}
+         :RG10 {:mechanism :seesaw}}
 :boards {;; First Rainuses
          :FR5 1645240 
          :FR3 8373316 
@@ -55,21 +72,21 @@
         8371400 :FR1
         1641660 :FR6
         7598984 :FR7
-:bottles {:X
-          :A
-          :C
-          :B
-          :D}
-;; :vial ;; id list is huge
+        :bottles {:X
+                  :A
+                  :C
+                  :B
+                  :D}
+        ;; :vial ;; id list is huge
 
-{:date #inst"2023-10-05"
- :comment
+        {:date #inst"2023-10-05"
+         :comment
+         "
  "
- "
- :speleos {:SC1
-           :T1
-           :Sh2
-           Sh{:gauge
-         :board
-         :bottle
-         :vial
+         :speleos {:SC1
+                   :T1
+                   :Sh2
+                   Sh{:gauge
+                      :board
+                      :bottle
+                      :vial
