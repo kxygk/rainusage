@@ -473,11 +473,12 @@
               (mapv keys)
               (mapv #(into #{} %)))))
 
-(-> collections
-    collection-vec-to-map
-    update-board-install-times
-    update-chipids
-    get-all-locations)
+(def locations
+  (-> collections
+      collection-vec-to-map
+      update-board-install-times
+      update-chipids
+      get-all-locations))
 ;; => #{:ThMuCH2Sh02PairTall
 ;;      :ThMuOutsideWasp
 ;;      :ThMuCH2Sh02WhiteLoner
@@ -500,3 +501,71 @@
              "or a new location was added"
              "and this assert needs to be updated haha ;)"))
 
+(defn
+  location-gauge-logs
+  "Extract from `collections` the gauge logs for a `location`"
+  [collections
+   location]
+  (ds/sort-by-column (->> collections
+                          vals
+                          (mapv :samples)
+                          (mapv location)
+                          (mapv :gauge-log)
+                          (filterv some?)
+                          flatten
+                          (apply ds/concat))
+                     "timestampUTC"))
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    (import-gauge-logs gauge-logs)
+    (location-gauge-logs :ThMuCH2Sh02PairTall))
+
+(defn
+  logs-by-location
+  [collections
+   locations]
+  (->> locations
+       (mapv (fn [location]
+               (location-gauge-logs collections
+                                    location)))
+       (zipmap locations)))
+
+(def location-logs
+  (-> collections
+      collection-vec-to-map
+      update-board-install-times
+      update-chipids
+      (import-gauge-logs gauge-logs)
+      (logs-by-location locations)))
+#_
+(-> location-logs
+    :ThMuCH2Sh02PairTall)
+#_
+(keys
+  location-logs)
+;; => (:ThMuCH2Sh02PairTall
+;;     :ThMuOutsideWasp
+;;     :ThMuCH2Sh02WhiteLoner
+;;     :ThMuCh0ConjoinedBottom
+;;     :ThMuCh2Sh01Thumb
+;;     :ThMuOutsideDrone
+;;     :ThMuCh2Sh01BrownTop
+;;     :ThMuCh1LongLizard)
+
+(defn
+  log2timediff
+  [gauge-logs]
+  (->> (-> gauge-logs
+           (ds/column "unixtime"))
+       (partition 2 1)
+       (mapv (fn [[first-click
+                   second-click]]
+               (- second-click
+                  first-click)))))
+#_
+(-> location-logs
+    :ThMuCH2Sh02PairTall
+    log2timediff)
