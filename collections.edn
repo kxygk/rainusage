@@ -608,22 +608,22 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ABBP}
             {:location :ThMuCh1LongLizard
              :bottle   :A
              :gauge    :RG03
-             :board    :FR03
+             :board    :FR3
              :vial     :ATMB}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :AHHJ}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     nil ;;; taken home to fix
              :comment  "knocked over by cow! broken again"}]
   :comment "Notes:
@@ -647,22 +647,22 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AZXA}
             {:location :ThMuCh1LongLizard
              :bottle   :A
              :gauge    :RG03
-             :board    :FR03
+             :board    :FR3
              :vial     :AAYW}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :AQTH}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     nil ;;; START - but see next collection
              :comment  "tube-cone reinstalled (next time broken again)"}]
   :comment "Notes:
@@ -684,24 +684,24 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AALY
              :comment  "Water is finally back! Pic of stalagtite"}
             {:location :ThMuCh1LongLizard
              :bottle   :A
              :gauge    :RG03
-             :board    :FR03
+             :board    :FR3
              :vial     :AERJ}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :ASWK
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     :AYFF
              :comment  "tube-cone fell off.. maybe not whole signal"}]
   :comment "Notes:
@@ -726,24 +726,24 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AGWM
              :comment  "Water is finally back! Pic of stalagtite"}
             {:location :ThMuCh1LongLizard
              :bottle   :A
              :gauge    :RG03
-             :board    :FR03
+             :board    :FR3
              :vial     :AXWC}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :AYNM
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     :AFUP}]
   :comment "Notes:
 - All gauge files seem present now
@@ -765,25 +765,25 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :EMPTY ;; EMPTY
              :comment  "No water again - See photo"}
             {:location :ThMuCh1LongLizard
              :bottle   :A
              :gauge    :RG03
-             :board    :FR03
+             :board    :FR3
              :vial     :START ;; START
              :comment  "daily sampler replaced with bottle `:A`"}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :ARHK
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     :AAWP
              :comment  "New bottle's first sample :)"}]
   :comment "Notes:
@@ -808,23 +808,23 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :EMPTY ;; EMPTY
              :comment  "No water again - See photo"}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :AVGN
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   :N 
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     :ARFJ
              :comment  "New bottle's first sample :)"}]
   :comment "Notes:
@@ -845,23 +845,23 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :EMPTY
              :comment  "Still no water at all. Nong sent video"}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :AVJW
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   :N
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :vial     :START
              :comment  "New bottle attached to replace daily sampler"}]
   :comment "Notes:
@@ -883,23 +883,23 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :EMPTY
              :comment  "It's been raining but sidechamber is dry-ish"}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :ANZG
              :comment  "first water with new bottle"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - Weirdly we have a lot of samples from the outside sampler even though it's supposed to be broken!
@@ -921,22 +921,22 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ASHS}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :START
              :comment  "Looks like Nong fixed it?"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 1 - 'and the brocken raingauge D is already fixed'
@@ -957,22 +957,22 @@ First arrived in Ao Leuk and went to cave on my own on a bike"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AREC}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              ;;:vial     :AKFS
              :comment  "bottle still broken"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 NO SD CARD FILES??
@@ -1004,22 +1004,22 @@ time before last time was 8 and then 17
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AENE}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              ;;:vial     :NONE
              :comment  "bottle still broken"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 Wire on timer rewired?? (see pics)"}
@@ -1038,22 +1038,22 @@ Wire on timer rewired?? (see pics)"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ALRR}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              ;;:vial     :NONE
              :comment  "bottle still broken"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - First really rainy week
@@ -1074,22 +1074,22 @@ Wire on timer rewired?? (see pics)"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ALLH}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06 ;; pics
-             :board    :FR06
+             :board    :FR6
              :vial     :AKFS
              :comment  "Hot glue to bottle broke/melted.. Unreliable"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 NO GAUGE FILES BC LAPTOP BROKEN
@@ -1111,22 +1111,22 @@ NO GAUGE FILES BC LAPTOP BROKEN
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AGDX}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06 ;; pics
-             :board    :FR06
+             :board    :FR6
              :vial     :ARFE
              :comment  "Green color due to bird poop"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - Bird pooped all over outside machine
@@ -1154,22 +1154,22 @@ Extra
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ARBS}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :EMPTY
              :comment  "No rain"}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - 'it was from bottle 8 today is day 11, it's should on number 14'
@@ -1194,21 +1194,21 @@ Extra
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :AVYG}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03 ;; confirmed with pictures!
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06 ;; pics (based on SD id)
+             :board    :FR6 ;; pics (based on SD id)
              :vial     :ADYK}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - Nong forgot to change the SD card on rain gauge 3. (SD card 3A)
@@ -1230,21 +1230,21 @@ Extra
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ADWW}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03 ;; confirmed with pictures!
-             :board    :FR03}
+             :board    :FR3}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06 ;; pics (based on SD id)
+             :board    :FR6 ;; pics (based on SD id)
              :vial     :ACLN}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05
+             :board    :FR5
              :comment  ""}]
   :comment "Notes:
 - 'the out side matchine is stop working, it's seem like it only turn 1 time, i try to test but it's not run, then i change the battery and tast it 2 time It's work propperly when i change the battery'
@@ -1265,22 +1265,22 @@ Extra
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02 
-             :board    :FR02
+             :board    :FR2
              :vial     :ACET}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03 ;; confirmed with pictures!
-             :board    :FR03
+             :board    :FR3
              :comment  ""}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06 ;; pics (based on SD id)
+             :board    :FR6 ;; pics (based on SD id)
              :vial     :AHJZ}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05
-             :board    :FR05}]
+             :board    :FR5}]
   :comment "Notes:
 - inside machine fixed??
 - change bottle [B?] location from shelf to ground (easier sample collection - doesn't need to clumb up)
@@ -1302,22 +1302,22 @@ Extra
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02
-             :board    :FR02
+             :board    :FR2
              :vial     :AFTC}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03 ;; confirmed with pictures!
-             :board    :FR03
+             :board    :FR3
              :comment  "Notes: Knocked over by lizard"}
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :FR06
+             :board    :FR6
              :vial     :ARAL}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05 ;; or 75
-             :board    :FR05}]
+             :board    :FR5}]
   :comment "Notes:
 - Inside sampler and raingauge (mostly just raingauge..) knocked over by some animal!
 - funnel glued to bottom of raingauge also broke off
@@ -1342,21 +1342,21 @@ In photos you see duplicates, first from cave and then with stickers"}
             {:location :ThMuCh0ConjoinedBottom
              :bottle   :X
              :gauge    :RG02
-             :board    :START ;;:FR02
+             :board    :START ;;:FR2
              :vial     :ASGE}
             {:location :ThMuCh1LongLizard
              :bottle   nil ;; connected to sampler!
              :gauge    :RG03
-             :board    :START} ;;:FR03
+             :board    :START} ;;:FR3
             {:location :ThMuOutsideDrone
              :bottle   :D
              :gauge    :RG06
-             :board    :START ;;:FR06
+             :board    :START ;;:FR6
              :vial     :AGLD}
             {:location :ThMuOutsideWasp
              :bottle   nil ;; connected to sampler!
              :gauge    :RG05 ;; or 7
-             :board    :START ;;:FR05
+             :board    :START ;;:FR5
              :comment  "Notes:
 The gauge and board numbers seem different based on the pictures
 In the next sampling period there is no `FR07` log.
