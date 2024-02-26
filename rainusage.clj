@@ -375,13 +375,15 @@
                                                         board-id))
                                                sample
                                                (let [chip-id (-> equipment
-                                                                :board-name2chip-id
-                                                                board-id)]
+                                                                 :board-name2chip-id
+                                                                 board-id)]
                                                  (if (nil? chip-id)
                                                    (do (println (str "ERROR: "
                                                                      "Specified `:board` "
-                                                                     "doesn't have a corresponding `chipid`\n"
-                                                                     "Collection:"
+                                                                     board-id
+                                                                     " doesn't have a corresponding `chipid`"
+                                                                     chip-id
+                                                                     "\nCollection:"
                                                                      sample))
                                                        sample)
                                                    (assoc sample
@@ -408,12 +410,6 @@
                         #(let [time-inst (clojure.instant/read-instant-date %) #_ (-> %
                                                                                       tick/date-time
                                                                                       tick/instant)]
-                           (println (str "Start: "
-                                         start-time
-                                         "\nEnd: "
-                                         end-time
-                                         "\nOur: "
-                                         time-inst))
                            (cond
                              (tick/< time-inst
                                      start-time) false
