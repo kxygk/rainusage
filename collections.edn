@@ -319,7 +319,7 @@
              :comment  "Seems this is new? Battery Empty!"}
             {:location :ThMuOutsideDrone
              ;;:bottle   :D
-             :board    :RO3 ;; says `:R03` but that was last time!
+             :board    :R03 ;; says `:R03` but that was last time!
              :vial     :ATLL
              :comment  "Pics show `:R03` but that was in-cave last time"}
             {:location :ThMuCh0ConjoinedBottom
