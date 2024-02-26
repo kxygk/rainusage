@@ -16,26 +16,26 @@
                       :FR1 8371400 ;;
                       :FR6 1641660 ;;
                       :FR7 7598984
-                      ;; Rainuses (v2)
+                      ;; Rainuses (v2) ;; marked with an `X` are ones that were reconstructed from files sent by Nong
                       :R01 8364224
-                      ;;:R02   000000
-                      ;;:R03   000000
+                      :R02 8364236
+                      :R03 11920724
                       :R04 11482312
                       :R05 11823060
                       :R06 11821160
-                      ;;:R07   000000
+                      :R07 11822872
                       :R08 11821380
                       :R09 11823072
-                      ;;:R10   000000
-                      ;;:R11   000000
-                      ;;:R12   000000
-                      ;;:R13   000000
+                      :R10 11821868
+                      :R11 11482356
+                      :R12 11821772
+                      :R13 11482584
                       :R14 11482308
                       :R15 11822844
                       :R16 11821084
                       :R17 11823076 ;; seems to only do one reading
                       :R18 11822372 ;; also seems to do only one reading
-                      ;;:R19   000000
+                      :R19 11482272
                       :R20 11821804}
  :bottles            {:X {:type nil}
                       :A {:type nil}
