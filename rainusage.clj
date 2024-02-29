@@ -553,18 +553,35 @@
 
 (defn
   log2timediff
-  [gauge-logs]
+  "TODO add description
+  rain gauge under normal conditions can't fill up faster than abbout 15 seconds"
+  [gauge-logs
+   & [{:keys [clicks-per-day-max
+              clicks-per-day-min]
+       :or   {unixtime-start nil
+              clicks-per-day-max 1000000
+              clicks-per-day-min 1}}]]
   (->> (-> gauge-logs
            (ds/column "unixtime"))
        (partition 2 1)
        (mapv (fn [[first-click
                    second-click]]
-               (- second-click
-                  first-click)))))
+               [(/ second-click
+                   (* 60.0 60.0 24.0))
+                (/ (* 60.0 60.0 24.0)
+                   (- second-click
+                      first-click))]))
+       (filterv (fn [[time
+                      clicks-per-day]]
+                  (and (> clicks-per-day
+                          clicks-per-day-min)
+                       (< clicks-per-day
+                          clicks-per-day-max))))))
 #_
-(-> location-logs
-    :ThMuCH2Sh02PairTall
-    log2timediff)
+(->> location-logs
+     :ThMuCh1LongLizard
+     log2timediff)
+
 (defn
   plot-location
   [location]
