@@ -1,4 +1,5 @@
 {:deps  {;; mine
+         kxygk/quickthing           {:local/root "../quickthing"}
          ;; kxygk/geoprim           {:local/root "../geoprim"}
          ;; kxygk/geogrid           {:local/root "../geogrid"}
          ;; kxygk/geogrid2svg       {:local/root "../geogrid2svg"}

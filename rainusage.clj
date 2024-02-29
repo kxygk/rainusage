@@ -565,3 +565,28 @@
 (-> location-logs
     :ThMuCH2Sh02PairTall
     log2timediff)
+(defn
+  plot-location
+  [location]
+  (let [data (->> location-logs
+                  location
+                  log2timediff)]
+    (if (empty? data)
+      (println (str "Location `"
+                    location
+                    " doesn't have any data!"))
+      (->> (-> (quickthing/primary-axis data )
+               (assoc :data
+                      (into (quickthing/dashed-line data)
+                            (quickthing/adjustable-circles data
+                                                           {:scale 5})))
+               thi.ng.geom.viz.core/svg-plot2d-cartesian
+               quickthing/svg-wrap
+               quickthing/svg2xml)
+           (spit (str "out/"
+                      (symbol location)
+                      ".svg"))))))
+#_
+(->> location-logs
+     keys
+     (mapv plot-location))
