@@ -521,9 +521,9 @@
 
 (defn
   logs-by-location
-  [collections
-   locations]
-  (->> locations
+  [collections]
+  (->> collections
+       get-all-locations
        (mapv (fn [location]
                (location-gauge-logs collections
                                     location)))
@@ -535,7 +535,7 @@
       update-board-install-times
       update-chipids
       (import-gauge-logs gauge-logs)
-      (logs-by-location locations)))
+      logs-by-location))
 #_
 (-> location-logs
     :ThMuCH2Sh02PairTall)
