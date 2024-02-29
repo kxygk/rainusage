@@ -521,13 +521,17 @@
 
 (defn
   logs-by-location
-  [collections]
-  (->> collections
-       get-all-locations
-       (mapv (fn [location]
-               (location-gauge-logs collections
-                                    location)))
-       (zipmap locations)))
+  ([collections]
+   (logs-by-location collections
+                     (->> collections
+                          get-all-locations)))
+  ([collections
+    locations]
+   (->> locations
+        (mapv (fn [location]
+                (location-gauge-logs collections
+                                     location)))
+        (zipmap locations))))
 
 (def location-logs
   (-> collections
