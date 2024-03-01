@@ -556,22 +556,6 @@
 ;;     :ThMuCh1LongLizard)
 
 (defn
-  get-all-loggers
-  [collections]
-  (-> (->> collections
-           vals
-           (mapv :samples)
-           (mapv vals)
-           flatten
-           (mapv :board)
-           (into #{}))
-      (disj :START)
-      (disj nil)))
-#_
-(-> collections
-    collection-vec-to-map
-    get-all-loggers)
-(defn
   log2timediff
   "TODO add description
   rain gauge under normal conditions can't fill up faster than abbout 15 seconds"
@@ -636,3 +620,87 @@
 (->> location-logs
      keys
      (mapv plot-location))
+
+(defn
+  get-all-loggers
+  [collections]
+  (-> (->> collections
+           vals
+           (mapv :samples)
+           (mapv vals)
+           flatten
+           (mapv :board)
+           (into #{}))
+      (disj :START)
+      (disj nil)))
+#_
+(-> collections
+    collection-vec-to-map
+    get-all-loggers)
+
+(defn
+  logs-by-logger
+  ([collections]
+   (logs-by-logger collections
+                     (->> collections
+                          get-all-loggers)))
+  ([collections
+    loggers]
+   (let [all-samples (->> collections
+                          vals
+                          (mapv :samples)
+                          (mapv vals)
+                          flatten)]
+;   all-samples #_
+   (->> loggers
+        (mapv (fn [logger]
+                (->> all-samples
+                    (filterv #(= logger
+                                 (:board %)))
+                    (mapv :gauge-log)
+                    (apply ds/concat))))
+        (zipmap loggers)))))
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    (import-gauge-logs gauge-logs)
+    logs-by-logger)
+
+(def logger-logs
+  (-> collections
+      collection-vec-to-map
+      update-board-install-times
+      update-chipids
+      (import-gauge-logs gauge-logs)
+      logs-by-logger))
+
+(defn
+  plot-all-loggers
+  [by-logger]
+  (->> by-logger
+       (mapv (fn [[logger table]]
+               (let [data (-> table
+                              log2timediff)]
+               (if (not-empty data)
+                 (->> (-> (quickthing/primary-axis data
+                                                   {:x-name "Days since start"
+                                                    :y-name "Drips per day"
+                                                    :title  (str (symbol logger))})
+                          (update :data
+                                  #(into %
+                                         (quickthing/dashed-line data)))
+                          (update :data
+                                  #(into %
+                                         (quickthing/adjustable-circles data
+                                                                        {:scale 5})))
+                          thi.ng.geom.viz.core/svg-plot2d-cartesian
+                          quickthing/svg-wrap
+                          quickthing/svg2xml)
+                      (spit (str "out/"
+                                 (symbol logger)
+                                 ".svg")))))))))
+#_
+(-> logger-logs
+    plot-all-loggers)
