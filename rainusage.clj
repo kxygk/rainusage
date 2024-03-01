@@ -556,6 +556,22 @@
 ;;     :ThMuCh1LongLizard)
 
 (defn
+  get-all-loggers
+  [collections]
+  (-> (->> collections
+           vals
+           (mapv :samples)
+           (mapv vals)
+           flatten
+           (mapv :board)
+           (into #{}))
+      (disj :START)
+      (disj nil)))
+#_
+(-> collections
+    collection-vec-to-map
+    get-all-loggers)
+(defn
   log2timediff
   "TODO add description
   rain gauge under normal conditions can't fill up faster than abbout 15 seconds"
