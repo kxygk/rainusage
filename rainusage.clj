@@ -596,17 +596,26 @@
       (println (str "Location `"
                     location
                     " doesn't have any data!"))
-      (->> (-> (quickthing/primary-axis data )
-               (assoc :data
-                      (into (quickthing/dashed-line data)
-                            (quickthing/adjustable-circles data
-                                                           {:scale 5})))
+      (->> (-> (quickthing/primary-axis data
+                                        {:x-name "Days since start"
+                                         :y-name "Drips per day"
+                                         :title  (str (symbol location))})
+               (update :data
+                       #(into %
+                              (quickthing/dashed-line data)))
+               (update :data
+                       #(into %
+                              (quickthing/adjustable-circles data
+                                                             {:scale 5})))
+
                thi.ng.geom.viz.core/svg-plot2d-cartesian
                quickthing/svg-wrap
                quickthing/svg2xml)
            (spit (str "out/"
                       (symbol location)
                       ".svg"))))))
+#_
+(plot-location :ThMuCh1LongLizard)
 #_
 (->> location-logs
      keys
