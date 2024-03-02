@@ -370,8 +370,7 @@
                             (update-vals samples
                                          (fn update-sample
                                            [sample]
-                                           (let [board-id (:board sample)
-                                                 ]
+                                           (let [board-id (:board sample)]
                                              (if (or (nil? board-id)
                                                      (= :START
                                                         board-id))
@@ -544,7 +543,9 @@
       logs-by-location))
 #_
 (-> location-logs
-    :ThMuCH2Sh02PairTall)
+    :ThMuCh1LongLizard
+    ds/rows
+    first)
 #_
 (keys
   location-logs)
@@ -564,7 +565,7 @@
   [gauge-logs
    & [{:keys [clicks-per-day-max
               clicks-per-day-min]
-       :or   {unixtime-start nil
+       :or   {unixtime-start     nil
               clicks-per-day-max 1000000
               clicks-per-day-min 1}}]]
   (->> (-> gauge-logs
@@ -644,8 +645,8 @@
   logs-by-logger
   ([collections]
    (logs-by-logger collections
-                     (->> collections
-                          get-all-loggers)))
+                   (->> collections
+                        get-all-loggers)))
   ([collections
     loggers]
    (let [all-samples (->> collections
@@ -653,15 +654,14 @@
                           (mapv :samples)
                           (mapv vals)
                           flatten)]
-;   all-samples #_
-   (->> loggers
-        (mapv (fn [logger]
-                (->> all-samples
-                    (filterv #(= logger
-                                 (:board %)))
-                    (mapv :gauge-log)
-                    (apply ds/concat))))
-        (zipmap loggers)))))
+     (->> loggers
+          (mapv (fn [logger]
+                  (->> all-samples
+                       (filterv #(= logger
+                                    (:board %)))
+                       (mapv :gauge-log)
+                       (apply ds/concat))))
+          (zipmap loggers)))))
 #_
 (-> collections
     collection-vec-to-map
@@ -685,24 +685,24 @@
        (mapv (fn [[logger table]]
                (let [data (-> table
                               log2timediff)]
-               (if (not-empty data)
-                 (->> (-> (quickthing/primary-axis data
-                                                   {:x-name "Days since start"
-                                                    :y-name "Drips per day"
-                                                    :title  (str (symbol logger))})
-                          (update :data
-                                  #(into %
-                                         (quickthing/dashed-line data)))
-                          (update :data
-                                  #(into %
-                                         (quickthing/adjustable-circles data
-                                                                        {:scale 5})))
-                          thi.ng.geom.viz.core/svg-plot2d-cartesian
-                          quickthing/svg-wrap
-                          quickthing/svg2xml)
-                      (spit (str "out/"
-                                 (symbol logger)
-                                 ".svg")))))))))
+                 (if (not-empty data)
+                   (->> (-> (quickthing/primary-axis data
+                                                     {:x-name "Days since start"
+                                                      :y-name "Drips per day"
+                                                      :title  (str (symbol logger))})
+                            (update :data
+                                    #(into %
+                                           (quickthing/dashed-line data)))
+                            (update :data
+                                    #(into %
+                                           (quickthing/adjustable-circles data
+                                                                          {:scale 5})))
+                            thi.ng.geom.viz.core/svg-plot2d-cartesian
+                            quickthing/svg-wrap
+                            quickthing/svg2xml)
+                        (spit (str "out/"
+                                   (symbol logger)
+                                   ".svg")))))))))
 #_
 (-> logger-logs
     plot-all-loggers)
