@@ -1,0 +1,173 @@
+date,samples,comment,take,of,i,wet,is,memory,all,toilet,dry,"
+- "
+Tue Feb 06 08:00:00 CST 2024,"[{:location :ThMuOutsideWasp, :bottle :P, :board :R19, :vial :AHDK, :comment """"} {:location :ThMuOutsideDrone, :board :R02, :vial :AMYF, :comment """"} {:location :ThMuCh0ConjoinedBottom, :board :R05, :vial :AZWT, :comment ""Very little water""} {:location :ThMuCh1LongLizard, :board :R09, :vial :EMPTY, :comment ""bottle has hole (different from before). No water""} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R15, :vial :AEQE, :comment ""TODO: Logger not changed! Still `:R15` Ask Nong""} {:location :ThMuCh2Sh01Thumb, :board :R11, :vial :AQAQ, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :board :R12, :vial :AQDF, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R13, :vial :AFBW, :comment """"}]","Note:
+- Nong: 'dry season'",,,,,,,,,,
+Sun Jan 21 08:00:00 CST 2024,"[{:location :ThMuOutsideWasp, :bottle :P, :board :R16, :vial :AKEX, :comment """"} {:location :ThMuOutsideDrone, :board :R14, :vial :AVXW, :comment ""Rat bite! Missing datav. Outside this time :S""} {:location :ThMuCh0ConjoinedBottom, :board :R01, :vial :AGTC, :comment """"} {:location :ThMuCh1LongLizard, :board :R08, :vial :ALVQ, :comment ""bottle and tube disconnected""} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R15, :vial :AEQE, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R04, :vial :ARQC, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :board :R06, :vial :AFFJ, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R10, :vial :AVNL, :comment """"}]","Note:
+- Nong: 'i sent r08 2 time, sorry' 
+- More springs rusted through. He just wraps with the copper wire",,,,,,,,,,
+Thu Jan 04 08:00:00 CST 2024,"[{:location :ThMuOutsideWasp, :bottle :P, :board :R02, :vial :ASVJ, :comment ""Seems it's finally all up and running""} {:location :ThMuOutsideDrone, :board :R20, :vial :AGYU, :comment """"} {:location :ThMuCh0ConjoinedBottom, :board :R11, :vial :AVXC, :comment """"} {:location :ThMuCh1LongLizard, :board :R05, :vial :AEFF, :comment ""Bottle has hole bitten out of it!""} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R12, :vial :AAXP, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R03, :vial :ARWT, :comment ""SD card maybe corrupted ??""} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R15, :vial :ABAB, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R13, :vial :ATEJ, :comment """"}]","Note:
+- Nong asked to be paid
+- Wasp thing still at the wasp
+- He leaves on a one week roadtrip ",,,,,,,,,,
+Sat Dec 23 08:00:00 CST 2023,"[{:location :ThMuOutsideWasp, :board :START, :vial :START, :comment ""Spoon in rain gauge got sticky. Ant nest inside""} {:location :ThMuOutsideDrone, :board :R07, :vial :EMPTY, :comment ""Bottle `:D` snapped off tube""} {:location :ThMuCh0ConjoinedBottom, :board :R01, :vial :ADKN, :comment ""Rat bites the cable again! Nong fixes it""} {:location :ThMuCh1LongLizard, :board :R08, :vial :AECU, :comment ""I think Nong re-fixes the cables (wrong wiring)""} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R06, :vial :AYEC, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R14, :vial :AGQJ, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R04, :vial :AJLA, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R10, :vial :ABER, :comment """"}]","Note:
+- More problems with rats
+- Nong: 'Rain gauge from A bottle that i fix last time, i think i made it wrang with the coller of cable, i fix it again like in the picture, can you check it's right or not'
+- TODO: Figure out wire colors",,,,,,,,,,
+Tue Dec 12 08:00:00 CST 2023,"[{:location :ThMuOutsideWasp, :board :START, :vial :START, :comment ""Had to be cleared of wasps it seems""} {:location :ThMuOutsideDrone, :board :R15, :vial :AJJT, :comment """"} {:location :ThMuCh0ConjoinedBottom, :board :START, :vial :AYYB, :comment ""Gauge replaced b/c of previous rat bite""} {:location :ThMuCh1LongLizard, :board :R12, :vial :ACNU, :comment ""Rat bite!!! Probably missing data""} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R05, :vial :AHUQ, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R11, :vial :AHRY, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R19, :vial :ATJP, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R13, :vial :AQLK, :comment """"}]","Note:
+- Wasp nest destroyed.. no new rain gauge data though? (b/c no logger)",,,,,,,,,,
+Tue Nov 21 08:00:00 CST 2023,"[{:location :ThMuOutsideWasp, :board :R04, :vial nil, :comment ""Seems this is new? Battery Empty!""} {:location :ThMuOutsideDrone, :board :RO3, :vial :ATLL, :comment ""Pics show `:R03` but that was in-cave last time""} {:location :ThMuCh0ConjoinedBottom, :board :R01, :vial :AEVW, :comment ""Rat bite cable! So probably missing data""} {:location :ThMuCh1LongLizard, :board :R16, :vial :AAMR, :comment """"} {:location :ThMuCh2Sh01BrownTop, :bottle :S, :board :R08, :vial :ANKZ, :comment ""Nong: `Just installed the bottle` - little water""} {:location :ThMuCh2Sh01Thumb, :board :R07, :vial :AEYG, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R06, :vial :EMPTY, :comment ""No water (pic)""} {:location :ThMuCH2Sh02PairTall, :board :R14, :vial :AKXF, :comment """"}]","Note:
+- `:RG01` cable broken, maybe by a rat
+- AEVW has the wrong date written (says 23 instead of 21)
+- There was an earthquake recently. It affected other caves
+- Water level is low
+- No rain for about a week
+- After this Nong goes to Bangkok to save the mountain",,,,,,,,,,
+Fri Nov 03 08:00:00 CST 2023,"[{:location :ThMuOutsideWasp, :gauge :RG04, :board :START, :comment ""Nong installs logger but b/c wasps no bottle""} {:location :ThMuOutsideDrone, :board :R19, :vial :AJMG, :comment """"} {:location :ThMuCh0ConjoinedBottom, :board :R02, :vial :AASZ, :comment ""Nong say : 'Less water'""} {:location :ThMuCh1LongLizard, :board :R13, :vial :ACYG, :comment """"} {:location :ThMuCh2Sh01BrownTop, :bottle :START, :board :R05, :vial :START, :comment ""Nong: `Just installed the bottle`""} {:location :ThMuCh2Sh01Thumb, :board :R03, :vial :AURB, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R10, :vial :AACC, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R12, :vial :ASNN, :comment """"}]","Note:
+TODO: NONG MANUALLY TESTED ALL GAUGES - CHECK VALUES
+- 'Every bottle has less water'
+- 'Water level is a little bit low in the cave'
+- Brought gauge to install at `:ThMuCH2WallPole` but no legs
+- But `:ThMuCH2WallPole` is also dry..
+- Wasp nest is getting huge - couldn't install bottle
+For next time:
+- Check what's going on at `:C` and `:H`
+- Move wasp rain gauge to have a concurrent outside thing (needs bottle and water)
+- Why did `:B` start to suddenly work on the 29th?
+- water samples need to be mailed to NTU",,,,,,,,,,
+Sat Oct 21 08:00:00 CST 2023,"[{:location :ThMuOutsideDrone, :board :R07, :vial :AYXP, :comment ""TODO: Check this vial b/c it's not in photos""} {:location :ThMuCh0ConjoinedBottom, :board :R16, :vial :APUL, :comment """"} {:location :ThMuCh1LongLizard, :board :R01, :vial :AYKX, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R08, :vial :ADPF, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle :H, :board :R14, :vial :EMPTY, :comment ""No water, see pics""} {:location :ThMuCH2Sh02PairTall, :board :R06, :vial :AYNS, :comment """"}]","Note:
+- Nong didn't do a lot of the stuff that needed to be done
+- Still no new covers
+- Still no new bottles",,,,,,,,,,
+Thu Oct 05 08:00:00 CST 2023,"[{:location :ThMuCh1LongLizard, :board :R03, :vial :ACWM, :comment """"} {:location :ThMuCh2Sh01Thumb, :board :R12, :vial :AUNG, :comment """"} {:location :ThMuCH2Sh02PairTall, :board :R02, :vial :AUSZ, :comment ""Note:\n- Transparent Lid/Cover replaced\n- Now it's a narrower green funnel \n- Pics show bottle `:C` is attached\n- Gauge confirmed to have no-num""} {:location :ThMuOutsideDrone, :board :R07, :vial :ALPE, :comment """"} {:location :ThMuCh0ConjoinedBottom, :board :R11, :vial :APGR, :comment """"} {:location :ThMuCH2Sh02WhiteLoner, :bottle nil, :comment ""Note:\n- A new bottle `:H` (ketchup style) was brought and attached (see pics)\n- Previously there was no bottle (didn't have enough)\n- Blue/Teal Funnel attached on top""}]","Note:
+- Going back, this time together with Hott",,,,,,,,,,
+Fri Sep 29 08:00:00 CST 2023,"[{:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG06, :board :START, :comment ""Note:\n- This had: `:RG02` and `X` (see pics)\n- Installed `:RG06`, which was outside before, but now had legs added\n- No pic showing `:R11` and `:RG86` at the same time""} {:location :ThMuCh1LongLizard, :gauge nil, :board nil, :comment ""Note:\n- On a grey bucket, on a pink basket\n- Was `:RG03`, now a new rain gauge (no number) with leg brackets""} {:location :ThMuCH2Sh02PairTall, :comment ""Note:\n- Raplacing raing gauge `:RG04` (see pics)\n- No water collected?""} {:location :ThMuCH2Sh02WhiteLoner, :gauge nil, :comment ""Note:\n- I think this is setup by PDay\n- No picture b/c I didn't go back after the install""} {:location :ThMuCh2Sh01Thumb, :gauge nil, :bottle :B, :comment ""Note:\n- Had rain gauge `:RG01` before\n- Now has no-num new gauge\n- Had crumbled clay in funnel\n- Seems to be connected to `:B` (in pic next time)\n- ADDED: I think `:B` was moved from `Sh1` to `Sh0`\n- `:R12` connected""} {:location :ThMuCh2Sh01BrownTop, :comment ""Note:\n- Wasn't monitored before\n- New gauge installed (with legs)\n- A bit tricky b/c at the edge\n- Not enough tubing to connect water collector\n- `:R19` connected""}]","Note:
+Finally going into the cave with Nong to install all the gauges",,,,,,,,,,
+Thu Sep 28 08:00:00 CST 2023,,"Note:
+- previous day was installing legs
+- Went at night and swapped a new rain gauge b/c I'd forgotten to solder it's alligator clips. Next day plan to go to cave to swap other gauges inside
+- after trip: (1) soldered the clip (2) attached legs for the cave",,,,,,,,,,
+Wed Sep 27 08:00:00 CST 2023,"[{:location :ThMuOutsideDrone, :bottle :D, :board :R11, :comment ""Note:\n-`:RG06` (ie. `:RG86`) at bottle `:D`.. ie. `:ThMuOutsideDrone` was replaced with a new rain gauge (no RG number) and logger `:R06`\n- bottle `:D` had a small hole added so water doesn't sit in tube due to backpressure\n- gauge has a ton of ants!""} {:location :ThMuOutsideWasp, :bottle nil, :board :R11, :comment ""Note:\n- didn't have a rain gauge (removed on previous trip)\n- New gauge and logger installed\n- There is a wasp nest being established""}]","Note:
+First arrived in Ao Leuk and went to cave on my own on a bike",,,,,,,,,,
+Wed Sep 20 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ACBW, :comment ""again, very little water""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AHHT} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ABBP} {:location :ThMuCh1LongLizard, :bottle :A, :gauge :RG03, :board :FR03, :vial :ATMB} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AHHJ} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial nil, :comment ""knocked over by cow! broken again""}]","Notes:
+- Last collection before I arrive and install new Rainuses
+- No photos b/c Nong dropped his phone at the cave entrance
+- `:RG05` broken again by cow this time (maybe). Nong took to fix again
+- Again.. loggers are not being collected anylonger",,,,,,,,,,
+Mon Sep 04 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ANDJ, :comment ""water is back, but very little""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :ARFP} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AZXA} {:location :ThMuCh1LongLizard, :bottle :A, :gauge :RG03, :board :FR03, :vial :AAYW} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AQTH} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial nil, :comment ""tube-cone reinstalled (next time broken again)""}]","Notes:
+- All rain gauges seem to no longer work so no data
+- outside gauge `:N` was fixed (bottom cone) and reinstalled",,,,,,,,,,
+Mon Aug 21 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :EMPTY, :comment ""no water again! But cave looks wet""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :ADBM} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AALY, :comment ""Water is finally back! Pic of stalagtite""} {:location :ThMuCh1LongLizard, :bottle :A, :gauge :RG03, :board :FR03, :vial :AERJ} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ASWK, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial :AYFF, :comment ""tube-cone fell off.. maybe not whole signal""}]","Notes:
+- No water on B, which is strange
+- 'the clay that you put on is worn out but possition is still look good'
+- 'There are more water and higher humidity but every raingauge is still less water even it's already back to drip already'
+- tube-cone fell off bottom of `:RG05` at Wasp stump
+- All rain gauges seem to no longer work ",,,,,,,,,,
+Wed Aug 02 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AMKJ, :comment ""still very little water. battery fell out""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AYER} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AGWM, :comment ""Water is finally back! Pic of stalagtite""} {:location :ThMuCh1LongLizard, :bottle :A, :gauge :RG03, :board :FR03, :vial :AXWC} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AYNM, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial :AFUP}]","Notes:
+- All gauge files seem present now
+- Rainus box on `:B` fell over (animal?) battery disloged",,,,,,,,,,
+Thu Jul 20 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ANVL, :comment ""A bit more water than last time, but still little""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AFBC} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :EMPTY, :comment ""No water again - See photo""} {:location :ThMuCh1LongLizard, :bottle :A, :gauge :RG03, :board :FR03, :vial :START, :comment ""daily sampler replaced with bottle `:A`""} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ARHK, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial :AAWP, :comment ""New bottle's first sample :)""}]","Notes:
+-'`:N` is the new one from rain gauge next to the machine out side'
+- `i skip 5A because it's on the wrang set from my misstake that i forget to change last time`
+- So gauge files don't have a `5A.txt`
+- He took daily sampler out of the cave finally
+- Again, he installs a new bottle (`:A`) - only mentions after next trip",,,,,,,,,,
+Wed Jul 05 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AABK, :comment ""Almost no water too! (enough for sample though)""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :APKN} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :EMPTY, :comment ""No water again - See photo""} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AVGN, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial :ARFJ, :comment ""New bottle's first sample :)""}]","Notes:
+-'`:N` is the new one from rain gauge next to the machine out side'
+- `i skip 5A because it's on the wrang set from my misstake that i forget to change last time`",,,,,,,,,,
+Mon Jun 26 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AWTB} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AJBL} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :EMPTY, :comment ""Still no water at all. Nong sent video""} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AVJW, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle :N, :gauge :RG05, :board :FR05, :vial :START, :comment ""New bottle attached to replace daily sampler""}]","Notes:
+- His phone ran out of batteries so no photos.
+- He only mentioned the new bottle `:N` in chat after the next trip
+-'`:N` is the new one from rain gauge next to the machine out side",,,,,,,,,,
+Mon Jun 12 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AREG} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AWRW} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :EMPTY, :comment ""It's been raining but sidechamber is dry-ish""} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ANZG, :comment ""first water with new bottle""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- Weirdly we have a lot of samples from the outside sampler even though it's supposed to be broken!
+- Nong thinks the wind is blowing in water from the side
+- `D` is now a new bottle style (ketchup sauce instead of plastic jug)
+- 'the first rainguege is really less water'",,,,,,,,,,
+Tue May 30 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ADWC} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AQEX} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ASHS} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :START, :comment ""Looks like Nong fixed it?""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+1 - 'and the brocken raingauge D is already fixed'
+2 - No calcite growth on raingauges in the cave (asked Nong to check)
+3- 'outside matchine is only 2 bottle fill'",,,,,,,,,,
+Wed May 17 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AUQS} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AYFP} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AREC} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :comment ""bottle still broken""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+NO SD CARD FILES??
+Pics sent a few days late b/c went to pull the core with Nutt
+1. Sampler is having weird issues
+=====
+Nong:
+for the matchine, there are some thing happen. if i go early it will turn 1 day less, if i go late it will 1 day over.
+Me:
+The machine is set to turn in the middle of the night but we do have an issue that when you collect you need to not collect the day it's currently dripping into. But we discussed that
+Nong:
+time before last time was 8 and then 17
+=====
+2. The bottle outside had cracked and hadn't been fixed yet
+'D is the brocken one out side'
+3. Clay to hold lids over the rain gauges in the cave has worn away",,,,,,,,,,
+Mon May 08 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ARBX} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AFQH} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AENE} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :comment ""bottle still broken""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+Wire on timer rewired?? (see pics)",,,,,,,,,,
+Tue Apr 25 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AQRT} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AQFK} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ALRR} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :comment ""bottle still broken""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- First really rainy week
+- Nong got his laptop fixed and the SD card read finally
+- Outside machine maybe permanently broken?",,,,,,,,,,
+Wed Apr 12 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AQPM} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AAEM} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ALLH} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AKFS, :comment ""Hot glue to bottle broke/melted.. Unreliable""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+NO GAUGE FILES BC LAPTOP BROKEN
+- the hot glue holding the tube to outside water collector `D` had melted and dislogged
+- Nong's laptop broke so he couldn't send SD card files!!
+- He left to go camping in Khanom so I only got the files on the 14th",,,,,,,,,,
+Mon Apr 03 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AGDV} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :ACLW} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AGDX} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ARFE, :comment ""Green color due to bird poop""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- Bird pooped all over outside machine
+- Outside machine on wrong number
+- Water in some bottles is green (b/c of poop)
+- Outside machine runs correctly after battery change
+- Trees need outside machine were cut down (and also no rubber garden anymore)
+- Outside machine left on 10
+- Inside machine left on 02
+- Next day Nong went (to give a tour) and inside machine was on 01
+Extra
+- May pics of boards? Not clear why",,,,,,,,,,
+Fri Mar 24 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :ANHW} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AGWT} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ARBS} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :EMPTY, :comment ""No rain""} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- 'it was from bottle 8 today is day 11, it's should on number 14'
+- 'but now is on 12'
+- Memory card was not changed on gauge 3
+- 'so hard rain at my home for 1almost 1 hour but no rain at Thammurd'
+- 'first rain in 2 month ... 3 days ago' (on 03-22)
+- `D` was empty (b/c no rain)
+- 'water level is little hight up'",,,,,,,,,,
+Tue Mar 14 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AZXQ} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AWZS} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AVYG} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ADYK} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- Nong forgot to change the SD card on rain gauge 3. (SD card 3A)
+- The outside machine didn't turn properly again
+- 'the matchine out side is wrong number again, battery is empty, then i change battery and test it 2 times, it run correctly again after battery change'
+- 'but little bit wierd, today it was on number 6 but it have no any water on bottle 6?'",,,,,,,,,,
+Tue Feb 28 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :AWBY} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AAVS} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ADWW} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ACLN} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment """"}]","Notes:
+- 'the out side matchine is stop working, it's seem like it only turn 1 time, i try to test but it's not run, then i change the battery and tast it 2 time It's work propperly when i change the battery'
+- outside left on number 13",,,,,,,,,,
+Mon Feb 20 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :APGE, :comment ""Bottle was moved down I think""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AZAX} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ACET} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03, :comment """"} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AHJZ} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05}]","Notes:
+- inside machine fixed??
+- change bottle [B?] location from shelf to ground (easier sample collection - doesn't need to clumb up)
+- outside machine went from 8 to 16 (so missed one day??)
+- last time the machine collected 2 days before it fell
+- rain gauge fell due to rat (see pics)",,,,,,,,,,
+Wed Jan 25 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :APEJ} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :AWHM} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :AFTC} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03, :comment ""Notes: Knocked over by lizard""} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :ARAL} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05}]","Notes:
+- Inside sampler and raingauge (mostly just raingauge..) knocked over by some animal!
+- funnel glued to bottom of raingauge also broke off
+- 2 days of water had been collected (2 bottles have water)
+- ",photo,the,didn't,at,all,box,"
+- tube stickers (with unique code) were misplaced.. hence lables come later
+In photos you see duplicates, first from cave and then with stickers",paper,no,the
+Mon Jan 09 08:00:00 CST 2023,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :board :FR1, :vial :APSF, :comment """"} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :board :FR4, :vial :ASWM} {:location :ThMuCh0ConjoinedBottom, :bottle :X, :gauge :RG02, :board :FR02, :vial :ASGE} {:location :ThMuCh1LongLizard, :bottle nil, :gauge :RG03, :board :FR03} {:location :ThMuOutsideDrone, :bottle :D, :gauge :RG06, :board :FR06, :vial :AGLD} {:location :ThMuOutsideWasp, :bottle nil, :gauge :RG05, :board :FR05, :comment ""Notes:\nThe gauge and board numbers seem different based on the pictures\nIn the next sampling period there is no `FR07` log.\nSo it seems to match the data!""}]","Notes:
+- NOT GAUGE DATA
+- outside [sampler?] machine not working (stuck on 8)
+- on 01-12 Nong went back and confirmed it's turning correctly (on 03)",,,,,,,,,,
+Thu Dec 29 08:00:00 CST 2022,"[{:location :ThMuCH2Sh02WhiteLoner, :bottle :B, :gauge :RG01, :vial :AZBP, :comment ""Notes:\n2022-11-24 :: Installed\nposition determined from pictures (from `syi.jpg`)""} {:location :ThMuCH2Sh02PairTall, :bottle :C, :gauge :RG04, :vial :APUJ, :comment ""Notes:\n2022-11-24 :: `RG04` installed ""}]","Notes:
+- NOT GAUGE DATA
+- outside no water at all
+- Bottle D moved to 'drone place' on rain gauge 6
+- inside collected from number 5 to 14
+- Nong then tested the machine inside and it's now at position 01
+- B and C had no problems
+- photo of tubes taken before water collected
+- 'There is a bit if a weird thing.. on the 20th we left the machine on number 13.. Maybe there was some left over water'
+- Inside and outside on number 1
+- 'So you have half the day in number 4 and the second half or the day (after you leave) in number 1'
+- 02-04 he went and changed the battery outside sampler
+- rain gauge 6 fell over (and someone put it back up?)
+  ",,,,,,,,,,
