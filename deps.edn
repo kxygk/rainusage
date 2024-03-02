@@ -1,5 +1,6 @@
-{:deps  {;; mine
+{:deps  {;; mine .. these `kxygk/` prefixes have no impact or meaning in actuality
          kxygk/quickthing           {:local/root "../quickthing"}
+         kxygk/convertadoc          {:local/root "../convertadoc"}
          ;; kxygk/geoprim           {:local/root "../geoprim"}
          ;; kxygk/geogrid           {:local/root "../geogrid"}
          ;; kxygk/geogrid2svg       {:local/root "../geogrid2svg"}
