@@ -2,8 +2,8 @@
 <svg version="1.1" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 <g>
 <g stroke-dasharray="3.6 7.2" stroke-width="0.72" stroke="#caa">
-<line x1="246.19" x2="246.19" y1="510.00" y2="90.00" />
-<line x1="559.39" x2="559.39" y1="510.00" y2="90.00" />
+<line x1="402.79" x2="402.79" y1="510.00" y2="90.00" />
+<line x1="765.29" x2="765.29" y1="510.00" y2="90.00" />
 <line x1="150.00" x2="850.00" y1="270.41" y2="270.41" />
 </g>
 <g>
@@ -116,11 +116,11 @@
 <circle cx="850.00" cy="419.29" r="1.6666666666666667" />
 </g>
 <g stroke="black">
-<line x1="246.19" x2="246.19" y1="510.00" y2="520.00" />
-<line x1="559.39" x2="559.39" y1="510.00" y2="520.00" />
+<line x1="402.79" x2="402.79" y1="510.00" y2="520.00" />
+<line x1="765.29" x2="765.29" y1="510.00" y2="520.00" />
 <g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)">
-<text x="246.19" y="530.57">19370</text>
-<text x="559.39" y="530.57">19380</text>
+<text x="402.79" y="530.57">18Jan'23</text>
+<text x="765.29" y="530.57">29Jan'23</text>
 </g>
 <line x1="150.00" x2="850.00" y1="510.00" y2="510.00" />
 </g>

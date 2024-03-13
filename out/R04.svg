@@ -2,6 +2,7 @@
 <svg version="1.1" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 <g>
 <g stroke-dasharray="3.6 7.2" stroke-width="0.72" stroke="#caa">
+<line x1="580.77" x2="580.77" y1="510.00" y2="90.00" />
 <line x1="150.00" x2="850.00" y1="461.23" y2="461.23" />
 <line x1="150.00" x2="850.00" y1="410.59" y2="410.59" />
 <line x1="150.00" x2="850.00" y1="359.95" y2="359.95" />
@@ -34,7 +35,10 @@
 <circle cx="850.00" cy="125.00" r="1.6666666666666667" />
 </g>
 <g stroke="black">
-<g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)" />
+<line x1="580.77" x2="580.77" y1="510.00" y2="520.00" />
+<g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)">
+<text x="580.77" y="530.57">3Nov'23</text>
+</g>
 <line x1="150.00" x2="850.00" y1="510.00" y2="510.00" />
 </g>
 <g stroke="black">

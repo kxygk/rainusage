@@ -573,8 +573,7 @@
        (partition 2 1)
        (mapv (fn [[first-click
                    second-click]]
-               [(/ second-click
-                   (* 60.0 60.0 24.0))
+               [second-click
                 (/ (* 60.0 60.0 24.0)
                    (- second-click
                       first-click))]))
@@ -588,6 +587,19 @@
 (->> location-logs
      :ThMuCh1LongLizard
      log2timediff)
+
+(def
+  date-formatter
+  "A `geom` label formatter to give human dates on the X axis
+  Expects the X axis to be in `unix-time` (in seconds)"
+  (thi.ng.geom.viz.core/default-svg-label (fn [unix-time]
+                                            (println (str "unix-time: "
+                                                          unix-time))
+                                            (->> unix-time
+                                                tock/unix-time-sec2date
+                                                (tick/format (tick/formatter "dMMM''yy"))))))
+#_
+(date-formatter [10 10]  1000)
 
 (defn
   plot-location
@@ -603,6 +615,8 @@
                                         {:x-name "Days since start"
                                          :y-name "Drips per day"
                                          :title  (str (symbol location))})
+               (assoc-in [:x-axis :label]
+                                       date-formatter)
                (update :data
                        #(into %
                               (quickthing/dashed-line data)))
@@ -619,7 +633,8 @@
                       ".svg"))))))
 #_
 (plot-location :ThMuCh1LongLizard)
-#_
+
+;; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GENERATES ALL LOCATION PLOTS
 (->> location-logs
      keys
      (mapv plot-location))
@@ -690,6 +705,8 @@
                                                      {:x-name "Days since start"
                                                       :y-name "Drips per day"
                                                       :title  (str (symbol logger))})
+                            (assoc-in [:x-axis :label]
+                                       date-formatter)
                             (update :data
                                     #(into %
                                            (quickthing/dashed-line data)))
@@ -703,7 +720,8 @@
                         (spit (str "out/"
                                    (symbol logger)
                                    ".svg")))))))))
-#_
+
+;; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GENERATES ALL LOCATION PLOTS
 (-> logger-logs
     plot-all-loggers)
 
