@@ -1,4 +1,5 @@
 {:deps  {;; mine .. these `kxygk/` prefixes have no impact or meaning in actuality
+         kxygk/tock                 {:local/root "../tock"}
          kxygk/quickthing           {:local/root "../quickthing"}
          kxygk/convertadoc          {:local/root "../convertadoc"}
          ;; kxygk/geoprim           {:local/root "../geoprim"}

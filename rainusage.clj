@@ -2,6 +2,7 @@
   "Injesting Rainus data - and analysis"
   (:use [clojure.set])
   (:require [quickthing]
+            [tock]
             [convertadoc]
             [tick.core       :as tick]
             [tech.v3.dataset :as ds ]
