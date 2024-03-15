@@ -608,7 +608,7 @@
     (let [min-x (apply min all-time-stamps)
           max-x (apply max all-time-stamps)]
       [[min-x 0]
-       [max-x 20]])))
+       [max-x 13]])))
 
 (defn
   plot-location
@@ -621,7 +621,7 @@
       (println (str "Location `"
                     location
                     " doesn't have any data!"))
-      (->> (-> (quickthing/primary-axis (into dummy-data data)
+      (->> (-> (quickthing/primary-axis dummy-data #_(into dummy-data data)
                                         {:x-name (str "Years "
                                                       (->> dummy-data
                                                            first
@@ -634,16 +634,22 @@
                                                            first
                                                            tock/unix-time-sec2date
                                                            (tick/format (tick/formatter "yyyy"))))
-                                         :y-name "Drips per day"
+                                         :y-name "log(Drips per day)"
                                          :title  (str (symbol location))})
                (assoc-in [:x-axis :label]
                          date-formatter)
                (update :data
                        #(into %
-                              (quickthing/dashed-line data)))
+                              (quickthing/dashed-line (->> data
+                                                          (mapv (fn [[x
+                                                                      y]]
+                                                                  [x (Math/log y)]))))))
                (update :data
                        #(into %
-                              (quickthing/adjustable-circles data
+                              (quickthing/adjustable-circles (->> data
+                                                                 (mapv (fn [[x
+                                                                             y]]
+                                                                         [x (Math/log y)])))
                                                              {:scale 5})))
                (assoc-in [:x-axis
                           :major]
@@ -737,20 +743,20 @@
                (let [data (-> table
                               log2timediff)]
                  (if (not-empty data)
-                   (->> (-> (quickthing/primary-axis (into dummy-data data)
+                   (->> (-> (quickthing/primary-axis dummy-data #_(into dummy-data data)
                                                      {:x-name (str "Years "
-                                                                  (->> dummy-data
-                                                                       first
-                                                                       first
-                                                                       tock/unix-time-sec2date
-                                                                       (tick/format (tick/formatter "yyyy")))
-                                                                  " to "
-                                                                  (->> dummy-data
-                                                                       second
-                                                                       first
-                                                                       tock/unix-time-sec2date
-                                                                       (tick/format (tick/formatter "yyyy"))))
-                                                      :y-name "Drips per day"
+                                                                   (->> dummy-data
+                                                                        first
+                                                                        first
+                                                                        tock/unix-time-sec2date
+                                                                        (tick/format (tick/formatter "yyyy")))
+                                                                   " to "
+                                                                   (->> dummy-data
+                                                                        second
+                                                                        first
+                                                                        tock/unix-time-sec2date
+                                                                        (tick/format (tick/formatter "yyyy"))))
+                                                      :y-name "log(Drips per day)"
                                                       :title  (-> logger
                                                                   symbol
                                                                   str)})
@@ -758,10 +764,16 @@
                                       date-formatter)
                             (update :data
                                     #(into %
-                                           (quickthing/dashed-line data)))
+                                           (quickthing/dashed-line (->> data
+                                                                        (mapv (fn [[x
+                                                                                    y]]
+                                                                                [x (Math/log y)]))))))
                             (update :data
                                     #(into %
-                                           (quickthing/adjustable-circles data
+                                           (quickthing/adjustable-circles (->> data
+                                                                               (mapv (fn [[x
+                                                                                           y]]
+                                                                                       [x (Math/log y)])))
                                                                           {:scale 5})))
                             (assoc-in [:x-axis
                                        :major]
