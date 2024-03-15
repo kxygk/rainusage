@@ -602,8 +602,21 @@
 #_
 (date-formatter [10 10]  1000)
 
+(def dummy-data
+  (let [all-time-stamps (->> location-logs
+                             vals
+                             (mapv #(ds/column %
+                                               "unixtime"))
+                             flatten
+                             (into []))]
+    (let [min-x (apply min all-time-stamps)
+          max-x (apply max all-time-stamps)]
+      [[min-x 0]
+       [max-x 20]])))
+
 (defn
   plot-location
+  "TODO: `dummy-data` and `location-logs` are taken from the global namespace :S"
   [location]
   (let [data (->> location-logs
                   location
@@ -612,7 +625,7 @@
       (println (str "Location `"
                     location
                     " doesn't have any data!"))
-      (->> (-> (quickthing/primary-axis data
+      (->> (-> (quickthing/primary-axis dummy-data
                                         {:x-name "Days since start"
                                          :y-name "Drips per day"
                                          :title  (str (symbol location))})
@@ -696,13 +709,14 @@
 
 (defn
   plot-all-loggers
+  "TODO: `dummy-data` taken from the global namespace :S"
   [by-logger]
   (->> by-logger
        (mapv (fn [[logger table]]
                (let [data (-> table
                               log2timediff)]
                  (if (not-empty data)
-                   (->> (-> (quickthing/primary-axis data
+                   (->> (-> (quickthing/primary-axis dummy-data
                                                      {:x-name "Days since start"
                                                       :y-name "Drips per day"
                                                       :title  (str (symbol logger))})
