@@ -598,7 +598,7 @@
                                                           unix-time))
                                             (->> unix-time
                                                 tock/unix-time-sec2date
-                                                (tick/format (tick/formatter "dMMM''yy"))))))
+                                                (tick/format (tick/formatter "MMM")))))) ;;"dMMM''yy"
 #_
 (date-formatter [10 10]  1000)
 
@@ -638,7 +638,16 @@
                        #(into %
                               (quickthing/adjustable-circles data
                                                              {:scale 5})))
-
+               (assoc-in [ :x-axis
+                           :major ]
+                         (tock/month-start-unix-times (-> dummy-data
+                                                          first
+                                                          first
+                                                          tock/unix-time-sec2date)
+                                                      (-> dummy-data
+                                                          second
+                                                          first
+                                                          tock/unix-time-sec2date)))
                thi.ng.geom.viz.core/svg-plot2d-cartesian
                quickthing/svg-wrap
                quickthing/svg2xml)
@@ -729,6 +738,16 @@
                                     #(into %
                                            (quickthing/adjustable-circles data
                                                                           {:scale 5})))
+                            (assoc-in [ :x-axis
+                                       :major ]
+                                      (tock/month-start-unix-times (-> dummy-data
+                                                                       first
+                                                                       first
+                                                                       tock/unix-time-sec2date)
+                                                                   (-> dummy-data
+                                                                       second
+                                                                       first
+                                                                       tock/unix-time-sec2date)))
                             thi.ng.geom.viz.core/svg-plot2d-cartesian
                             quickthing/svg-wrap
                             quickthing/svg2xml)
