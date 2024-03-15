@@ -621,8 +621,19 @@
       (println (str "Location `"
                     location
                     " doesn't have any data!"))
-      (->> (-> (quickthing/primary-axis dummy-data
-                                        {:x-name "Days since start"
+      (->> (-> (quickthing/primary-axis (into dummy-data data)
+                                        {:x-name (str "Years "
+                                                      (->> dummy-data
+                                                           first
+                                                           first
+                                                           tock/unix-time-sec2date
+                                                           (tick/format (tick/formatter "yyyy")))
+                                                      " to "
+                                                      (->> dummy-data
+                                                           second
+                                                           first
+                                                           tock/unix-time-sec2date
+                                                           (tick/format (tick/formatter "yyyy"))))
                                          :y-name "Drips per day"
                                          :title  (str (symbol location))})
                (assoc-in [:x-axis :label]
@@ -726,8 +737,19 @@
                (let [data (-> table
                               log2timediff)]
                  (if (not-empty data)
-                   (->> (-> (quickthing/primary-axis dummy-data
-                                                     {:x-name "Days since start"
+                   (->> (-> (quickthing/primary-axis (into dummy-data data)
+                                                     {:x-name (str "Years "
+                                                                  (->> dummy-data
+                                                                       first
+                                                                       first
+                                                                       tock/unix-time-sec2date
+                                                                       (tick/format (tick/formatter "yyyy")))
+                                                                  " to "
+                                                                  (->> dummy-data
+                                                                       second
+                                                                       first
+                                                                       tock/unix-time-sec2date
+                                                                       (tick/format (tick/formatter "yyyy"))))
                                                       :y-name "Drips per day"
                                                       :title  (-> logger
                                                                   symbol
