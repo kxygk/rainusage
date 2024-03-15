@@ -542,11 +542,7 @@
       update-chipids
       (import-gauge-logs gauge-logs)
       logs-by-location))
-#_
-(-> location-logs
-    :ThMuCh1LongLizard
-    ds/rows
-    first)
+
 #_
 (keys
   location-logs)
@@ -597,8 +593,8 @@
                                             (println (str "unix-time: "
                                                           unix-time))
                                             (->> unix-time
-                                                tock/unix-time-sec2date
-                                                (tick/format (tick/formatter "MMM")))))) ;;"dMMM''yy"
+                                                 tock/unix-time-sec2date
+                                                 (tick/format (tick/formatter "MMM")))))) ;;"dMMM''yy"
 #_
 (date-formatter [10 10]  1000)
 
@@ -630,7 +626,7 @@
                                          :y-name "Drips per day"
                                          :title  (str (symbol location))})
                (assoc-in [:x-axis :label]
-                                       date-formatter)
+                         date-formatter)
                (update :data
                        #(into %
                               (quickthing/dashed-line data)))
@@ -638,8 +634,8 @@
                        #(into %
                               (quickthing/adjustable-circles data
                                                              {:scale 5})))
-               (assoc-in [ :x-axis
-                           :major ]
+               (assoc-in [:x-axis
+                          :major]
                          (tock/month-start-unix-times (-> dummy-data
                                                           first
                                                           first
@@ -655,7 +651,10 @@
                       (symbol location)
                       ".svg"))))))
 #_
-(plot-location :ThMuCh1LongLizard)
+(-> dummy-data
+    (quickthing/primary-axis {:x-name "Days since start"
+                              :y-name "Drips per day"
+                              :title  "Test"}))
 
 ;; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GENERATES ALL LOCATION PLOTS
 (->> location-logs
@@ -706,7 +705,8 @@
     update-board-install-times
     update-chipids
     (import-gauge-logs gauge-logs)
-    logs-by-logger)
+    logs-by-logger
+    :R10)
 
 (def logger-logs
   (-> collections
@@ -721,16 +721,19 @@
   "TODO: `dummy-data` taken from the global namespace :S"
   [by-logger]
   (->> by-logger
-       (mapv (fn [[logger table]]
+       (mapv (fn [[logger
+                   table]]
                (let [data (-> table
                               log2timediff)]
                  (if (not-empty data)
                    (->> (-> (quickthing/primary-axis dummy-data
                                                      {:x-name "Days since start"
                                                       :y-name "Drips per day"
-                                                      :title  (str (symbol logger))})
+                                                      :title  (-> logger
+                                                                  symbol
+                                                                  str)})
                             (assoc-in [:x-axis :label]
-                                       date-formatter)
+                                      date-formatter)
                             (update :data
                                     #(into %
                                            (quickthing/dashed-line data)))
@@ -738,8 +741,8 @@
                                     #(into %
                                            (quickthing/adjustable-circles data
                                                                           {:scale 5})))
-                            (assoc-in [ :x-axis
-                                       :major ]
+                            (assoc-in [:x-axis
+                                       :major]
                                       (tock/month-start-unix-times (-> dummy-data
                                                                        first
                                                                        first
