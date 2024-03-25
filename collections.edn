@@ -1,5 +1,59 @@
 [;; Chronological listing of collection times by Nong
  ;;
+ {:date    #inst"2024-03-07"
+  :samples [#_{:location :ThMuOutsideWasp
+             :bottle   :P
+             ;;:gauge    :RG04
+             :board    :R01
+             :vial     :EMPTY
+             :comment  "Notes:
+- Seems the logger was destroyed by a weed whacker
+- Bottle disconnected and broken"}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R02
+             :vial     :ARCV
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R05
+             :vial     :AEPE
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R09
+             :vial     :EMPTY
+             :comment  "Notes:
+No water in A. Nong waited for drip but it didn't, adjusted cone.
+i see the limestone from the drip is cover on the rim side of the cone and it's look too near to go out side, then i though it's might move out from the original"}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R15
+             :vial     :ARDU
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R19
+             :vial     :AHHB
+             :comment  "Rat bitten wire was fixed"}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R11
+             :vial     :AGPL
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R13
+             :vial     :AXHS
+             :comment  ""}]
+  :comment ""}
+
  {:date    #inst"2024-02-22"
   :samples [{:location :ThMuOutsideWasp
              :bottle   :P
@@ -31,13 +85,13 @@
              :bottle   :S
              :board    :R04
              :vial     :ASWD
-             :comment  "Rat bite! Nong wasn't able to fix it though"}
+             :comment  ""}
             {:location :ThMuCh2Sh01Thumb
              ;;:bottle :B
              ;;:gauge nil
              :board    :R16
              :vial     :AFLS
-             :comment  ""}
+             :comment  "Rat bite! Nong wasn't able to fix it though"}
             {:location :ThMuCH2Sh02WhiteLoner
              ;;:bottle   :H
              ;;:guage    nil
