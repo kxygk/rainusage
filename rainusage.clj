@@ -543,6 +543,15 @@
       (import-gauge-logs gauge-logs)
       logs-by-location))
 
+(spit "out/logs-by-location.edn"
+      location-logs)
+#_
+(-> collections
+    collection-vec-to-map
+    update-board-install-times
+    update-chipids
+    (import-gauge-logs gauge-logs))
+
 #_
 (keys
   location-logs)
