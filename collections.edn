@@ -1,5 +1,212 @@
 [;; Chronological listing of collection times by Nong
  ;;
+ {:date    #inst"2024-05-16"
+  :samples [#_{:location :ThMuOutsideWasp
+               :bottle   :P
+               ;;:gauge    :RG04
+               :board    :R01
+               :vial     :EMPTY
+               :comment  ""}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R20
+             :vial     :AKPB
+             :comment  "Bottle is broken"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R12
+             :vial     :AEXQ
+             :comment  "Is it `:R12` or `:R13`.. photo seems mislabeled? There is a `:R13` further down at `:ThMuCh2Sh01BrownTop`"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R02
+             :vial     :ANWU
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R13
+             :vial     :AVSU
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R10
+             :vial     :APSP
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R08
+             :vial     :AGDQ
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R09
+             :vial     :AJML
+             :comment  "memory card can't read (On top of last time's three that had issues - R03 R19 (empty file) R06 (no file)"}]
+  :comment ""}
+
+ {:date    #inst"2024-04-27"
+  :samples [#_{:location :ThMuOutsideWasp
+               :bottle   :P
+               ;;:gauge    :RG04
+               :board    :R01
+               :vial     :EMPTY
+               :comment  ""}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R04
+             :vial     :AHGD
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R03
+             :vial     :AELB
+             :comment  "SD Card file doesn't read!!"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R06
+             :vial     :APCT
+             :comment  "SD Card file is Empty!!"}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R19
+             :vial     :ARMU
+             :comment  "SD Card doesn't read!!
+Weird.. last time it was the same logger. Maybe he didn't change it"}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    nil ;; NO LOGGER!
+             :vial     :AHVP
+             :comment  "No logger! B/c wire is broken (from last time)"}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R01
+             :vial     :AJLR
+             :comment  "Photo seems to be taken at home for some reason. So no `:H` in the background"}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R16
+             :vial     :AZUG
+             :comment  ""}]
+  :comment "Notes from Nong:
+3 Loggers have issues
+- 2 have memory cards that can't be read
+- 1 card is empty"}
+
+ {:date    #inst"2024-04-16"
+  :samples [#_{:location :ThMuOutsideWasp
+               :bottle   :P
+               ;;:gauge    :RG04
+               :board    :R01
+               :vial     :EMPTY
+               :comment  ""}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R12
+             :vial     :AMCZ
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R09
+             :vial     :AMDM
+             :comment  "SD Card file was sent twice! But one of them was empty"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R05
+             :vial     :ACSU
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R19
+             :vial     :AMDX
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R08
+             :vial     :ATAY
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R02
+             :vial     :ANQU
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R13
+             :vial     :AHPD
+             :comment  ""}]
+  :comment "One logger has a broken wire `:R07` from bending too many times"}
+
+  {:date    #inst"2024-03-29"
+  :samples [#_{:location :ThMuOutsideWasp
+             :bottle   :P
+             ;;:gauge    :RG04
+             :board    :R01
+             :vial     :EMPTY
+             :comment  ""}
+            {:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R16
+             :vial     :AXUU
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R06
+             :vial     :AUVH
+             :comment  "Empty File!!"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R14
+             :vial     :EMPTY
+             :comment  "Wires reattached
+New top cone
+Nong says: 'I see one drop is droping here then I move the cone to this direction'
+Logger was changed, but previous logger wasn't actually connected b/c wires had been broken :)"}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R01
+             :vial     :AZKJ
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R07
+             :vial     :AMWY
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R10
+             :vial     :AFZU
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R04
+             :vial     :AZAJ
+             :comment  ""}]
+  :comment "2 loggers have broken copper wires"}
+
  {:date    #inst"2024-03-07"
   :samples [#_{:location :ThMuOutsideWasp
              :bottle   :P

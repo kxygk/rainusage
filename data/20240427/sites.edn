@@ -1,0 +1,24 @@
+{:date    #inst"2024-00-00"
+ :comment ""
+ :sites   {:X  {:logger  
+                :vial    
+                :comment ""}
+           :A  {:logger  
+                :vial    
+                :comment ""}
+           :C  {:logger  
+                :vial    
+                :comment ""}
+           :B  {:logger  
+                :vial    
+                :comment ""}
+           :D {:logger  
+                :vial   
+                :comment ""}
+           :H  {:logger  
+                :vial    
+                :comment ""}
+           :S {:logger  
+                :vial   
+                :comment ""}]
+ :next    ""}
