@@ -1,0 +1,55 @@
+{:date    #inst"2023-10-05"
+ :comment
+ "This is the day we went with Hott to the cave (reight before we left)
+ P-Day didn't come like the previous time
+He also found a box of tubes that he forgot to give me once I left
+-
+NongPics - pics taken on site after a ~week. Water was collected, but loggers were not yet swapped
+GeorgPics - pics taken when loggers were installed
+-
+No logs: R02 R12 R10 (R13 R19 are these used?)
+Log for: R11 R03 R07
+-
+Issues in B C WASP
+No issues in A D X"
+ :sites   {:X {:logger  :R11
+               :vial    :APGR
+               :comment "first sidechamber"}
+           :A {:logger  :R03
+               :vial    :ACWM
+               :comment "long nice one in the mud (lizards nearby)"}
+           :C {:logger  :R02
+               :vial    :AUSZ
+               :comment "long one on the far-end shelf   - NOT WORKING"}
+           :B {:logger  :R12
+               :vial    :AUNG
+               :comment "thumb one on the near-end shelf - NOT WORKING"}
+           :D {:logger  :R07
+               :vial    :ALPE
+               :comment "outside near cave"}}
+ :next    "For next time:
+need more tube for extra bottles
+need extra covers (saw ahead of time maybe?)
+
+We will do it in steps to try to see what the problem is
+- take the SD card out again, and try it again. Probably the file will be empty again
+- put the SD card back inside
+- take something metal (like a screw driver or wire, just make sure it conducts electricity :))) and connect the two wires on the back. Connect and disconnect the wires a few times. Maybe one time every 2-3 seconds. Each time it connects it shoud write to the SD card
+- take the SD card again and try again and see if it's empty
+- if it's still empty, put the SD card back inside
+- Look at the battery now, and see if it's connected inside (the spring is not good). See if its maybe backwards. Take it out, and put it back inside
+- connect/disconnect the wires again a few times, check the SD card again
+- if the file is still empty, then you will need to use the Nightcore charger and check if the battery has any charge/power
+
+The loggers are worked correctly when tested at home with recharged batteries
+When recharging the batteries, they were all mostly fully charged
+
+So likely either:
+1. I didn't put the battery in correctly
+2. The rain gauge is having an issue
+
+Other possibilities (Nong will add water manually and we'll see if it works .. being careful to not contaminate the water collection):
+1. maybe the rain gauges is broken. I will see that if the logger shows nothing even after you made it click and you check the logger works
+2. maybe the drip is not enough to make it click
+
+We went off with Ajyan Dom to work and stuff"}

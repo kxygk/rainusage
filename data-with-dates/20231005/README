@@ -1,0 +1,40 @@
+DATE: 2023-10-05
+
+NongPics - pics taken on site after a ~week. Water was collected, but loggers were not yet swapped
+GeorgPics - pics taken when loggers were installed
+
+
+FIRST OUTSIDE-ONLY TRIP
+R11 - wasp location
+R03 - raingauge #8 (the one with ants!) with bottle D
+
+Then I changed these two in the middle of the night..
+
+LOCATION    LOGGER  VIAL  ORIGINAL-RG  COMMENT
+B   R12 AUNG    RG01    thumb one on the near-end shelf
+C   R02 AUSZ    RG04    long one on the far-end shelf
+A   R03 ACWM    RG03    long nice one in the mud (lizards nearby)
+X   R11 APGR    RG02    first sidechamber
+D   R07 ALPE    CHANGED AT NIGHT    outside near cave
+WASPS   R10 NA  R04
+
+No logs: R02 R12 R10 (R13 R19 are these used?)
+Log for: R11 R03 R07
+
+Issues in B C WASP
+No issues in A D X
+
+need more tube for extra bottles
+need extra covers (saw ahead of time maybe?)
+
+
+
+We will do it in steps to try to see what the problem is
+- take the SD card out again, and try it again. Probably the file will be empty again
+- put the SD card back inside
+- take something metal (like a screw driver or wire, just make sure it conducts electricity :))) and connect the two wires on the back. Connect and disconnect the wires a few times. Maybe one time every 2-3 seconds. Each time it connects it shoud write to the SD card
+- take the SD card again and try again and see if it's empty
+- if it's still empty, put the SD card back inside
+- Look at the battery now, and see if it's connected inside (the spring is not good). See if its maybe backwards. Take it out, and put it back inside
+- connect/disconnect the wires again a few times, check the SD card again
+- if the file is still empty, then you will need to use the Nightcore charger and check if the battery has any charge/power

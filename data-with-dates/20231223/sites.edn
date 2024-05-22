@@ -1,0 +1,28 @@
+{:date    #inst"2024-00-00"
+ :comment "Ants and insects have colonized an outside rain gauge (the one with the wasp that's being unused at the moment)"
+ :sites   {:X  {:logger  :R01
+                :vial    :ADKN
+                :comment "again bitten by rats. Again Nong fixed"}
+           :A  {:logger  :R08
+                :vial    :AECU
+                :comment
+                "Cable eaten by rats.
+                Bottle has hole chewed by rats.
+                Wiring fixed last time was probably done wrong.
+                Nong rewired it"}
+           :C  {:logger  :R10
+                :vial    :ABER
+                :comment ""}
+           :B  {:logger  :R14
+                :vial    :AGQJ
+                :comment ""}
+           :D {:logger  :R07
+                :vial   nil
+                :comment "Dry. The rubber tube and plastic nib connection of the bottle broke (or eaten by ants)"}
+           :H  {:logger  :R04
+                :vial    :AJLA
+                :comment ""}
+           :S {:logger   :R06
+                :vial    :AYEC
+                :comment ""}]
+ :next    ""}
