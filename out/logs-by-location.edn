@@ -2,165 +2,167 @@
 
 |   chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
 |---------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
-|  7598252 | 2023-01-09T17:34:02 | 1673285642 |   726600842 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-4b.txt |
-|  7598252 | 2023-01-09T22:17:44 | 1673302664 |   726617864 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b4.txt |
-|  7598252 | 2023-01-10T03:01:35 | 1673319695 |   726634895 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-4B.txt |
-|  7598252 | 2023-01-10T07:44:31 | 1673336671 |   726651871 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-4B.txt |
-|  7598252 | 2023-01-10T12:27:17 | 1673353637 |   726668837 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-4B.txt |
-|  7598252 | 2023-01-10T17:18:26 | 1673371106 |   726686306 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b4.txt |
-|  7598252 | 2023-01-10T22:02:26 | 1673388146 |   726703346 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-4B.txt |
+|  7598252 | 2023-01-09T17:34:02 | 1673285642 |   726600842 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-4B.txt |
+|  7598252 | 2023-01-09T22:17:44 | 1673302664 |   726617864 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-4B.txt |
+|  7598252 | 2023-01-10T03:01:35 | 1673319695 |   726634895 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-4B.txt |
+|  7598252 | 2023-01-10T07:44:31 | 1673336671 |   726651871 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-4B.txt |
+|  7598252 | 2023-01-10T12:27:17 | 1673353637 |   726668837 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-4B.txt |
+|  7598252 | 2023-01-10T17:18:26 | 1673371106 |   726686306 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-4B.txt |
+|  7598252 | 2023-01-10T22:02:26 | 1673388146 |   726703346 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b4.txt |
 |  7598252 | 2023-01-11T02:38:27 | 1673404707 |   726719907 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-4B.txt |
-|  7598252 | 2023-01-11T07:03:52 | 1673420632 |   726735832 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-4B.txt |
-|  7598252 | 2023-01-11T11:44:52 | 1673437492 |   726752692 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-4b.txt |
+|  7598252 | 2023-01-11T07:03:52 | 1673420632 |   726735832 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-4B.txt |
+|  7598252 | 2023-01-11T11:44:52 | 1673437492 |   726752692 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-4b.txt |
 |      ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
-|  7598252 | 2023-01-31T04:26:01 | 1675139161 |   728454361 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230508-rainLog-4A.txt |
-|  7598252 | 2023-01-31T09:42:43 | 1675158163 |   728473363 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-4A.txt |
+|  7598252 | 2023-01-31T04:26:01 | 1675139161 |   728454361 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230324-rainLog-4a.txt |
+|  7598252 | 2023-01-31T09:42:43 | 1675158163 |   728473363 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230508-rainLog-4A.txt |
 |  7598252 | 2023-01-31T14:54:59 | 1675176899 |   728492099 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230220-rainLog-a4.txt |
-|  7598252 | 2023-01-31T20:13:59 | 1675196039 |   728511239 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230324-rainLog-4a.txt |
-|  7598252 | 2023-02-01T01:25:54 | 1675214754 |   728529954 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-4A.txt |
-|  7598252 | 2023-02-01T06:41:23 | 1675233683 |   728548883 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-4A.txt |
-| 11482584 | 2023-12-23T05:44:51 | 1703310291 |   756625491 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r13.txt |
-| 11482584 | 2023-12-23T05:44:56 | 1703310296 |   756625496 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240104-rainLog-r13.txt |
-| 11482584 | 2023-12-23T05:45:00 | 1703310300 |   756625500 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240104-rainLog-r13.txt |
-| 11482584 | 2023-12-23T05:45:01 | 1703310301 |   756625501 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r13.txt |
-| 11482584 | 2023-12-23T05:45:11 | 1703310311 |   756625511 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240206-rainLog-r13.txt |
+|  7598252 | 2023-01-31T20:13:59 | 1675196039 |   728511239 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-4A.txt |
+|  7598252 | 2023-02-01T01:25:54 | 1675214754 |   728529954 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-4A.txt |
+|  7598252 | 2023-02-01T06:41:23 | 1675233683 |   728548883 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230508-rainLog-4A.txt |
+| 11482584 | 2023-12-23T05:44:51 | 1703310291 |   756625491 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240104-rainLog-r13.txt |
+| 11482584 | 2023-12-23T05:44:56 | 1703310296 |   756625496 | -666.0 |       -666.0 |  /home/kxygk/Projects/rainusage/gauge/20240416rainLog-r13.txt |
+| 11482584 | 2023-12-23T05:45:00 | 1703310300 |   756625500 | -666.0 |       -666.0 |  /home/kxygk/Projects/rainusage/gauge/20240416rainLog-r13.txt |
+| 11482584 | 2023-12-23T05:45:01 | 1703310301 |   756625501 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240206-rainLog-r13.txt |
+| 11482584 | 2023-12-23T05:45:11 | 1703310311 |   756625511 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240104-rainLog-r13.txt |
 , :ThMuOutsideWasp /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [3005 7]:
 
 |   chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
 |---------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
-|  1645240 | 2023-01-10T15:44:11 | 1673365451 |   726680651 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-5b.txt |
+|  1645240 | 2023-01-10T15:44:11 | 1673365451 |   726680651 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-5B.txt |
 |  1645240 | 2023-01-13T15:31:27 | 1673623887 |   726939087 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-5b.txt |
-|  1645240 | 2023-01-13T15:34:05 | 1673624045 |   726939245 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-5b.txt |
-|  1645240 | 2023-01-13T15:34:22 | 1673624062 |   726939262 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b5.txt |
-|  1645240 | 2023-01-13T15:34:57 | 1673624097 |   726939297 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b5.txt |
+|  1645240 | 2023-01-13T15:34:05 | 1673624045 |   726939245 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b5.txt |
+|  1645240 | 2023-01-13T15:34:22 | 1673624062 |   726939262 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-5B.txt |
+|  1645240 | 2023-01-13T15:34:57 | 1673624097 |   726939297 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-5B.txt |
 |  1645240 | 2023-01-13T15:36:55 | 1673624215 |   726939415 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-5b.txt |
-|  1645240 | 2023-01-13T15:38:55 | 1673624335 |   726939535 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-5B.txt |
+|  1645240 | 2023-01-13T15:38:55 | 1673624335 |   726939535 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-5B.txt |
 |  1645240 | 2023-01-13T15:39:20 | 1673624360 |   726939560 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-5B.txt |
-|  1645240 | 2023-01-13T15:39:44 | 1673624384 |   726939584 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-5B.txt |
-|  1645240 | 2023-01-13T15:40:06 | 1673624406 |   726939606 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-5B.txt |
+|  1645240 | 2023-01-13T15:39:44 | 1673624384 |   726939584 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-5B.txt |
+|  1645240 | 2023-01-13T15:40:06 | 1673624406 |   726939606 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b5.txt |
 |      ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
-| 11482312 | 2023-11-03T09:10:42 | 1699002642 |   752317842 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231121-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:43 | 1699002643 |   752317843 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:44 | 1699002644 |   752317844 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:42 | 1699002642 |   752317842 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:43 | 1699002643 |   752317843 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231121-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:44 | 1699002644 |   752317844 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240427-rainLog-r04.txt |
 | 11482312 | 2023-11-03T09:10:45 | 1699002645 |   752317845 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:46 | 1699002646 |   752317846 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:47 | 1699002647 |   752317847 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:48 | 1699002648 |   752317848 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:46 | 1699002646 |   752317846 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:47 | 1699002647 |   752317847 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:48 | 1699002648 |   752317848 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231121-rainLog-r04.txt |
 | 11482312 | 2023-11-03T09:10:53 | 1699002653 |   752317853 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:54 | 1699002654 |   752317854 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231223-rainLog-r04.txt |
-| 11482312 | 2023-11-03T09:10:55 | 1699002655 |   752317855 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20231121-rainLog-r04.txt |
-|  8364224 | 2024-02-13T10:33:25 | 1707820405 |   761135605 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r01.txt |
-, :ThMuCH2Sh02WhiteLoner /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [1223 7]:
+| 11482312 | 2023-11-03T09:10:54 | 1699002654 |   752317854 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r04.txt |
+| 11482312 | 2023-11-03T09:10:55 | 1699002655 |   752317855 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240427-rainLog-r04.txt |
+|  8364224 | 2024-02-13T10:33:25 | 1707820405 |   761135605 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240329-rainLog-r01.txt |
+, :ThMuCH2Sh02WhiteLoner /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [1224 7]:
 
-|  chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                   sourceFile |
-|--------:|---------------------|-----------:|------------:|-------:|-------------:|--------------------------------------------------------------|
-| 8371400 | 2023-01-09T15:36:36 | 1673278596 |   726593796 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
-| 8371400 | 2023-01-09T17:00:06 | 1673283606 |   726598806 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
-| 8371400 | 2023-01-09T18:22:46 | 1673288566 |   726603766 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-1B.txt |
-| 8371400 | 2023-01-09T19:44:00 | 1673293440 |   726608640 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-1b.txt |
-| 8371400 | 2023-01-09T21:06:38 | 1673298398 |   726613598 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
-| 8371400 | 2023-01-09T22:25:24 | 1673303124 |   726618324 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
-| 8371400 | 2023-01-09T23:43:29 | 1673307809 |   726623009 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-1b.txt |
-| 8371400 | 2023-01-10T01:04:12 | 1673312652 |   726627852 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
-| 8371400 | 2023-01-10T02:25:04 | 1673317504 |   726632704 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-1B.txt |
-| 8371400 | 2023-01-10T03:47:34 | 1673322454 |   726637654 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-1b.txt |
-|     ... |                 ... |        ... |         ... |    ... |          ... |                                                          ... |
-| 8371400 | 2023-05-25T23:10:26 | 1685056226 |   738371426 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
-| 8371400 | 2023-05-26T09:35:28 | 1685093728 |   738408928 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
-| 8371400 | 2023-05-26T19:44:25 | 1685130265 |   738445465 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
-| 8371400 | 2023-05-27T05:55:39 | 1685166939 |   738482139 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
-| 8371400 | 2023-05-27T16:08:33 | 1685203713 |   738518913 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
-| 8371400 | 2023-05-28T02:46:43 | 1685242003 |   738557203 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
-| 8371400 | 2023-05-28T14:03:41 | 1685282621 |   738597821 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
-| 8371400 | 2023-05-29T01:15:36 | 1685322936 |   738638136 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
-| 8371400 | 2023-05-29T12:46:19 | 1685364379 |   738679579 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
-| 8371400 | 2023-05-30T00:19:43 | 1685405983 |   738721183 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
-| 8371400 | 2023-05-30T12:16:31 | 1685448991 |   738764191 | -777.0 |       -777.0 | /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
+|  chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
+|--------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
+| 8371400 | 2023-01-09T15:36:36 | 1673278596 |   726593796 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-1B.txt |
+| 8371400 | 2023-01-09T17:00:06 | 1673283606 |   726598806 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-1B.txt |
+| 8371400 | 2023-01-09T18:22:46 | 1673288566 |   726603766 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b1.txt |
+| 8371400 | 2023-01-09T19:44:00 | 1673293440 |   726608640 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-1b.txt |
+| 8371400 | 2023-01-09T21:06:38 | 1673298398 |   726613598 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-1b.txt |
+| 8371400 | 2023-01-09T22:25:24 | 1673303124 |   726618324 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
+| 8371400 | 2023-01-09T23:43:29 | 1673307809 |   726623009 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-1B.txt |
+| 8371400 | 2023-01-10T01:04:12 | 1673312652 |   726627852 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-1B.txt |
+| 8371400 | 2023-01-10T02:25:04 | 1673317504 |   726632704 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-1B.txt |
+| 8371400 | 2023-01-10T03:47:34 | 1673322454 |   726637654 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-1B.txt |
+|     ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
+| 8371400 | 2023-05-26T09:35:28 | 1685093728 |   738408928 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
+| 8371400 | 2023-05-26T19:44:25 | 1685130265 |   738445465 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
+| 8371400 | 2023-05-27T05:55:39 | 1685166939 |   738482139 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
+| 8371400 | 2023-05-27T16:08:33 | 1685203713 |   738518913 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
+| 8371400 | 2023-05-28T02:46:43 | 1685242003 |   738557203 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
+| 8371400 | 2023-05-28T14:03:41 | 1685282621 |   738597821 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230720-rainLog-1A.txt |
+| 8371400 | 2023-05-29T01:15:36 | 1685322936 |   738638136 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
+| 8371400 | 2023-05-29T12:46:19 | 1685364379 |   738679579 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
+| 8371400 | 2023-05-30T00:19:43 | 1685405983 |   738721183 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230530-rainLog-1A.txt |
+| 8371400 | 2023-05-30T12:16:31 | 1685448991 |   738764191 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230626-rainLog-1A.txt |
+| 8364236 | 2024-03-29T10:20:49 | 1711707649 |   765022849 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
 , :ThMuCh0ConjoinedBottom /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [657 7]:
 
 |   chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
 |---------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
 |  1683136 | 2023-01-09T15:22:25 | 1673277745 |   726592945 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-2B.txt |
-|  1683136 | 2023-01-09T17:14:01 | 1673284441 |   726599641 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-2B.txt |
-|  1683136 | 2023-01-09T19:05:34 | 1673291134 |   726606334 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b2.txt |
-|  1683136 | 2023-01-09T21:06:35 | 1673298395 |   726613595 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-2b.txt |
-|  1683136 | 2023-01-09T23:05:33 | 1673305533 |   726620733 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-2b.txt |
-|  1683136 | 2023-01-10T01:00:41 | 1673312441 |   726627641 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-2B.txt |
+|  1683136 | 2023-01-09T17:14:01 | 1673284441 |   726599641 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-2b.txt |
+|  1683136 | 2023-01-09T19:05:34 | 1673291134 |   726606334 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-2b.txt |
+|  1683136 | 2023-01-09T21:06:35 | 1673298395 |   726613595 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b2.txt |
+|  1683136 | 2023-01-09T23:05:33 | 1673305533 |   726620733 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b2.txt |
+|  1683136 | 2023-01-10T01:00:41 | 1673312441 |   726627641 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-2b.txt |
 |  1683136 | 2023-01-10T02:52:57 | 1673319177 |   726634377 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-2B.txt |
-|  1683136 | 2023-01-10T04:49:08 | 1673326148 |   726641348 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-2B.txt |
+|  1683136 | 2023-01-10T04:49:08 | 1673326148 |   726641348 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-2b.txt |
 |  1683136 | 2023-01-10T06:44:03 | 1673333043 |   726648243 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-2B.txt |
-|  1683136 | 2023-01-10T08:41:36 | 1673340096 |   726655296 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b2.txt |
+|  1683136 | 2023-01-10T08:41:36 | 1673340096 |   726655296 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-2B.txt |
 |      ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
 | 11823060 | 2024-03-04T07:39:47 | 1709537987 |   762853187 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-04T14:26:24 | 1709562384 |   762877584 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
+| 11823060 | 2024-03-04T14:26:24 | 1709562384 |   762877584 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
 | 11823060 | 2024-03-04T20:04:18 | 1709582658 |   762897858 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-05T01:41:53 | 1709602913 |   762918113 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
+| 11823060 | 2024-03-05T01:41:53 | 1709602913 |   762918113 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
 | 11823060 | 2024-03-05T07:15:18 | 1709622918 |   762938118 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-05T14:07:10 | 1709647630 |   762962830 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-05T19:50:31 | 1709668231 |   762983431 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
+| 11823060 | 2024-03-05T14:07:10 | 1709647630 |   762962830 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
+| 11823060 | 2024-03-05T19:50:31 | 1709668231 |   762983431 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
 | 11823060 | 2024-03-06T01:41:39 | 1709689299 |   763004499 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-06T07:50:44 | 1709711444 |   763026644 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-06T14:00:03 | 1709733603 |   763048803 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-| 11823060 | 2024-03-06T19:47:48 | 1709754468 |   763069668 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-, :ThMuCh2Sh01Thumb /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [0 7]:
+| 11823060 | 2024-03-06T07:50:44 | 1709711444 |   763026644 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
+| 11823060 | 2024-03-06T14:00:03 | 1709733603 |   763048803 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
+| 11823060 | 2024-03-06T19:47:48 | 1709754468 |   763069668 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r05.txt |
+, :ThMuCh2Sh01Thumb /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [2 7]:
 
-| chipId | timestampUTC | unixtime | secondstime | tempC | humidityPerc | sourceFile |
-|--------|--------------|----------|-------------|-------|--------------|------------|
-, :ThMuOutsideDrone /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [3017 7]:
+|   chipId |        timestampUTC |   unixtime | secondstime | tempC | humidityPerc |                                                    sourceFile |
+|---------:|---------------------|-----------:|------------:|------:|-------------:|---------------------------------------------------------------|
+| 11821380 | 2024-03-29T10:30:40 | 1711708240 |   765023440 | 28.56 |        100.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r08.txt |
+| 11821380 | 2024-03-29T10:30:40 | 1711708240 |   765023440 | 28.59 |        100.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r09.txt |
+, :ThMuOutsideDrone /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [3018 7]:
 
-|  chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
-|--------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
-| 1641660 | 2023-01-09T14:15:12 | 1673273712 |   726588912 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230314-rainLog-6a.txt |
-| 1641660 | 2023-01-10T15:10:08 | 1673363408 |   726678608 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-6B.txt |
-| 1641660 | 2023-01-10T15:13:41 | 1673363621 |   726678821 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:34:07 | 1673624047 |   726939247 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:35:31 | 1673624131 |   726939331 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:39:20 | 1673624360 |   726939560 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:40:00 | 1673624400 |   726939600 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:40:33 | 1673624433 |   726939633 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-6b.txt |
-| 1641660 | 2023-01-13T15:41:06 | 1673624466 |   726939666 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b6.txt |
-| 1641660 | 2023-01-13T15:41:40 | 1673624500 |   726939700 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-6B.txt |
-|     ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
-| 8364236 | 2024-03-04T13:24:31 | 1709558671 |   762873871 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:24:51 | 1709558691 |   762873891 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:25:13 | 1709558713 |   762873913 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:25:42 | 1709558742 |   762873942 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:26:14 | 1709558774 |   762873974 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:26:35 | 1709558795 |   762873995 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:26:57 | 1709558817 |   762874017 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:27:28 | 1709558848 |   762874048 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:30:40 | 1709559040 |   762874240 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T13:54:32 | 1709560472 |   762875672 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
-| 8364236 | 2024-03-04T18:02:25 | 1709575345 |   762890545 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
+|   chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
+|---------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
+|  1641660 | 2023-01-09T14:15:12 | 1673273712 |   726588912 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230324-rainLog-6a.txt |
+|  1641660 | 2023-01-10T15:10:08 | 1673363408 |   726678608 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-6B.txt |
+|  1641660 | 2023-01-10T15:13:41 | 1673363621 |   726678821 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-6B.txt |
+|  1641660 | 2023-01-13T15:34:07 | 1673624047 |   726939247 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b6.txt |
+|  1641660 | 2023-01-13T15:35:31 | 1673624131 |   726939331 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-6B.txt |
+|  1641660 | 2023-01-13T15:39:20 | 1673624360 |   726939560 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-6B.txt |
+|  1641660 | 2023-01-13T15:40:00 | 1673624400 |   726939600 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-6b.txt |
+|  1641660 | 2023-01-13T15:40:33 | 1673624433 |   726939633 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-6b.txt |
+|  1641660 | 2023-01-13T15:41:06 | 1673624466 |   726939666 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-6B.txt |
+|  1641660 | 2023-01-13T15:41:40 | 1673624500 |   726939700 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-6B.txt |
+|      ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
+|  8364236 | 2024-03-04T13:24:51 | 1709558691 |   762873891 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:25:13 | 1709558713 |   762873913 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:25:42 | 1709558742 |   762873942 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:26:14 | 1709558774 |   762873974 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:26:35 | 1709558795 |   762873995 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:26:57 | 1709558817 |   762874017 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:27:28 | 1709558848 |   762874048 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:30:40 | 1709559040 |   762874240 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240416-rainLog-r02.txt |
+|  8364236 | 2024-03-04T13:54:32 | 1709560472 |   762875672 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+|  8364236 | 2024-03-04T18:02:25 | 1709575345 |   762890545 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 11482312 | 2024-04-16T10:04:18 | 1713261858 |   766577058 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240427-rainLog-r04.txt |
 , :ThMuCh2Sh01BrownTop /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [1 7]:
 
 |   chipId |        timestampUTC |   unixtime | secondstime | tempC | humidityPerc |                                                    sourceFile |
 |---------:|---------------------|-----------:|------------:|------:|-------------:|---------------------------------------------------------------|
-| 11823060 | 2023-10-21T04:47:01 | 1697863621 |   751178821 | -50.0 |          0.0 | /home/kxygk/Projects/rainusage/gauge/20240307-rainLog-r05.txt |
-, :ThMuCh1LongLizard /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [1239 7]:
+| 11823060 | 2023-10-21T04:47:01 | 1697863621 |   751178821 | -50.0 |          0.0 | /home/kxygk/Projects/rainusage/gauge/20231103-rainLog-r05.txt |
+, :ThMuCh1LongLizard /home/kxygk/Projects/rainusage/gauge/20230125-rainLog.txt [1418 7]:
 
-|   chipId |        timestampUTC |   unixtime | secondstime |   tempC | humidityPerc |                                                    sourceFile |
-|---------:|---------------------|-----------:|------------:|--------:|-------------:|---------------------------------------------------------------|
-|  8373316 | 2023-01-09T14:10:00 | 1673273400 |   726588600 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-3B.txt |
-|  8373316 | 2023-01-09T18:00:42 | 1673287242 |   726602442 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
-|  8373316 | 2023-01-09T21:54:49 | 1673301289 |   726616489 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b3.txt |
-|  8373316 | 2023-01-10T01:47:54 | 1673315274 |   726630474 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-3B.txt |
-|  8373316 | 2023-01-10T05:45:12 | 1673329512 |   726644712 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-3B.txt |
-|  8373316 | 2023-01-10T09:43:16 | 1673343796 |   726658996 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-3b.txt |
-|  8373316 | 2023-01-10T13:35:14 | 1673357714 |   726672914 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
-|  8373316 | 2023-01-10T17:29:22 | 1673371762 |   726686962 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-3b.txt |
-|  8373316 | 2023-01-10T21:21:09 | 1673385669 |   726700869 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230802-rainLog-3B.txt |
-|  8373316 | 2023-01-11T01:19:04 | 1673399944 |   726715144 | -777.00 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
-|      ... |                 ... |        ... |         ... |     ... |          ... |                                                           ... |
-| 11821380 | 2024-01-18T10:45:00 | 1705574700 |   758889900 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r08.txt |
-| 11821380 | 2024-01-18T16:44:09 | 1705596249 |   758911449 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r08.txt |
-| 11821380 | 2024-01-19T00:28:57 | 1705624137 |   758939337 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r08.txt |
-| 11821380 | 2024-01-19T06:18:27 | 1705645107 |   758960307 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r08.txt |
-| 11821380 | 2024-01-19T12:41:40 | 1705668100 |   758983300 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r08.txt |
-| 11821380 | 2024-01-19T18:07:34 | 1705687654 |   759002854 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r08.txt |
-| 11821380 | 2024-01-20T00:46:47 | 1705711607 |   759026807 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r08.txt |
-| 11821380 | 2024-01-20T06:18:41 | 1705731521 |   759046721 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r08.txt |
-| 11821380 | 2024-01-20T13:25:27 | 1705757127 |   759072327 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240222-rainLog-r08.txt |
-| 11821380 | 2024-01-20T19:04:17 | 1705777457 |   759092657 | -666.00 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240121-rainLog-r08.txt |
-| 11823072 | 2024-01-31T02:17:34 | 1706667454 |   759982654 |   25.14 |        100.0 | /home/kxygk/Projects/rainusage/gauge/20240206-rainLog-r09.txt |
+|  chipId |        timestampUTC |   unixtime | secondstime |  tempC | humidityPerc |                                                    sourceFile |
+|--------:|---------------------|-----------:|------------:|-------:|-------------:|---------------------------------------------------------------|
+| 8373316 | 2023-01-09T14:10:00 | 1673273400 |   726588600 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-3b.txt |
+| 8373316 | 2023-01-09T18:00:42 | 1673287242 |   726602442 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
+| 8373316 | 2023-01-09T21:54:49 | 1673301289 |   726616489 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
+| 8373316 | 2023-01-10T01:47:54 | 1673315274 |   726630474 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230208-rainLog-b3.txt |
+| 8373316 | 2023-01-10T05:45:12 | 1673329512 |   726644712 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230425-rainLog-3B.txt |
+| 8373316 | 2023-01-10T09:43:16 | 1673343796 |   726658996 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-3B.txt |
+| 8373316 | 2023-01-10T13:35:14 | 1673357714 |   726672914 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230403-rainLog-3b.txt |
+| 8373316 | 2023-01-10T17:29:22 | 1673371762 |   726686962 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230705-rainLog-3B.txt |
+| 8373316 | 2023-01-10T21:21:09 | 1673385669 |   726700869 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230612-rainLog-3B.txt |
+| 8373316 | 2023-01-11T01:19:04 | 1673399944 |   726715144 | -777.0 |       -777.0 |  /home/kxygk/Projects/rainusage/gauge/20230228-rainLog-3b.txt |
+|     ... |                 ... |        ... |         ... |    ... |          ... |                                                           ... |
+| 8364236 | 2024-05-14T03:30:56 | 1715657456 |   768972656 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-14T08:22:11 | 1715674931 |   768990131 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-14T11:50:14 | 1715687414 |   769002614 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-14T16:39:47 | 1715704787 |   769019987 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-14T20:27:53 | 1715718473 |   769033673 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T01:06:04 | 1715735164 |   769050364 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T04:59:32 | 1715749172 |   769064372 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T09:48:04 | 1715766484 |   769081684 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T13:11:47 | 1715778707 |   769093907 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T17:39:38 | 1715794778 |   769109978 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
+| 8364236 | 2024-05-15T21:23:31 | 1715808211 |   769123411 | -666.0 |       -666.0 | /home/kxygk/Projects/rainusage/gauge/20240516-rainLog-r02.txt |
 }
