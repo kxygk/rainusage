@@ -1,0 +1,22 @@
+{:sites   {:X {:logger  
+               :vial    
+               :comment ""}
+           :A {:logger  
+               :vial    
+               :comment ""}
+           :C {:logger  
+               :vial    
+               :comment ""}
+           :B {:logger  
+               :vial    
+               :comment ""}
+           :D {:logger  
+               :vial    
+               :comment ""}}
+ :chip-id-map {1645240 :F05
+               8373316 :F03
+               7598252 :F04
+               1683136 :F02
+               8371400 :F01
+               1641660 :F06
+               7598984 :F07}}

@@ -1,0 +1,92 @@
+:cave { :ThMu {:name     "Tham Murd"
+               :location "Ao Leuk Krabi Thailand"
+               :coord    nil}}
+:regions {:ThMuCh0 {:comment "First side chamber after crawing down from the pig hole"}
+          :ThMuCh1 {:comment "First chamber with `tower of pisa` and the lizard hole"}
+          ;;:Tun1 "The tunnel connecting `Ch1` and `Ch2`"
+          :ThMuCh2 {:comment "Second chamber, with the sink hole and two shelves"}}
+:sepeleo {:ThMuCh0Dip01 {:cave    :ThMu
+                         :chamber :ThMuCh0
+                         :comment "In the dip at the back of the room, the lower stalagmite in a pair is being monitored"}
+          :ThMuCh1Liz01 {:cave    :ThMu
+                         :chamber :ThMuCh1
+                         :comment "The long clean stalagmite growing out of the mud in the muddy holes with lizard claw marks"}
+          :ThMuCh2Sh01A {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "First shelf on the immediate right once you enter the chamber. Clean white thumb"}
+          :ThMuCh2Sh01B {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "First shelf on the immediate right once you enter the chamber. Longer white"}
+          :ThMuCH2Sh02A {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. Left most pair, left one (furthest from right-side ramp)"}
+          :ThMuCH2Sh02B {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Second shelf, at the back of the room. Left most pair, right one"}
+          :ThMuCH2SoloA {:cave    :ThMu
+                         :chamber :ThMuCh2
+                         :comment "Below the second shelf, as you go to the rimmed pool. Sticking out of the side wall"}}
+:gauges {:RG01 {:mechanism :spoon};; aka "tipping spoon"
+         :RG02 {:mechanism :seesaw} ;;aka "tipping bucket"
+         :RG03 {:mechanism :seesaw}
+         :RG04 {:mechanism :seesaw}
+         :RG05 {:mechanism :seesaw}
+         :RG06 {:mechanism :seesaw}
+         :RG07 {:mechanism :seesaw}
+         :RG08 {:mechanism :seesaw}
+         :RG09 {:mechanism :seesaw}
+         :RG10 {:mechanism :seesaw}}
+:boards {;; First Rainuses
+         :FR5 1645240 
+         :FR3 8373316 
+         :FR4 7598252 
+         :FR2 1683136 
+         :FR1 8371400 
+         :FR6 1641660 
+         :FR7 7598984
+         ;; Rainuses (v2)
+         :R01 
+         :R02
+         :R03
+         :R04
+         :R05
+         :R06
+         :R07
+         :R08
+         :R09
+         :R10
+         :R11
+         :R12
+         :R13
+         :R14
+         :R15
+         :R16
+         :R17
+         :R18
+         :R19
+         :R20}
+:chips {1645240 :FR5
+        8373316 :FR3
+        7598252 :FR4
+        1683136 :FR2
+        8371400 :FR1
+        1641660 :FR6
+        7598984 :FR7
+        :bottles {:X
+                  :A
+                  :C
+                  :B
+                  :D}
+        ;; :vial ;; id list is huge
+
+        {:date #inst"2023-10-05"
+         :comment
+         "
+ "
+         :speleos {:SC1
+                   :T1
+                   :Sh2
+                   Sh{:gauge
+                      :board
+                      :bottle
+                      :vial
