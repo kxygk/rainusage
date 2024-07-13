@@ -887,6 +887,38 @@
          (map get-sheet-data)
          flatten
          (apply ds/concat))))
+
+(defn
+  vial-seq-2-map
+  "Turns the sequence of vials read in using `docjure`
+  into a mapping from `vial-id` to vial data
+  TODO: Unclear we really should use this..
+  The vial may have been reanlysed.
+  Then you'd have multiple rows with the same vial ID.
+  This example should be handled explicitely.
+  Right now I assume it just won't happen.."
+  [seq-of-vials]
+  (let [vial-map (zipmap (->> seq-of-vials
+                              (map :vial-id)
+                              (map keyword))
+                         (->> seq-of-vials
+                              (map #(dissoc %
+                                            :vial-id))))]
+    (if (= (count seq-of-vials)
+           (count vial-map))
+      vial-map
+      (throw (Exception."Redundant Vial ID!")))))
+#_
+(let [filename "George (NTU).xlsx"]
+  (let [sheets (->> filename
+                    docjure/load-workbook
+                    docjure/sheet-seq)]
+    (->> sheets
+         first
+         get-sheet-data
+         vial-seq-2-map)))
+
+
 ;; => _unnamed [260 5]:
 ;;    | :vial-id |   :d18O | :d18O-sd |    :dD |   :dD-sd |
 ;;    |----------|---------|----------|--------|----------|
