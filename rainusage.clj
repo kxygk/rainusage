@@ -884,9 +884,18 @@
                     docjure/load-workbook
                     docjure/sheet-seq)]
     (->> sheets
-         (map get-sheet-data)
-         flatten
-         (apply ds/concat))))
+         first
+         get-sheet-data)))
+#_
+(let [filename "George (NTU).xlsx"]
+  (let [sheets (->> filename
+                    docjure/load-workbook
+                    docjure/sheet-seq)]
+    (-> sheets
+        first
+        get-sheet-data
+        (ds/filter-column :vial-id (partial =
+                                            "ANQL")))))
 
 (defn
   vial-seq-2-map
@@ -919,6 +928,19 @@
          vial-seq-2-map)))
 
 
+#_
+(let [filename "George (NTU).xlsx"]
+  (let [sheets (->> filename
+                    docjure/load-workbook
+                    docjure/sheet-seq)
+        vial-data (->> sheets
+                       (mapv get-sheet-data))]
+    (ds/filter-column (->> vial-datae
+                           flatten
+                           (apply ds/concat))
+                      :vial-id
+                      (partial =
+                               "ANQL"))))
 ;; => _unnamed [260 5]:
 ;;    | :vial-id |   :d18O | :d18O-sd |    :dD |   :dD-sd |
 ;;    |----------|---------|----------|--------|----------|
@@ -958,16 +980,3 @@
                      (map vals)
                      flatten))))))
 
-;; => #object[org.apache.poi.xssf.usermodel.XSSFSheet 0x3cc0019d "Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"];;                  (docjure/select-sheet "202302")
-;;                  (docjure/select-columns {:B :age, :C :d18O}))
-
-#_
-(let [filename "George (NTU).xlsx"]
-  (let [sheet (->> filename
-                    docjure/load-workbook
-                    (docjure/select-sheet "202302"))]
-    (->> sheet
-         (docjure/select-columns {:D :external-precision}))))
-
-#_
-(vals {:D :external-precision})
