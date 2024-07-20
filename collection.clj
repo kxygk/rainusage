@@ -6,6 +6,16 @@
             [tech.v3.dataset :as ds ]
             [tick.core       :as tick]))
 
+#_
+(def collections
+  (->> "/home/kxygk/Projects/rainusage/collections.edn"
+       slurp
+       clojure.edn/read-string))
+#_
+(def equipment
+  (->> "/home/kxygk/Projects/rainusage/equipment.edn"
+       slurp
+       clojure.edn/read-string))
 
 (defn
   sorted-dates?
@@ -240,18 +250,18 @@
                                                           :chip-id
                                                           chip-id))))))))))))
 #_
-(-> collections
-    collection-vec-to-map
-    update-board-install-times
-    (update-chipids equipment)
-    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
+(->> rainusage/collections
+     collection/vec-to-map
+     update-board-install-times
+     (update-chipids equipment)
+     (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
 (defn
   import-gauge-logs
   "Take a set of rain gauge `logs` and import them into a collection map.
   For this to work it needs to have had `:board-install-time` and `:chip-id` added"
-  [collections
-   logs]
+  [logs
+   collections]
   (update-vals collections
                (fn update-collection
                  [collection-day]
@@ -286,8 +296,8 @@
 (defn
   location-gauge-logs
   "Extract from `collections` the gauge logs for a `location`"
-  [collections
-   location]
+  [location
+   collections]
   (ds/sort-by-column (->> collections
                           vals
                           (mapv :samples)
@@ -304,6 +314,6 @@
    collections]
   (->> locations
        (mapv (fn [location]
-               (location-gauge-logs collections
-                                    location)))
+               (location-gauge-logs location
+                                    collections)))
        (zipmap locations)))
