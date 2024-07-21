@@ -132,8 +132,15 @@
 
 (defn
   log2timediff
-  "TODO add description
-  rain gauge under normal conditions can't fill up faster than abbout 15 seconds"
+  "Goes into a table of logs
+  (which is arranged chronologically)
+  and calculates the time difference between adjacent rows.
+  So you get a N-1 vector out if all data is normal
+  NOTE:
+  There are additional optional args to filter misclicks,
+  or clicks made during testing.
+  Rain gauges normally won't click more than one every 15 seconds.
+  So the defaults are set to filter any faster click"
   [gauge-logs
    & [{:keys [clicks-per-day-max
               clicks-per-day-min]
@@ -175,6 +182,9 @@
 ;; => [:text {:x "10.00", :y "10.00"} "Jan"]
 
 (def dummy-data
+  "This is a data pair that helps set the `x/y min/max`
+  These are globally set based on when the cave was first monitored,
+  and when the last measurement was "
   (let [all-time-stamps (->> location-logs
                              vals
                              (mapv #(ds/column %
