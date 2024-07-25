@@ -151,3 +151,40 @@
       update-chipids
       (import-gauge-logs gauge-logs)
       logs-by-location))
+
+(defn
+  log2timediff
+  "Goes into a table of logs
+  (which is arranged chronologically)
+  and calculates the time difference between adjacent rows.
+  So you get a N-1 vector out if all data is normal
+  NOTE:
+  There are additional optional args to filter misclicks,
+  or clicks made during testing.
+  Rain gauges normally won't click more than one every 15 seconds.
+  So the defaults are set to filter any faster click"
+  [gauge-logs
+   & [{:keys [clicks-per-day-max
+              clicks-per-day-min]
+       :or   {unixtime-start     nil
+              clicks-per-day-max 1000000
+              clicks-per-day-min 1}}]]
+  (->> (-> gauge-logs
+           (ds/column "unixtime"))
+       (partition 2 1)
+       (mapv (fn [[first-click
+                   second-click]]
+               [second-click
+                (/ (* 60.0 60.0 24.0)
+                   (- second-click
+                      first-click))]))
+       (filterv (fn [[time
+                      clicks-per-day]]
+                  (and (> clicks-per-day
+                          clicks-per-day-min)
+                       (< clicks-per-day
+                          clicks-per-day-max))))))
+#_
+(->> location-logs
+     :ThMuCh1LongLizard
+     log2timediff)
