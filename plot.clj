@@ -41,38 +41,52 @@
 (date-formatter [10 10]  1000)
 ;; => [:text {:x "10.00", :y "10.00"} "Jan"]
 
-(defn
-  rain-gauges-data
-  "Create a plot of"
-  [logs
-   plot-name
+(defn-
+  axis
+  [plot-name
    [x-min
     x-max
     y-min
     y-max]]
   (let [dummy-data [[x-min y-min] ;; invisble data that sets the x/y ranges
-                    [x-max y-max]]
-        data       (->> logs
+                    [x-max y-max]]]
+        (-> (quickthing/primary-axis dummy-data
+                                     {:x-name (str "Years "
+                                                   (->> dummy-data
+                                                        first
+                                                        first
+                                                        tock/unix-time-sec2date
+                                                        (tick/format (tick/formatter "yyyy")))
+                                                   " to "
+                                                   (->> dummy-data
+                                                        second
+                                                        first
+                                                        tock/unix-time-sec2date
+                                                        (tick/format (tick/formatter "yyyy"))))
+                                      :y-name "log(Drips per day)"
+                                      :title  plot-name #_ (str (symbol location))})
+            (assoc-in [:x-axis :label]
+                      date-formatter)
+            (assoc-in [:x-axis
+                       :major]
+                      (tock/month-start-unix-times (-> dummy-data
+                                                       first
+                                                       first
+                                                       tock/unix-time-sec2date)
+                                                   (-> dummy-data
+                                                       second
+                                                       first
+                                                       tock/unix-time-sec2date))))))
+
+(defn-
+  add-gauge-data
+  "Add gauge data to a plot
+  (or just a bare axis made by `plot/axis`)"
+  [plot
+   logs]
+  (let [data (->> logs
                   log/log2timediff)]
-    (if (empty? data)
-      (println "given logs are empty!"))
-    (-> (quickthing/primary-axis dummy-data
-                                 {:x-name (str "Years "
-                                               (->> dummy-data
-                                                    first
-                                                    first
-                                                    tock/unix-time-sec2date
-                                                    (tick/format (tick/formatter "yyyy")))
-                                               " to "
-                                               (->> dummy-data
-                                                    second
-                                                    first
-                                                    tock/unix-time-sec2date
-                                                    (tick/format (tick/formatter "yyyy"))))
-                                  :y-name "log(Drips per day)"
-                                  :title  plot-name #_ (str (symbol location))})
-        (assoc-in [:x-axis :label]
-                  date-formatter)
+    (-> plot
         (update :data
                 #(into %
                        (quickthing/dashed-line (->> data
@@ -85,21 +99,26 @@
                                                            (mapv (fn [[x
                                                                        y]]
                                                                    [x (Math/log y)])))
-                                                      {:scale 5})))
-        (assoc-in [:x-axis
-                   :major]
-                  (tock/month-start-unix-times (-> dummy-data
-                                                   first
-                                                   first
-                                                   tock/unix-time-sec2date)
-                                               (-> dummy-data
-                                                   second
-                                                   first
-                                                   tock/unix-time-sec2date)))
-        thi.ng.geom.viz.core/svg-plot2d-cartesian
-        quickthing/svg-wrap
-        quickthing/svg2xml)))
+                                                      {:scale 5}))))))
 
+(defn
+  rain-gauges-data
+  "Create a plot of rain gauge data"
+  [logs
+   plot-name
+   [x-min
+    x-max
+    y-min
+    y-max]]
+  (-> (axis plot-name
+            [x-min
+             x-max
+             y-min
+             y-max])
+      (add-gauge-data logs)
+      thi.ng.geom.viz.core/svg-plot2d-cartesian
+      quickthing/svg-wrap
+      quickthing/svg2xml))
 
 (defn
   write-all-locations
@@ -126,72 +145,3 @@
                                  (symbol location-key)
                                  ".svg"))))))
         doall)))
-
-
-#_
-(defn
-  plot-all-loggers
-  "All loggers are plotted at once,
-  b/c their global start and end times set the `x` bounds"
-  [by-logger]
-  (let [dummy-data (gen-dummy-data by-logger)]
-    (->> by-logger
-         (mapv (fn [[logger
-                     table]]
-                 (let [data (-> table
-                                log/log2timediff)]
-                   (if (not-empty data)
-                     (->> (-> (quickthing/primary-axis dummy-data
-                                                       {:x-name (str "Years "
-                                                                     (->> dummy-data
-                                                                          first
-                                                                          first
-                                                                          tock/unix-time-sec2date
-                                                                          (tick/format (tick/formatter "yyyy")))
-                                                                     " to "
-                                                                     (->> dummy-data
-                                                                          second
-                                                                          first
-                                                                          tock/unix-time-sec2date
-                                                                          (tick/format (tick/formatter "yyyy"))))
-                                                        :y-name "log(Drips per day)"
-                                                        :title  (-> logger
-                                                                    symbol
-                                                                    str)})
-                              (assoc-in [:x-axis :label]
-                                        date-formatter)
-                              (update :data
-                                      #(into %
-                                             (quickthing/dashed-line (->> data
-                                                                          (mapv (fn [[x
-                                                                                      y]]
-                                                                                  [x (Math/log y)]))))))
-                              (update :data
-                                      #(into %
-                                             (quickthing/adjustable-circles (->> data
-                                                                                 (mapv (fn [[x
-                                                                                             y]]
-                                                                                         [x (Math/log y)])))
-                                                                            {:scale 5})))
-                              (assoc-in [:x-axis
-                                         :major]
-                                        (tock/month-start-unix-times (-> dummy-data
-                                                                         first
-                                                                         first
-                                                                         tock/unix-time-sec2date)
-                                                                     (-> dummy-data
-                                                                         second
-                                                                         first
-                                                                         tock/unix-time-sec2date)))
-                              thi.ng.geom.viz.core/svg-plot2d-cartesian
-                              quickthing/svg-wrap
-                              quickthing/svg2xml)
-                          (spit (str "out/"
-                                     (symbol logger)
-                                     ".svg"))))))))))
-
-#_
-(-> dummy-data
-    (quickthing/primary-axis {:x-name "Days since start"
-                              :y-name "Drips per day"
-                              :title  "Test"}))
