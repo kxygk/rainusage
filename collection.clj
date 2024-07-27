@@ -285,13 +285,6 @@
                                                                          date
                                                                          chip-id))
                                                sample)))))))))
-#_
-(-> collections
-    collection-vec-to-map
-    update-board-install-times
-    update-chipids
-    (import-gauge-logs gauge-logs)
-    (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
 (defn
   location-gauge-logs
@@ -317,3 +310,39 @@
                (location-gauge-logs location
                                     collections)))
        (zipmap locations)))
+
+
+(defn
+  import-vials
+  [vials
+   collections]
+  (update-vals collections
+               (fn update-collection
+                 [collection-day]
+                 (update  collection-day
+                          :samples
+                          (fn update-samples
+                            [samples]
+                            (update-vals samples
+                                         (fn update-sample
+                                           [sample]
+                                           (let [{:keys [vial]} sample]
+                                             (if (some? vial)
+                                               (do (println (str "Vial: " vial))
+                                               (assoc sample
+                                                      :vial-data
+                                                      (vial/get-data vials
+                                                                     vial))))))))))))
+#_
+(clojure.pprint/pprint (->> rainusage/collections
+                            vec-to-map
+                            update-board-install-times
+                            (update-chipids rainusage/equipment)
+                            ;;(import-gauge-logs rainusage/gauge-logs)
+                            (import-vials (vial/parse-excel-file "George (NTU).xlsx")))
+                       (clojure.java.io/writer "out/with-vial-data-map.edn"))
+
+
+#_
+(vial/get-data (vial/parse-excel-file "George (NTU).xlsx")
+               :AGDX)
