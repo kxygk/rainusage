@@ -338,24 +338,27 @@
 (defn
   import-vials
   [vials
-   collections]
-  (update-vals collections
-               (fn update-collection
-                 [collection-day]
-                 (update  collection-day
-                          :samples
-                          (fn update-samples
-                            [samples]
-                            (update-vals samples
-                                         (fn update-sample
-                                           [sample]
-                                           (let [{:keys [vial]} sample]
-                                             (if (some? vial)
-                                               (do (println (str "Vial: " vial))
-                                               (assoc sample
-                                                      :vial-data
-                                                      (vial/get-data vials
-                                                                     vial))))))))))))
+   samples]
+  (->> samples
+       (mapv (fn update-sample
+               [sample]
+               (let [{:keys [vial]} sample]
+                 (if (nil? vial)
+                   sample
+                   (assoc sample
+                          :vial-data
+                          (vial/get-data vials
+                                         vial))))))))
+#_
+(->> rainusage/collections
+     collection/normalize-samples
+     (import-vials (vial/parse-excel-file "George (NTU).xlsx")))
+
+#_
+(->> rainusage/collections
+     collection/normalize-samples
+     (import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+     (mapv :date))
 #_
 (clojure.pprint/pprint (->> rainusage/collections
                             vec-to-map
