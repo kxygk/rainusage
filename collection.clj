@@ -367,8 +367,36 @@
                             ;;(import-gauge-logs rainusage/gauge-logs)
                             (import-vials (vial/parse-excel-file "George (NTU).xlsx")))
                        (clojure.java.io/writer "out/with-vial-data-map.edn"))
-
-
 #_
 (vial/get-data (vial/parse-excel-file "George (NTU).xlsx")
                :AGDX)
+
+(defn
+  time-vs-18O
+  ([samples]
+   (time-vs-18O (->> samples
+                     (mapv :date)
+                     sort
+                     first)
+                samples))
+  ([start-inst
+    samples]
+  (->> samples
+       (mapv (fn sample-to-pair
+               [sample]
+               [(->> sample
+                     :date
+                     (tick/between (tick/epoch))
+                     tick/seconds)
+                (-> sample
+                    :vial-data
+                    first
+                    :d18O)]))
+       (filterv #(-> %
+                     second
+                     some?)))))
+#_
+(->> rainusage/collections
+     collection/normalize-samples
+     (import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+     time-vs-18O)

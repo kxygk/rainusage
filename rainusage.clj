@@ -271,3 +271,12 @@
              "\n\n")))
 
 (convertadoc/to-html "report.adoc")
+
+
+(->> collections
+     collection/normalize-samples
+     (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+     (filterv #(= :ThMuCH2Sh02WhiteLoner
+                  (-> %
+                      :location)))
+     collection/time-vs-18O)
