@@ -83,6 +83,29 @@
     collection-vec-to-map
     (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
+(defn
+  normalize-samples
+  "return a long vector of all samples, with their dates embedded
+  Note, this dumps the `:comment` tag"
+  [collection-vec]
+  (->> collection-vec
+       (mapv (fn add-date
+              [collection-event]
+              (let [date (-> collection-event
+                             :date)]
+                (->> collection-event
+                     :samples
+                     (mapv (fn assoc-date-into-sample
+                             [sample]
+                             (-> sample
+                                 (assoc :date
+                                        date))))))))
+       flatten
+       (into [])))
+#_
+(->> rainusage/collections
+     normalize-samples
+     (group-by :date))
 
 (defn-
   before-date
