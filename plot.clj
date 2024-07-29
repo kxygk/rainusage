@@ -42,7 +42,7 @@
 ;; => [:text {:x "10.00", :y "10.00"} "Jan"]
 
 (defn-
-  axis
+  axis-drip
   [plot-name
    [x-min
     x-max
@@ -50,33 +50,33 @@
     y-max]]
   (let [dummy-data [[x-min y-min] ;; invisble data that sets the x/y ranges
                     [x-max y-max]]]
-        (-> (quickthing/primary-axis dummy-data
-                                     {:x-name (str "Years "
-                                                   (->> dummy-data
-                                                        first
-                                                        first
-                                                        tock/unix-time-sec2date
-                                                        (tick/format (tick/formatter "yyyy")))
-                                                   " to "
-                                                   (->> dummy-data
-                                                        second
-                                                        first
-                                                        tock/unix-time-sec2date
-                                                        (tick/format (tick/formatter "yyyy"))))
-                                      :y-name "log(Drips per day)"
-                                      :title  plot-name #_ (str (symbol location))})
-            (assoc-in [:x-axis :label]
-                      date-formatter)
-            (assoc-in [:x-axis
-                       :major]
-                      (tock/month-start-unix-times (-> dummy-data
-                                                       first
-                                                       first
-                                                       tock/unix-time-sec2date)
-                                                   (-> dummy-data
-                                                       second
-                                                       first
-                                                       tock/unix-time-sec2date))))))
+    (-> (quickthing/primary-axis dummy-data
+                                 {:x-name (str "Years "
+                                               (->> dummy-data
+                                                    first
+                                                    first
+                                                    tock/unix-time-sec2date
+                                                    (tick/format (tick/formatter "yyyy")))
+                                               " to "
+                                               (->> dummy-data
+                                                    second
+                                                    first
+                                                    tock/unix-time-sec2date
+                                                    (tick/format (tick/formatter "yyyy"))))
+                                  :y-name "log(Drips per day)"
+                                  :title  plot-name #_ (str (symbol location))})
+        (assoc-in [:x-axis :label]
+                  date-formatter)
+        (assoc-in [:x-axis
+                   :major]
+                  (tock/month-start-unix-times (-> dummy-data
+                                                   first
+                                                   first
+                                                   tock/unix-time-sec2date)
+                                               (-> dummy-data
+                                                   second
+                                                   first
+                                                   tock/unix-time-sec2date))))))
 
 (defn-
   add-gauge-data
@@ -110,38 +110,129 @@
     x-max
     y-min
     y-max]]
-  (-> (axis plot-name
-            [x-min
-             x-max
-             y-min
-             y-max])
+  (-> (axis-drip plot-name
+                 [x-min
+                  x-max
+                  y-min
+                  y-max])
       (add-gauge-data logs)
-      thi.ng.geom.viz.core/svg-plot2d-cartesian
-      quickthing/svg-wrap
-      quickthing/svg2xml))
+      thi.ng.geom.viz.core/svg-plot2d-cartesian))
+
+(defn-
+  add-isotope-data
+  "Add gauge data to a plot
+  (or just a bare axis made by `plot/axis`)"
+  [plot
+   isotope-values]
+  (let [data isotope-values]
+    (-> plot
+        (update :data
+                #(into %
+                       (quickthing/dashed-line data
+                                               {:attribs {:fill   "#0088"
+                                                          :stroke "#0084"}})))
+        (update :data
+                #(into %
+                       (quickthing/adjustable-circles data
+                                                      {:scale   10
+                                                       :attribs {:fill   "#0088"
+                                                                 :stroke "#0088"}}))))))
+
+(defn
+  axis-oxygen
+  [[x-min
+    x-max
+    y-min
+    y-max]]
+  (let [dummy-data [[x-min y-min] ;; invisble data that sets the x/y ranges
+                    [x-max y-max]]]
+    (-> (quickthing/secondary-axis dummy-data
+                                   {:x-name    (str "Years "
+                                                    (->> dummy-data
+                                                         first
+                                                         first
+                                                         tock/unix-time-sec2date
+                                                         (tick/format (tick/formatter "yyyy")))
+                                                    " to "
+                                                    (->> dummy-data
+                                                         second
+                                                         first
+                                                         tock/unix-time-sec2date
+                                                         (tick/format (tick/formatter "yyyy"))))
+                                    :y-name    "d18O"
+                                    #_#_:title plot-name #_ (str (symbol location))})
+        (assoc-in [:x-axis :label]
+                  date-formatter)
+        (assoc-in [:x-axis
+                   :major]
+                  (tock/month-start-unix-times (-> dummy-data
+                                                   first
+                                                   first
+                                                   tock/unix-time-sec2date)
+                                               (-> dummy-data
+                                                   second
+                                                   first
+                                                   tock/unix-time-sec2date))))))
+
+(defn
+  isotopes
+  [isotopes
+   [x-min
+    x-max
+    y-min
+    y-max]]
+  (-> (axis-oxygen [x-min
+                    x-max
+                    y-min
+                    y-max])
+      (add-isotope-data isotopes)
+      thi.ng.geom.viz.core/svg-plot2d-cartesian))
 
 (defn
   write-all-locations
   "Given a map of locations to logs
   Plot each location in separate plots.
   Makes sure all the plots share a X and Y axis range"
-  ([logs-by-location]
-   (write-all-locations logs-by-location
-                        (data-ranges logs-by-location)))
-  ([logs-by-location
-    data-ranges]
-   (->> logs-by-location
-        (map (fn print-each-logs-plot
-                 [[location-key
-                   logs]]
-               (if (-> logs
-                       ds/row-count
-                       zero?
-                       not)
-                 (->> (rain-gauges-data logs
-                                        (symbol location-key)
-                                        data-ranges)
-                      (spit (str "out/"
-                                 (symbol location-key)
-                                 ".svg"))))))
-        doall)))
+  [logs-by-location
+   isotope-by-location]
+  (let [locations    (keys logs-by-location)
+        [x-min
+         x-max
+         y-drip-min
+         y-drip-max] (data-ranges logs-by-location)
+        y-oxygen-min (->> isotope-by-location
+                          vals
+                          (apply concat)
+                          (mapv second)
+                          (apply min))
+        y-oxygen-max (->> isotope-by-location
+                          vals
+                          (apply concat)
+                          (mapv second)
+                          (apply max))]
+    (->> logs-by-location
+         (map (fn print-each-logs-plot
+                [[location-key
+                  logs]]
+                (if (-> logs
+                        ds/row-count
+                        zero?
+                        not)
+                  (->> (thi.ng.geom.svg.core/group {}
+                                                   (plot/isotopes (location-key isotope-by-location)
+                                                                  [x-min
+                                                                   x-max
+                                                                   y-oxygen-min
+                                                                   y-oxygen-max])
+                                                   (plot/rain-gauges-data logs
+                                                                          (symbol location-key)
+                                                                          [x-min
+                                                                           x-max
+                                                                           y-drip-min
+                                                                           y-drip-max]))
+                       quickthing/svg-wrap
+                       quickthing/svg2xml
+                       (spit (str "out/"
+                                  (symbol location-key)
+                                  ".svg"))))))
+         doall)))

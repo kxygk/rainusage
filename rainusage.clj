@@ -82,11 +82,11 @@
 
 (assert (= 8
            (->> collections
-               collection/vec-to-map
-               collection/update-board-install-times
-               (collection/update-chipids equipment)
-               get-all-locations
-               count))
+                collection/vec-to-map
+                collection/update-board-install-times
+                (collection/update-chipids equipment)
+                get-all-locations
+                count))
         (str "HI FUTURE GEORGE!! "
              "Code expects 8 locations! "
              "Either there was a typo"
@@ -273,10 +273,54 @@
 (convertadoc/to-html "report.adoc")
 
 
-(->> collections
-     collection/normalize-samples
-     (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
-     (filterv #(= :ThMuCH2Sh02WhiteLoner
-                  (-> %
-                      :location)))
-     collection/time-vs-18O)
+(def time-18o-pairs
+  (->> collections
+       collection/normalize-samples
+       (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+       (filterv #(= :ThMuCh2Sh01BrownTop
+                    (-> %
+                        :location)))
+       collection/time-vs-18O))
+#_
+(-> time-18o-pairs)
+
+
+(->> locations
+     (mapv (fn plot-location-isotope
+             [location]
+             (let [time-18o-pairs (->> collections
+                                       collection/normalize-samples
+                                       (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+                                       (filterv #(= location
+                                                    (-> %
+                                                        :location)))
+                                       collection/time-vs-18O)]
+               (if (-> time-18o-pairs
+                       empty?
+                       not)
+                 (->> (plot/isotopes time-18o-pairs
+                                     [(->> time-18o-pairs
+                                           (mapv first)
+                                           (apply min))
+                                      (->> time-18o-pairs
+                                           (mapv first)
+                                           (apply max))
+                                      (->> time-18o-pairs
+                                           (mapv second)
+                                           (apply min))
+                                      (->> time-18o-pairs
+                                           (mapv second)
+                                           (apply max))])
+                      (spit (str "out/"
+                                 (symbol location)
+                                 ".svg"))))))))
+
+
+
+(let [o18-by-location (update-vals (->> collections
+                                        collection/normalize-samples
+                                        (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+                                        (group-by :location))
+                                   collection/time-vs-18O)]
+  (plot/write-all-locations location-logs
+                            o18-by-location))
