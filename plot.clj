@@ -92,14 +92,22 @@
                        (quickthing/dashed-line (->> data
                                                     (mapv (fn [[x
                                                                 y]]
-                                                            [x (Math/log y)]))))))
+                                                            [x (Math/log y)])))
+                                               {:attribs {:stroke "none" #_"#0001"}})))
         (update :data
                 #(into %
                        (quickthing/adjustable-circles (->> data
                                                            (mapv (fn [[x
-                                                                       y]]
-                                                                   [x (Math/log y)])))
-                                                      {:scale 5}))))))
+                                                                       y
+                                                                       radius
+                                                                       attribs]]
+                                                                   [x
+                                                                    (Math/log y)
+                                                                    radius ;; should be `nil` - ie. uses default
+                                                                    attribs])))
+                                                      {:scale 5
+                                                       :attribs {:stroke "none" #_"#0002"
+                                                                 :fill "#0002"}}))))))
 
 (defn
   rain-gauges-data

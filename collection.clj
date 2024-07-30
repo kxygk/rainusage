@@ -391,7 +391,19 @@
                 (-> sample
                     :vial-data
                     first
-                    :d18O)]))
+                    :d18O)
+                nil ;;radius
+                {:tooltip (str "Date: "
+                               (tick/format (tick/formatter "yyyy-MM-dd")
+                                            (-> sample
+                                                :date
+                                                tick/instant
+                                                (cljc.java-time.zoned-date-time/of-instant (tick/zone "Asia/Bangkok"))
+                                                tick/date-time)) ;; confusing.. see `tock/unix-time-sec2date`
+                               \newline
+                               "Comment: "
+                               (->> sample
+                                    :comment))}]))
        (filterv #(-> %
                      second
                      some?)))))
