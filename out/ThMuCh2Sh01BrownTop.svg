@@ -1,138 +1,138 @@
 <?xml version="1.0"?>
-<svg version="1.1" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="100%" height="100%" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 <g>
 <g>
 <g>
-<text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="850.00" y="90.00">d18O</text>
+<text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="950.00" y="30.00">d18O</text>
 </g>
 <polyline fill="none" points="" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
 <g>
 </g>
 <g stroke="#0088">
-<line x1="828.41" x2="828.41" y1="90.00" y2="90.00" />
-<line x1="785.75" x2="785.75" y1="90.00" y2="90.00" />
-<line x1="741.68" x2="741.68" y1="90.00" y2="90.00" />
-<line x1="700.44" x2="700.44" y1="90.00" y2="90.00" />
-<line x1="656.36" x2="656.36" y1="90.00" y2="90.00" />
-<line x1="612.28" x2="612.28" y1="90.00" y2="90.00" />
-<line x1="569.63" x2="569.63" y1="90.00" y2="90.00" />
-<line x1="525.55" x2="525.55" y1="90.00" y2="90.00" />
-<line x1="482.89" x2="482.89" y1="90.00" y2="90.00" />
-<line x1="438.81" x2="438.81" y1="90.00" y2="90.00" />
-<line x1="394.73" x2="394.73" y1="90.00" y2="90.00" />
-<line x1="352.08" x2="352.08" y1="90.00" y2="90.00" />
-<line x1="308.00" x2="308.00" y1="90.00" y2="90.00" />
-<line x1="265.34" x2="265.34" y1="90.00" y2="90.00" />
-<line x1="221.26" x2="221.26" y1="90.00" y2="90.00" />
-<line x1="181.45" x2="181.45" y1="90.00" y2="90.00" />
+<line x1="922.24" x2="922.24" y1="30.00" y2="30.00" />
+<line x1="867.40" x2="867.40" y1="30.00" y2="30.00" />
+<line x1="810.73" x2="810.73" y1="30.00" y2="30.00" />
+<line x1="757.71" x2="757.71" y1="30.00" y2="30.00" />
+<line x1="701.04" x2="701.04" y1="30.00" y2="30.00" />
+<line x1="644.36" x2="644.36" y1="30.00" y2="30.00" />
+<line x1="589.52" x2="589.52" y1="30.00" y2="30.00" />
+<line x1="532.85" x2="532.85" y1="30.00" y2="30.00" />
+<line x1="478.00" x2="478.00" y1="30.00" y2="30.00" />
+<line x1="421.33" x2="421.33" y1="30.00" y2="30.00" />
+<line x1="364.66" x2="364.66" y1="30.00" y2="30.00" />
+<line x1="309.81" x2="309.81" y1="30.00" y2="30.00" />
+<line x1="253.14" x2="253.14" y1="30.00" y2="30.00" />
+<line x1="198.30" x2="198.30" y1="30.00" y2="30.00" />
+<line x1="141.62" x2="141.62" y1="30.00" y2="30.00" />
+<line x1="90.44" x2="90.44" y1="30.00" y2="30.00" />
 <g fill="none" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)">
-<text x="828.41" y="83.74">May</text>
-<text x="785.75" y="83.74">Apr</text>
-<text x="741.68" y="83.74">Mar</text>
-<text x="700.44" y="83.74">Feb</text>
-<text x="656.36" y="83.74">Jan</text>
-<text x="612.28" y="83.74">Dec</text>
-<text x="569.63" y="83.74">Nov</text>
-<text x="525.55" y="83.74">Oct</text>
-<text x="482.89" y="83.74">Sep</text>
-<text x="438.81" y="83.74">Aug</text>
-<text x="394.73" y="83.74">Jul</text>
-<text x="352.08" y="83.74">Jun</text>
-<text x="308.00" y="83.74">May</text>
-<text x="265.34" y="83.74">Apr</text>
-<text x="221.26" y="83.74">Mar</text>
-<text x="181.45" y="83.74">Feb</text>
+<text x="922.24" y="23.74">May</text>
+<text x="867.40" y="23.74">Apr</text>
+<text x="810.73" y="23.74">Mar</text>
+<text x="757.71" y="23.74">Feb</text>
+<text x="701.04" y="23.74">Jan</text>
+<text x="644.36" y="23.74">Dec</text>
+<text x="589.52" y="23.74">Nov</text>
+<text x="532.85" y="23.74">Oct</text>
+<text x="478.00" y="23.74">Sep</text>
+<text x="421.33" y="23.74">Aug</text>
+<text x="364.66" y="23.74">Jul</text>
+<text x="309.81" y="23.74">Jun</text>
+<text x="253.14" y="23.74">May</text>
+<text x="198.30" y="23.74">Apr</text>
+<text x="141.62" y="23.74">Mar</text>
+<text x="90.44" y="23.74">Feb</text>
 </g>
-<line x1="150.00" x2="850.00" y1="90.00" y2="90.00" />
+<line x1="50.00" x2="950.00" y1="30.00" y2="30.00" />
 </g>
 <g stroke="#0088">
-<line x1="850.00" x2="862.00" y1="446.94" y2="446.94" />
-<line x1="850.00" x2="862.00" y1="214.37" y2="214.37" />
+<line x1="950.00" x2="962.00" y1="488.92" y2="488.92" />
+<line x1="950.00" x2="962.00" y1="189.91" y2="189.91" />
 <g fill="#0088" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="beginning">
-<text x="859.00" y="437.94">-10</text>
-<text x="859.00" y="205.37">0</text>
+<text x="959.00" y="479.92">-10</text>
+<text x="959.00" y="180.91">0</text>
 </g>
-<line x1="850.00" x2="850.00" y1="510.00" y2="90.00" />
+<line x1="950.00" x2="950.00" y1="570.00" y2="30.00" />
 </g>
 </g>
 <g>
 <g stroke-dasharray="3.6 7.2" stroke-width="0.72" stroke="#caa">
-<line x1="828.41" x2="828.41" y1="510.00" y2="90.00" />
-<line x1="785.75" x2="785.75" y1="510.00" y2="90.00" />
-<line x1="741.68" x2="741.68" y1="510.00" y2="90.00" />
-<line x1="700.44" x2="700.44" y1="510.00" y2="90.00" />
-<line x1="656.36" x2="656.36" y1="510.00" y2="90.00" />
-<line x1="612.28" x2="612.28" y1="510.00" y2="90.00" />
-<line x1="569.63" x2="569.63" y1="510.00" y2="90.00" />
-<line x1="525.55" x2="525.55" y1="510.00" y2="90.00" />
-<line x1="482.89" x2="482.89" y1="510.00" y2="90.00" />
-<line x1="438.81" x2="438.81" y1="510.00" y2="90.00" />
-<line x1="394.73" x2="394.73" y1="510.00" y2="90.00" />
-<line x1="352.08" x2="352.08" y1="510.00" y2="90.00" />
-<line x1="308.00" x2="308.00" y1="510.00" y2="90.00" />
-<line x1="265.34" x2="265.34" y1="510.00" y2="90.00" />
-<line x1="221.26" x2="221.26" y1="510.00" y2="90.00" />
-<line x1="181.45" x2="181.45" y1="510.00" y2="90.00" />
-<line x1="150.00" x2="850.00" y1="510.00" y2="510.00" />
-<line x1="150.00" x2="850.00" y1="216.29" y2="216.29" />
+<line x1="922.24" x2="922.24" y1="570.00" y2="30.00" />
+<line x1="867.40" x2="867.40" y1="570.00" y2="30.00" />
+<line x1="810.73" x2="810.73" y1="570.00" y2="30.00" />
+<line x1="757.71" x2="757.71" y1="570.00" y2="30.00" />
+<line x1="701.04" x2="701.04" y1="570.00" y2="30.00" />
+<line x1="644.36" x2="644.36" y1="570.00" y2="30.00" />
+<line x1="589.52" x2="589.52" y1="570.00" y2="30.00" />
+<line x1="532.85" x2="532.85" y1="570.00" y2="30.00" />
+<line x1="478.00" x2="478.00" y1="570.00" y2="30.00" />
+<line x1="421.33" x2="421.33" y1="570.00" y2="30.00" />
+<line x1="364.66" x2="364.66" y1="570.00" y2="30.00" />
+<line x1="309.81" x2="309.81" y1="570.00" y2="30.00" />
+<line x1="253.14" x2="253.14" y1="570.00" y2="30.00" />
+<line x1="198.30" x2="198.30" y1="570.00" y2="30.00" />
+<line x1="141.62" x2="141.62" y1="570.00" y2="30.00" />
+<line x1="90.44" x2="90.44" y1="570.00" y2="30.00" />
+<line x1="50.00" x2="950.00" y1="570.00" y2="570.00" />
+<line x1="50.00" x2="950.00" y1="192.38" y2="192.38" />
 </g>
 <g>
-<text dominant-baseline="hanging" dx="-36.0" dy="18.0" fill="#0004" font-family="Arial, sans-serif" font-size="36" stroke="none" text-anchor="end" x="850.00" y="128.18">ThMuCh2Sh01BrownTop</text>
+<text dominant-baseline="hanging" dx="-36.0" dy="18.0" fill="#0004" font-family="Arial, sans-serif" font-size="36" stroke="none" text-anchor="end" x="950.00" y="79.09">ThMuCh2Sh01BrownTop</text>
 </g>
 <g>
-<text dominant-baseline="text-bottom" dy="-12.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" x="500.00" y="90.00">Years 2023 to 2024</text>
+<text dominant-baseline="text-bottom" dy="-12.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" x="500.00" y="30.00">Years 2023 to 2024</text>
 </g>
 <g>
-<text dominant-baseline="hanging" dx="18.0" dy="18.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="beginning" text-orientation="sideways" x="150.00" y="90.00">log(Drips per day)</text>
+<text dominant-baseline="hanging" dx="18.0" dy="18.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="beginning" text-orientation="sideways" x="50.00" y="30.00">log(Drips per day)</text>
 </g>
 <polyline fill="none" points="" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="none" />
 <g>
 </g>
 <g stroke="black">
-<line x1="828.41" x2="828.41" y1="510.00" y2="520.00" />
-<line x1="785.75" x2="785.75" y1="510.00" y2="520.00" />
-<line x1="741.68" x2="741.68" y1="510.00" y2="520.00" />
-<line x1="700.44" x2="700.44" y1="510.00" y2="520.00" />
-<line x1="656.36" x2="656.36" y1="510.00" y2="520.00" />
-<line x1="612.28" x2="612.28" y1="510.00" y2="520.00" />
-<line x1="569.63" x2="569.63" y1="510.00" y2="520.00" />
-<line x1="525.55" x2="525.55" y1="510.00" y2="520.00" />
-<line x1="482.89" x2="482.89" y1="510.00" y2="520.00" />
-<line x1="438.81" x2="438.81" y1="510.00" y2="520.00" />
-<line x1="394.73" x2="394.73" y1="510.00" y2="520.00" />
-<line x1="352.08" x2="352.08" y1="510.00" y2="520.00" />
-<line x1="308.00" x2="308.00" y1="510.00" y2="520.00" />
-<line x1="265.34" x2="265.34" y1="510.00" y2="520.00" />
-<line x1="221.26" x2="221.26" y1="510.00" y2="520.00" />
-<line x1="181.45" x2="181.45" y1="510.00" y2="520.00" />
+<line x1="922.24" x2="922.24" y1="570.00" y2="580.00" />
+<line x1="867.40" x2="867.40" y1="570.00" y2="580.00" />
+<line x1="810.73" x2="810.73" y1="570.00" y2="580.00" />
+<line x1="757.71" x2="757.71" y1="570.00" y2="580.00" />
+<line x1="701.04" x2="701.04" y1="570.00" y2="580.00" />
+<line x1="644.36" x2="644.36" y1="570.00" y2="580.00" />
+<line x1="589.52" x2="589.52" y1="570.00" y2="580.00" />
+<line x1="532.85" x2="532.85" y1="570.00" y2="580.00" />
+<line x1="478.00" x2="478.00" y1="570.00" y2="580.00" />
+<line x1="421.33" x2="421.33" y1="570.00" y2="580.00" />
+<line x1="364.66" x2="364.66" y1="570.00" y2="580.00" />
+<line x1="309.81" x2="309.81" y1="570.00" y2="580.00" />
+<line x1="253.14" x2="253.14" y1="570.00" y2="580.00" />
+<line x1="198.30" x2="198.30" y1="570.00" y2="580.00" />
+<line x1="141.62" x2="141.62" y1="570.00" y2="580.00" />
+<line x1="90.44" x2="90.44" y1="570.00" y2="580.00" />
 <g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)">
-<text x="828.41" y="530.57">May</text>
-<text x="785.75" y="530.57">Apr</text>
-<text x="741.68" y="530.57">Mar</text>
-<text x="700.44" y="530.57">Feb</text>
-<text x="656.36" y="530.57">Jan</text>
-<text x="612.28" y="530.57">Dec</text>
-<text x="569.63" y="530.57">Nov</text>
-<text x="525.55" y="530.57">Oct</text>
-<text x="482.89" y="530.57">Sep</text>
-<text x="438.81" y="530.57">Aug</text>
-<text x="394.73" y="530.57">Jul</text>
-<text x="352.08" y="530.57">Jun</text>
-<text x="308.00" y="530.57">May</text>
-<text x="265.34" y="530.57">Apr</text>
-<text x="221.26" y="530.57">Mar</text>
-<text x="181.45" y="530.57">Feb</text>
+<text x="922.24" y="590.57">May</text>
+<text x="867.40" y="590.57">Apr</text>
+<text x="810.73" y="590.57">Mar</text>
+<text x="757.71" y="590.57">Feb</text>
+<text x="701.04" y="590.57">Jan</text>
+<text x="644.36" y="590.57">Dec</text>
+<text x="589.52" y="590.57">Nov</text>
+<text x="532.85" y="590.57">Oct</text>
+<text x="478.00" y="590.57">Sep</text>
+<text x="421.33" y="590.57">Aug</text>
+<text x="364.66" y="590.57">Jul</text>
+<text x="309.81" y="590.57">Jun</text>
+<text x="253.14" y="590.57">May</text>
+<text x="198.30" y="590.57">Apr</text>
+<text x="141.62" y="590.57">Mar</text>
+<text x="90.44" y="590.57">Feb</text>
 </g>
-<line x1="150.00" x2="850.00" y1="510.00" y2="510.00" />
+<line x1="50.00" x2="950.00" y1="570.00" y2="570.00" />
 </g>
 <g stroke="black">
-<line x1="150.00" x2="138.00" y1="510.00" y2="510.00" />
-<line x1="150.00" x2="138.00" y1="216.29" y2="216.29" />
+<line x1="50.00" x2="38.00" y1="570.00" y2="570.00" />
+<line x1="50.00" x2="38.00" y1="192.38" y2="192.38" />
 <g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="end">
-<text x="141.00" y="501.00">0</text>
-<text x="141.00" y="207.29">10</text>
+<text x="41.00" y="561.00">0</text>
+<text x="41.00" y="183.38">10</text>
 </g>
-<line x1="150.00" x2="150.00" y1="510.00" y2="90.00" />
+<line x1="50.00" x2="50.00" y1="570.00" y2="30.00" />
 </g>
 </g>
 </g>
