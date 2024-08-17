@@ -394,7 +394,13 @@
                      first
                      :d18O)
                  nil ;;radius
-                 {:tooltip (str "Date: "
+                 {:vial (->> sample
+                             :vial)
+                  :tooltip (str "Vial    "
+                                (->> sample
+                                     :vial)
+                                \newline
+                                "Date: "
                                 (tick/format (tick/formatter "yyyy-MM-dd")
                                              (-> sample
                                                  :date
