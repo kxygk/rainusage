@@ -7,41 +7,41 @@
 </g>
 <g>
 <g>
-<circle cx="184.20" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-03-24
-Comment: No rain" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-03-24
+Comment: No rain" x="184.20" y="189.91">I</text>
 <title>Date: 2023-03-24
 Comment: No rain</title>
 </g>
 <g>
-<circle cx="242.70" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-04-25
-Comment: bottle still broken" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-04-25
+Comment: bottle still broken" x="242.70" y="189.91">I</text>
 <title>Date: 2023-04-25
 Comment: bottle still broken</title>
 </g>
 <g>
-<circle cx="266.47" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-08
-Comment: bottle still broken" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-05-08
+Comment: bottle still broken" x="266.47" y="189.91">I</text>
 <title>Date: 2023-05-08
 Comment: bottle still broken</title>
 </g>
 <g>
-<circle cx="282.92" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-17
-Comment: bottle still broken" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-05-17
+Comment: bottle still broken" x="282.92" y="189.91">I</text>
 <title>Date: 2023-05-17
 Comment: bottle still broken</title>
 </g>
 <g>
-<circle cx="306.69" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-30
-Comment: Looks like Nong fixed it?" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-05-30
+Comment: Looks like Nong fixed it?" x="306.69" y="189.91">I</text>
 <title>Date: 2023-05-30
 Comment: Looks like Nong fixed it?</title>
 </g>
 <g>
-<circle cx="526.07" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-09-27
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-09-27
 Comment: Note:
 -`:RG06` (ie. `:RG86`) at bottle `:D`.. ie. `:ThMuOutsideDrone` was replaced with a new rain gauge (no RG number) and logger `:R06`
 - bottle `:D` had a small hole added so water doesn&apos;t sit in tube due to backpressure
-- gauge has a ton of ants!" />
+- gauge has a ton of ants!" x="526.07" y="189.91">I</text>
 <title>Date: 2023-09-27
 Comment: Note:
 -`:RG06` (ie. `:RG86`) at bottle `:D`.. ie. `:ThMuOutsideDrone` was replaced with a new rain gauge (no RG number) and logger `:R06`
@@ -49,74 +49,74 @@ Comment: Note:
 - gauge has a ton of ants!</title>
 </g>
 <g>
-<circle cx="593.71" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-03
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-11-03
+Comment: " x="593.71" y="189.91">I</text>
 <title>Date: 2023-11-03
 Comment: </title>
 </g>
 <g>
-<circle cx="626.62" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-21
-Comment: Pics show `:R03` but that was in-cave last time" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-11-21
+Comment: Pics show `:R03` but that was in-cave last time" x="626.62" y="189.91">I</text>
 <title>Date: 2023-11-21
 Comment: Pics show `:R03` but that was in-cave last time</title>
 </g>
 <g>
-<circle cx="665.01" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-12
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-12-12
+Comment: " x="665.01" y="189.91">I</text>
 <title>Date: 2023-12-12
 Comment: </title>
 </g>
 <g>
-<circle cx="685.12" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-23
-Comment: Bottle `:D` snapped off tube" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-12-23
+Comment: Bottle `:D` snapped off tube" x="685.12" y="189.91">I</text>
 <title>Date: 2023-12-23
 Comment: Bottle `:D` snapped off tube</title>
 </g>
 <g>
-<circle cx="707.05" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-04
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-01-04
+Comment: " x="707.05" y="189.91">I</text>
 <title>Date: 2024-01-04
 Comment: </title>
 </g>
 <g>
-<circle cx="738.13" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-21
-Comment: Rat bite! Missing datav. Outside this time :S" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-01-21
+Comment: Rat bite! Missing datav. Outside this time :S" x="738.13" y="189.91">I</text>
 <title>Date: 2024-01-21
 Comment: Rat bite! Missing datav. Outside this time :S</title>
 </g>
 <g>
-<circle cx="767.38" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-06
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-02-06
+Comment: " x="767.38" y="189.91">I</text>
 <title>Date: 2024-02-06
 Comment: </title>
 </g>
 <g>
-<circle cx="796.63" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-22
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-02-22
+Comment: " x="796.63" y="189.91">I</text>
 <title>Date: 2024-02-22
 Comment: </title>
 </g>
 <g>
-<circle cx="822.23" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-07
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-03-07
+Comment: " x="822.23" y="189.91">I</text>
 <title>Date: 2024-03-07
 Comment: </title>
 </g>
 <g>
-<circle cx="862.45" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-29
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-03-29
+Comment: " x="862.45" y="189.91">I</text>
 <title>Date: 2024-03-29
 Comment: </title>
 </g>
 <g>
-<circle cx="895.35" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-16
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-04-16
+Comment: " x="895.35" y="189.91">I</text>
 <title>Date: 2024-04-16
 Comment: </title>
 </g>
 <g>
-<circle cx="915.46" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-27
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-04-27
+Comment: " x="915.46" y="189.91">I</text>
 <title>Date: 2024-04-27
 Comment: </title>
 </g>

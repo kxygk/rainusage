@@ -147,14 +147,16 @@
     (-> plot
         (update :data
                 #(into %
-                       (quickthing/adjustable-circles (->> missing
-                                                           (mapv (fn [empty-collection-point]
-                                                                   (assoc empty-collection-point
-                                                                          1
-                                                                          -1.0))))
-                                                      {:scale   10
-                                                       :attribs {:fill   "#8008"
-                                                                 :stroke "#8004"}})))
+                       (quickthing/adjustable-text (->> missing
+                                                        (mapv (fn [empty-collection-point]
+                                                                (-> empty-collection-point
+                                                                    (assoc 1
+                                                                           0.0)
+                                                                    (assoc 2
+                                                                           "I")))))
+                                                   {:scale   80
+                                                    :attribs {:fill   "#8008"
+                                                              :stroke "none" #_ "#8004"}})))
         (update :data
                 #(into %
                        (quickthing/dashed-line data

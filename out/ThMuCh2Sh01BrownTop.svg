@@ -7,13 +7,13 @@
 </g>
 <g>
 <g>
-<circle cx="529.72" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-09-29
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-09-29
 Comment: Note:
 - Wasn&apos;t monitored before
 - New gauge installed (with legs)
 - A bit tricky b/c at the edge
 - Not enough tubing to connect water collector
-- `:R19` connected" />
+- `:R19` connected" x="529.72" y="189.91">I</text>
 <title>Date: 2023-09-29
 Comment: Note:
 - Wasn't monitored before
@@ -23,85 +23,85 @@ Comment: Note:
 - `:R19` connected</title>
 </g>
 <g>
-<circle cx="569.94" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-10-21
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-10-21
 Comment: Note:
 - no bottle attached
-- notes say `:R15`, but unclear how it could have been already attached" />
+- notes say `:R15`, but unclear how it could have been already attached" x="569.94" y="189.91">I</text>
 <title>Date: 2023-10-21
 Comment: Note:
 - no bottle attached
 - notes say `:R15`, but unclear how it could have been already attached</title>
 </g>
 <g>
-<circle cx="593.71" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-03
-Comment: Nong: `Just installed the bottle`" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-11-03
+Comment: Nong: `Just installed the bottle`" x="593.71" y="189.91">I</text>
 <title>Date: 2023-11-03
 Comment: Nong: `Just installed the bottle`</title>
 </g>
 <g>
-<circle cx="626.62" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-21
-Comment: Nong: `Just installed the bottle` - little water" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-11-21
+Comment: Nong: `Just installed the bottle` - little water" x="626.62" y="189.91">I</text>
 <title>Date: 2023-11-21
 Comment: Nong: `Just installed the bottle` - little water</title>
 </g>
 <g>
-<circle cx="665.01" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-12
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-12-12
+Comment: " x="665.01" y="189.91">I</text>
 <title>Date: 2023-12-12
 Comment: </title>
 </g>
 <g>
-<circle cx="685.12" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-23
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2023-12-23
+Comment: " x="685.12" y="189.91">I</text>
 <title>Date: 2023-12-23
 Comment: </title>
 </g>
 <g>
-<circle cx="707.05" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-04
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-01-04
+Comment: " x="707.05" y="189.91">I</text>
 <title>Date: 2024-01-04
 Comment: </title>
 </g>
 <g>
-<circle cx="738.13" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-21
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-01-21
+Comment: " x="738.13" y="189.91">I</text>
 <title>Date: 2024-01-21
 Comment: </title>
 </g>
 <g>
-<circle cx="767.38" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-06
-Comment: TODO: Logger not changed! Still `:R15` Ask Nong" />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-02-06
+Comment: TODO: Logger not changed! Still `:R15` Ask Nong" x="767.38" y="189.91">I</text>
 <title>Date: 2024-02-06
 Comment: TODO: Logger not changed! Still `:R15` Ask Nong</title>
 </g>
 <g>
-<circle cx="796.63" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-22
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-02-22
+Comment: " x="796.63" y="189.91">I</text>
 <title>Date: 2024-02-22
 Comment: </title>
 </g>
 <g>
-<circle cx="822.23" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-07
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-03-07
+Comment: " x="822.23" y="189.91">I</text>
 <title>Date: 2024-03-07
 Comment: </title>
 </g>
 <g>
-<circle cx="862.45" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-29
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-03-29
+Comment: " x="862.45" y="189.91">I</text>
 <title>Date: 2024-03-29
 Comment: </title>
 </g>
 <g>
-<circle cx="895.35" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-16
-Comment: " />
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-04-16
+Comment: " x="895.35" y="189.91">I</text>
 <title>Date: 2024-04-16
 Comment: </title>
 </g>
 <g>
-<circle cx="915.46" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-27
+<text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Date: 2024-04-27
 Comment: SD Card doesn&apos;t read!!
-Weird.. last time it was the same logger. Maybe he didn&apos;t change it" />
+Weird.. last time it was the same logger. Maybe he didn&apos;t change it" x="915.46" y="189.91">I</text>
 <title>Date: 2024-04-27
 Comment: SD Card doesn't read!!
 Weird.. last time it was the same logger. Maybe he didn't change it</title>
