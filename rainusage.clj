@@ -227,10 +227,10 @@
        logs-by-logger))
 
 ;; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GENERATES ALL LOCATION PLOTS
-
+#_
 (-> logger-logs
     plot/write-all-locations)
-
+#_
 (-> location-logs
     plot/write-all-locations)
 
@@ -277,12 +277,12 @@
   (->> collections
        collection/normalize-samples
        (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
-       (filterv #(= :ThMuCh2Sh01BrownTop
+       (filterv #(= :ThMuCh0ConjoinedBottom
                     (-> %
                         :location)))
        collection/time-vs-18O))
 #_
-(-> time-18o-pairs)
+(->> time-18o-pairs)
 
 
 (->> locations
@@ -295,9 +295,11 @@
                                                     (-> %
                                                         :location)))
                                        collection/time-vs-18O)]
-               (if (-> time-18o-pairs
-                       empty?
-                       not)
+               (if (->> time-18o-pairs
+                        (mapv second)
+                        (filterv some?)
+                        empty?
+                        not)
                  (->> (plot/isotopes time-18o-pairs
                                      [(->> time-18o-pairs
                                            (mapv first)
@@ -307,9 +309,11 @@
                                            (apply max))
                                       (->> time-18o-pairs
                                            (mapv second)
+                                           (filterv some?)
                                            (apply min))
                                       (->> time-18o-pairs
                                            (mapv second)
+                                           (filterv some?)
                                            (apply max))])
                       (spit (str "out/"
                                  (symbol location)
@@ -324,3 +328,12 @@
                                    collection/time-vs-18O)]
   (plot/write-all-locations location-logs
                             o18-by-location))
+
+
+(->> collections
+                                       collection/normalize-samples
+                                       (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+                                       (filterv #(= :ThMuCh0ConjoinedBottom
+                                                    (-> %
+                                                        :location)))
+                                       collection/time-vs-18O)

@@ -132,7 +132,12 @@
   (or just a bare axis made by `plot/axis`)"
   [plot
    isotope-values]
-  (let [data isotope-values]
+  (let [data (->> isotope-values
+                  (filter (fn filter-to-collections-with-data
+                            [collection-point]
+                            (->> collection-point
+                                 second
+                                 some?))))]
     (-> plot
         (update :data
                 #(into %

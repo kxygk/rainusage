@@ -1,5 +1,6 @@
 (ns collection
   (:require log
+            vial
             [quickthing]
             [tock]
             [convertadoc]
@@ -79,14 +80,14 @@
                            (dissoc collection-day
                                    :date)))))))
 #_
-(-> collections
+(-> rainusage/collections
     collection-vec-to-map
     (clojure.pprint/pprint (clojure.java.io/writer "out/collection-map.edn")))
 
 (defn
   normalize-samples
   "return a long vector of all samples, with their dates embedded
-  Note, this dumps the `:comment` tag"
+  Note, this dumps the daily `:comment` tag (not sample specific ones)"
   [collection-vec]
   (->> collection-vec
        (mapv (fn add-date
@@ -381,32 +382,32 @@
                 samples))
   ([start-inst
     samples]
-  (->> samples
-       (mapv (fn sample-to-pair
-               [sample]
-               [(->> sample
-                     :date
-                     (tick/between (tick/epoch))
-                     tick/seconds)
-                (-> sample
-                    :vial-data
-                    first
-                    :d18O)
-                nil ;;radius
-                {:tooltip (str "Date: "
-                               (tick/format (tick/formatter "yyyy-MM-dd")
-                                            (-> sample
-                                                :date
-                                                tick/instant
-                                                (cljc.java-time.zoned-date-time/of-instant (tick/zone "Asia/Bangkok"))
-                                                tick/date-time)) ;; confusing.. see `tock/unix-time-sec2date`
-                               \newline
-                               "Comment: "
-                               (->> sample
-                                    :comment))}]))
-       (filterv #(-> %
-                     second
-                     some?)))))
+   (->> samples
+        (mapv (fn sample-to-pair
+                [sample]
+                [(->> sample
+                      :date
+                      (tick/between (tick/epoch))
+                      tick/seconds)
+                 (-> sample
+                     :vial-data
+                     first
+                     :d18O)
+                 nil ;;radius
+                 {:tooltip (str "Date: "
+                                (tick/format (tick/formatter "yyyy-MM-dd")
+                                             (-> sample
+                                                 :date
+                                                 tick/instant
+                                                 (cljc.java-time.zoned-date-time/of-instant (tick/zone "Asia/Bangkok"))
+                                                 tick/date-time)) ;; confusing.. see `tock/unix-time-sec2date`
+                                \newline
+                                "Comment: "
+                                (->> sample
+                                     :comment))}]))
+        #_(filterv #(-> %
+                      second
+                      some?)))))
 #_
 (->> rainusage/collections
      collection/normalize-samples
