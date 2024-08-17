@@ -149,11 +149,17 @@
                 #(into %
                        (quickthing/adjustable-text (->> missing
                                                         (mapv (fn [empty-collection-point]
+                                                                (let [display-letter (case (-> empty-collection-point
+                                                                                               (get 3)
+                                                                                               :vial)
+                                                                                       nil "I"
+                                                                                       :EMPTY "D"
+                                                                                       "A")]
                                                                 (-> empty-collection-point
                                                                     (assoc 1
                                                                            0.0)
                                                                     (assoc 2
-                                                                           "I")))))
+                                                                           display-letter))))))
                                                    {:scale   80
                                                     :attribs {:fill   "#8008"
                                                               :stroke "none" #_ "#8004"}})))

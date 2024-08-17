@@ -29,7 +29,7 @@ Comment: Note:
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AURB
 Date: 2023-11-03
-Comment: " x="593.71" y="189.91">I</text>
+Comment: " vial="AURB" x="593.71" y="189.91">A</text>
 <title>Vial    :AURB
 Date: 2023-11-03
 Comment: </title>
@@ -37,7 +37,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AEYG
 Date: 2023-11-21
-Comment: " x="626.62" y="189.91">I</text>
+Comment: " vial="AEYG" x="626.62" y="189.91">A</text>
 <title>Vial    :AEYG
 Date: 2023-11-21
 Comment: </title>
@@ -45,7 +45,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHRY
 Date: 2023-12-12
-Comment: " x="665.01" y="189.91">I</text>
+Comment: " vial="AHRY" x="665.01" y="189.91">A</text>
 <title>Vial    :AHRY
 Date: 2023-12-12
 Comment: </title>
@@ -53,7 +53,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AGQJ
 Date: 2023-12-23
-Comment: " x="685.12" y="189.91">I</text>
+Comment: " vial="AGQJ" x="685.12" y="189.91">A</text>
 <title>Vial    :AGQJ
 Date: 2023-12-23
 Comment: </title>
@@ -61,7 +61,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ARWT
 Date: 2024-01-04
-Comment: SD card maybe corrupted ??" x="707.05" y="189.91">I</text>
+Comment: SD card maybe corrupted ??" vial="ARWT" x="707.05" y="189.91">A</text>
 <title>Vial    :ARWT
 Date: 2024-01-04
 Comment: SD card maybe corrupted ??</title>
@@ -69,7 +69,7 @@ Comment: SD card maybe corrupted ??</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ARQC
 Date: 2024-01-21
-Comment: " x="738.13" y="189.91">I</text>
+Comment: " vial="ARQC" x="738.13" y="189.91">A</text>
 <title>Vial    :ARQC
 Date: 2024-01-21
 Comment: </title>
@@ -77,7 +77,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AQAQ
 Date: 2024-02-06
-Comment: " x="767.38" y="189.91">I</text>
+Comment: " vial="AQAQ" x="767.38" y="189.91">A</text>
 <title>Vial    :AQAQ
 Date: 2024-02-06
 Comment: </title>
@@ -85,7 +85,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AFLS
 Date: 2024-02-22
-Comment: Rat bite! Nong wasn&apos;t able to fix it though" x="796.63" y="189.91">I</text>
+Comment: Rat bite! Nong wasn&apos;t able to fix it though" vial="AFLS" x="796.63" y="189.91">A</text>
 <title>Vial    :AFLS
 Date: 2024-02-22
 Comment: Rat bite! Nong wasn't able to fix it though</title>
@@ -93,7 +93,7 @@ Comment: Rat bite! Nong wasn't able to fix it though</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHHB
 Date: 2024-03-07
-Comment: Rat bitten wire was fixed" x="822.23" y="189.91">I</text>
+Comment: Rat bitten wire was fixed" vial="AHHB" x="822.23" y="189.91">A</text>
 <title>Vial    :AHHB
 Date: 2024-03-07
 Comment: Rat bitten wire was fixed</title>
@@ -101,7 +101,7 @@ Comment: Rat bitten wire was fixed</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AMWY
 Date: 2024-03-29
-Comment: " x="862.45" y="189.91">I</text>
+Comment: " vial="AMWY" x="862.45" y="189.91">A</text>
 <title>Vial    :AMWY
 Date: 2024-03-29
 Comment: </title>
@@ -109,7 +109,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ATAY
 Date: 2024-04-16
-Comment: " x="895.35" y="189.91">I</text>
+Comment: " vial="ATAY" x="895.35" y="189.91">A</text>
 <title>Vial    :ATAY
 Date: 2024-04-16
 Comment: </title>
@@ -117,7 +117,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHVP
 Date: 2024-04-27
-Comment: No logger! B/c wire is broken (from last time)" x="915.46" y="189.91">I</text>
+Comment: No logger! B/c wire is broken (from last time)" vial="AHVP" x="915.46" y="189.91">A</text>
 <title>Vial    :AHVP
 Date: 2024-04-27
 Comment: No logger! B/c wire is broken (from last time)</title>
@@ -128,7 +128,7 @@ Comment: No logger! B/c wire is broken (from last time)</title>
 <g>
 <circle cx="540.69" cy="340.70" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AUNG
 Date: 2023-10-05
-Comment: " />
+Comment: " vial="AUNG" />
 <title>Vial    :AUNG
 Date: 2023-10-05
 Comment: </title>
@@ -136,7 +136,7 @@ Comment: </title>
 <g>
 <circle cx="569.94" cy="340.85" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADPF
 Date: 2023-10-21
-Comment: " />
+Comment: " vial="ADPF" />
 <title>Vial    :ADPF
 Date: 2023-10-21
 Comment: </title>

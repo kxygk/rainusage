@@ -105,7 +105,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :START
 Date: 2023-06-26
-Comment: New bottle attached to replace daily sampler" x="356.05" y="189.91">I</text>
+Comment: New bottle attached to replace daily sampler" vial="START" x="356.05" y="189.91">A</text>
 <title>Vial    :START
 Date: 2023-06-26
 Comment: New bottle attached to replace daily sampler</title>
@@ -159,7 +159,7 @@ Comment: Seems this is new? Battery Empty!</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :START
 Date: 2023-12-12
-Comment: Had to be cleared of wasps it seems" x="665.01" y="189.91">I</text>
+Comment: Had to be cleared of wasps it seems" vial="START" x="665.01" y="189.91">A</text>
 <title>Vial    :START
 Date: 2023-12-12
 Comment: Had to be cleared of wasps it seems</title>
@@ -167,7 +167,7 @@ Comment: Had to be cleared of wasps it seems</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :START
 Date: 2023-12-23
-Comment: Spoon in rain gauge got sticky. Ant nest inside" x="685.12" y="189.91">I</text>
+Comment: Spoon in rain gauge got sticky. Ant nest inside" vial="START" x="685.12" y="189.91">A</text>
 <title>Vial    :START
 Date: 2023-12-23
 Comment: Spoon in rain gauge got sticky. Ant nest inside</title>
@@ -175,7 +175,7 @@ Comment: Spoon in rain gauge got sticky. Ant nest inside</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ASVJ
 Date: 2024-01-04
-Comment: Seems it&apos;s finally all up and running" x="707.05" y="189.91">I</text>
+Comment: Seems it&apos;s finally all up and running" vial="ASVJ" x="707.05" y="189.91">A</text>
 <title>Vial    :ASVJ
 Date: 2024-01-04
 Comment: Seems it's finally all up and running</title>
@@ -183,7 +183,7 @@ Comment: Seems it's finally all up and running</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AKEX
 Date: 2024-01-21
-Comment: " x="738.13" y="189.91">I</text>
+Comment: " vial="AKEX" x="738.13" y="189.91">A</text>
 <title>Vial    :AKEX
 Date: 2024-01-21
 Comment: </title>
@@ -191,7 +191,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHDK
 Date: 2024-02-06
-Comment: " x="767.38" y="189.91">I</text>
+Comment: " vial="AHDK" x="767.38" y="189.91">A</text>
 <title>Vial    :AHDK
 Date: 2024-02-06
 Comment: </title>
@@ -201,7 +201,7 @@ Comment: </title>
 Date: 2024-02-22
 Comment: Notes:
 - Seems the logger was destroyed by a weed whacker
-- Bottle disconnected and broken" x="796.63" y="189.91">I</text>
+- Bottle disconnected and broken" vial="EMPTY" x="796.63" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2024-02-22
 Comment: Notes:
@@ -214,7 +214,7 @@ Comment: Notes:
 <g>
 <circle cx="372.50" cy="331.67" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARFJ
 Date: 2023-07-05
-Comment: New bottle&apos;s first sample :)" />
+Comment: New bottle&apos;s first sample :)" vial="ARFJ" />
 <title>Vial    :ARFJ
 Date: 2023-07-05
 Comment: New bottle's first sample :)</title>
@@ -222,7 +222,7 @@ Comment: New bottle's first sample :)</title>
 <g>
 <circle cx="399.93" cy="276.09" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AAWP
 Date: 2023-07-20
-Comment: New bottle&apos;s first sample :)" />
+Comment: New bottle&apos;s first sample :)" vial="AAWP" />
 <title>Vial    :AAWP
 Date: 2023-07-20
 Comment: New bottle's first sample :)</title>
@@ -230,7 +230,7 @@ Comment: New bottle's first sample :)</title>
 <g>
 <circle cx="423.69" cy="258.41" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AFUP
 Date: 2023-08-02
-Comment: " />
+Comment: " vial="AFUP" />
 <title>Vial    :AFUP
 Date: 2023-08-02
 Comment: </title>
@@ -238,7 +238,7 @@ Comment: </title>
 <g>
 <circle cx="458.43" cy="249.30" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYFF
 Date: 2023-08-21
-Comment: tube-cone fell off.. maybe not whole signal" />
+Comment: tube-cone fell off.. maybe not whole signal" vial="AYFF" />
 <title>Vial    :AYFF
 Date: 2023-08-21
 Comment: tube-cone fell off.. maybe not whole signal</title>

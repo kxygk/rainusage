@@ -9,7 +9,7 @@
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-08-21
-Comment: no water again! But cave looks wet" x="458.43" y="189.91">I</text>
+Comment: no water again! But cave looks wet" vial="EMPTY" x="458.43" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2023-08-21
 Comment: no water again! But cave looks wet</title>
@@ -43,7 +43,7 @@ Comment: Note:
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-10-21
-Comment: No water, see pics" x="569.94" y="189.91">I</text>
+Comment: No water, see pics" vial="EMPTY" x="569.94" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2023-10-21
 Comment: No water, see pics</title>
@@ -51,7 +51,7 @@ Comment: No water, see pics</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AACC
 Date: 2023-11-03
-Comment: " x="593.71" y="189.91">I</text>
+Comment: " vial="AACC" x="593.71" y="189.91">A</text>
 <title>Vial    :AACC
 Date: 2023-11-03
 Comment: </title>
@@ -59,7 +59,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-11-21
-Comment: No water (pic)" x="626.62" y="189.91">I</text>
+Comment: No water (pic)" vial="EMPTY" x="626.62" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2023-11-21
 Comment: No water (pic)</title>
@@ -67,7 +67,7 @@ Comment: No water (pic)</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ATJP
 Date: 2023-12-12
-Comment: " x="665.01" y="189.91">I</text>
+Comment: " vial="ATJP" x="665.01" y="189.91">A</text>
 <title>Vial    :ATJP
 Date: 2023-12-12
 Comment: </title>
@@ -75,7 +75,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AJLA
 Date: 2023-12-23
-Comment: " x="685.12" y="189.91">I</text>
+Comment: " vial="AJLA" x="685.12" y="189.91">A</text>
 <title>Vial    :AJLA
 Date: 2023-12-23
 Comment: </title>
@@ -83,7 +83,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ABAB
 Date: 2024-01-04
-Comment: " x="707.05" y="189.91">I</text>
+Comment: " vial="ABAB" x="707.05" y="189.91">A</text>
 <title>Vial    :ABAB
 Date: 2024-01-04
 Comment: </title>
@@ -91,7 +91,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AFFJ
 Date: 2024-01-21
-Comment: " x="738.13" y="189.91">I</text>
+Comment: " vial="AFFJ" x="738.13" y="189.91">A</text>
 <title>Vial    :AFFJ
 Date: 2024-01-21
 Comment: </title>
@@ -99,7 +99,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AQDF
 Date: 2024-02-06
-Comment: " x="767.38" y="189.91">I</text>
+Comment: " vial="AQDF" x="767.38" y="189.91">A</text>
 <title>Vial    :AQDF
 Date: 2024-02-06
 Comment: </title>
@@ -107,7 +107,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AXNM
 Date: 2024-02-22
-Comment: " x="796.63" y="189.91">I</text>
+Comment: " vial="AXNM" x="796.63" y="189.91">A</text>
 <title>Vial    :AXNM
 Date: 2024-02-22
 Comment: </title>
@@ -115,7 +115,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AGPL
 Date: 2024-03-07
-Comment: " x="822.23" y="189.91">I</text>
+Comment: " vial="AGPL" x="822.23" y="189.91">A</text>
 <title>Vial    :AGPL
 Date: 2024-03-07
 Comment: </title>
@@ -123,7 +123,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AFZU
 Date: 2024-03-29
-Comment: " x="862.45" y="189.91">I</text>
+Comment: " vial="AFZU" x="862.45" y="189.91">A</text>
 <title>Vial    :AFZU
 Date: 2024-03-29
 Comment: </title>
@@ -131,7 +131,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ANQU
 Date: 2024-04-16
-Comment: " x="895.35" y="189.91">I</text>
+Comment: " vial="ANQU" x="895.35" y="189.91">A</text>
 <title>Vial    :ANQU
 Date: 2024-04-16
 Comment: </title>
@@ -139,7 +139,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AJLR
 Date: 2024-04-27
-Comment: Photo seems to be taken at home for some reason. So no `:H` in the background" x="915.46" y="189.91">I</text>
+Comment: Photo seems to be taken at home for some reason. So no `:H` in the background" vial="AJLR" x="915.46" y="189.91">A</text>
 <title>Vial    :AJLR
 Date: 2024-04-27
 Comment: Photo seems to be taken at home for some reason. So no `:H` in the background</title>
@@ -150,7 +150,7 @@ Comment: Photo seems to be taken at home for some reason. So no `:H` in the back
 <g>
 <circle cx="78.17" cy="327.79" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APEJ
 Date: 2023-01-25
-Comment: " />
+Comment: " vial="APEJ" />
 <title>Vial    :APEJ
 Date: 2023-01-25
 Comment: </title>
@@ -158,7 +158,7 @@ Comment: </title>
 <g>
 <circle cx="125.70" cy="329.87" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APGE
 Date: 2023-02-20
-Comment: Bottle was moved down I think" />
+Comment: Bottle was moved down I think" vial="APGE" />
 <title>Vial    :APGE
 Date: 2023-02-20
 Comment: Bottle was moved down I think</title>
@@ -166,7 +166,7 @@ Comment: Bottle was moved down I think</title>
 <g>
 <circle cx="140.33" cy="333.42" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AWBY
 Date: 2023-02-28
-Comment: " />
+Comment: " vial="AWBY" />
 <title>Vial    :AWBY
 Date: 2023-02-28
 Comment: </title>
@@ -174,7 +174,7 @@ Comment: </title>
 <g>
 <circle cx="165.92" cy="330.65" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZXQ
 Date: 2023-03-14
-Comment: " />
+Comment: " vial="AZXQ" />
 <title>Vial    :AZXQ
 Date: 2023-03-14
 Comment: </title>
@@ -182,7 +182,7 @@ Comment: </title>
 <g>
 <circle cx="184.20" cy="330.77" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ANHW
 Date: 2023-03-24
-Comment: " />
+Comment: " vial="ANHW" />
 <title>Vial    :ANHW
 Date: 2023-03-24
 Comment: </title>
@@ -190,7 +190,7 @@ Comment: </title>
 <g>
 <circle cx="202.49" cy="330.01" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGDV
 Date: 2023-04-03
-Comment: " />
+Comment: " vial="AGDV" />
 <title>Vial    :AGDV
 Date: 2023-04-03
 Comment: </title>
@@ -198,7 +198,7 @@ Comment: </title>
 <g>
 <circle cx="218.94" cy="312.66" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AQPM
 Date: 2023-04-12
-Comment: " />
+Comment: " vial="AQPM" />
 <title>Vial    :AQPM
 Date: 2023-04-12
 Comment: </title>
@@ -206,7 +206,7 @@ Comment: </title>
 <g>
 <circle cx="242.70" cy="316.81" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AQRT
 Date: 2023-04-25
-Comment: " />
+Comment: " vial="AQRT" />
 <title>Vial    :AQRT
 Date: 2023-04-25
 Comment: </title>
@@ -214,7 +214,7 @@ Comment: </title>
 <g>
 <circle cx="266.47" cy="320.11" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARBX
 Date: 2023-05-08
-Comment: " />
+Comment: " vial="ARBX" />
 <title>Vial    :ARBX
 Date: 2023-05-08
 Comment: </title>
@@ -222,7 +222,7 @@ Comment: </title>
 <g>
 <circle cx="282.92" cy="326.92" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AUQS
 Date: 2023-05-17
-Comment: " />
+Comment: " vial="AUQS" />
 <title>Vial    :AUQS
 Date: 2023-05-17
 Comment: </title>
@@ -230,7 +230,7 @@ Comment: </title>
 <g>
 <circle cx="306.69" cy="326.36" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADWC
 Date: 2023-05-30
-Comment: " />
+Comment: " vial="ADWC" />
 <title>Vial    :ADWC
 Date: 2023-05-30
 Comment: </title>
@@ -238,7 +238,7 @@ Comment: </title>
 <g>
 <circle cx="330.46" cy="322.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AREG
 Date: 2023-06-12
-Comment: " />
+Comment: " vial="AREG" />
 <title>Vial    :AREG
 Date: 2023-06-12
 Comment: </title>
@@ -246,7 +246,7 @@ Comment: </title>
 <g>
 <circle cx="356.05" cy="313.89" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AWTB
 Date: 2023-06-26
-Comment: " />
+Comment: " vial="AWTB" />
 <title>Vial    :AWTB
 Date: 2023-06-26
 Comment: </title>
@@ -254,7 +254,7 @@ Comment: </title>
 <g>
 <circle cx="372.50" cy="303.35" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AABK
 Date: 2023-07-05
-Comment: Almost no water too! (enough for sample though)" />
+Comment: Almost no water too! (enough for sample though)" vial="AABK" />
 <title>Vial    :AABK
 Date: 2023-07-05
 Comment: Almost no water too! (enough for sample though)</title>
@@ -262,7 +262,7 @@ Comment: Almost no water too! (enough for sample though)</title>
 <g>
 <circle cx="399.93" cy="323.83" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ANVL
 Date: 2023-07-20
-Comment: A bit more water than last time, but still little" />
+Comment: A bit more water than last time, but still little" vial="ANVL" />
 <title>Vial    :ANVL
 Date: 2023-07-20
 Comment: A bit more water than last time, but still little</title>
@@ -270,7 +270,7 @@ Comment: A bit more water than last time, but still little</title>
 <g>
 <circle cx="423.69" cy="238.49" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AMKJ
 Date: 2023-08-02
-Comment: still very little water. battery fell out" />
+Comment: still very little water. battery fell out" vial="AMKJ" />
 <title>Vial    :AMKJ
 Date: 2023-08-02
 Comment: still very little water. battery fell out</title>
@@ -278,7 +278,7 @@ Comment: still very little water. battery fell out</title>
 <g>
 <circle cx="484.02" cy="317.96" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ANDJ
 Date: 2023-09-04
-Comment: water is back, but very little" />
+Comment: water is back, but very little" vial="ANDJ" />
 <title>Vial    :ANDJ
 Date: 2023-09-04
 Comment: water is back, but very little</title>
@@ -286,7 +286,7 @@ Comment: water is back, but very little</title>
 <g>
 <circle cx="513.27" cy="340.92" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ACBW
 Date: 2023-09-20
-Comment: again, very little water" />
+Comment: again, very little water" vial="ACBW" />
 <title>Vial    :ACBW
 Date: 2023-09-20
 Comment: again, very little water</title>

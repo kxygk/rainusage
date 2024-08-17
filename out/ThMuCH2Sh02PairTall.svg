@@ -21,7 +21,7 @@ Comment: Note:
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ASNN
 Date: 2023-11-03
-Comment: " x="593.71" y="189.91">I</text>
+Comment: " vial="ASNN" x="593.71" y="189.91">A</text>
 <title>Vial    :ASNN
 Date: 2023-11-03
 Comment: </title>
@@ -29,7 +29,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AKXF
 Date: 2023-11-21
-Comment: " x="626.62" y="189.91">I</text>
+Comment: " vial="AKXF" x="626.62" y="189.91">A</text>
 <title>Vial    :AKXF
 Date: 2023-11-21
 Comment: </title>
@@ -37,7 +37,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AQLK
 Date: 2023-12-12
-Comment: " x="665.01" y="189.91">I</text>
+Comment: " vial="AQLK" x="665.01" y="189.91">A</text>
 <title>Vial    :AQLK
 Date: 2023-12-12
 Comment: </title>
@@ -45,7 +45,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ABER
 Date: 2023-12-23
-Comment: " x="685.12" y="189.91">I</text>
+Comment: " vial="ABER" x="685.12" y="189.91">A</text>
 <title>Vial    :ABER
 Date: 2023-12-23
 Comment: </title>
@@ -53,7 +53,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ATEJ
 Date: 2024-01-04
-Comment: " x="707.05" y="189.91">I</text>
+Comment: " vial="ATEJ" x="707.05" y="189.91">A</text>
 <title>Vial    :ATEJ
 Date: 2024-01-04
 Comment: </title>
@@ -61,7 +61,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AVNL
 Date: 2024-01-21
-Comment: " x="738.13" y="189.91">I</text>
+Comment: " vial="AVNL" x="738.13" y="189.91">A</text>
 <title>Vial    :AVNL
 Date: 2024-01-21
 Comment: </title>
@@ -69,7 +69,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AFBW
 Date: 2024-02-06
-Comment: " x="767.38" y="189.91">I</text>
+Comment: " vial="AFBW" x="767.38" y="189.91">A</text>
 <title>Vial    :AFBW
 Date: 2024-02-06
 Comment: </title>
@@ -77,7 +77,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AWKN
 Date: 2024-02-22
-Comment: " x="796.63" y="189.91">I</text>
+Comment: " vial="AWKN" x="796.63" y="189.91">A</text>
 <title>Vial    :AWKN
 Date: 2024-02-22
 Comment: </title>
@@ -85,7 +85,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AXHS
 Date: 2024-03-07
-Comment: " x="822.23" y="189.91">I</text>
+Comment: " vial="AXHS" x="822.23" y="189.91">A</text>
 <title>Vial    :AXHS
 Date: 2024-03-07
 Comment: </title>
@@ -93,7 +93,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AZAJ
 Date: 2024-03-29
-Comment: " x="862.45" y="189.91">I</text>
+Comment: " vial="AZAJ" x="862.45" y="189.91">A</text>
 <title>Vial    :AZAJ
 Date: 2024-03-29
 Comment: </title>
@@ -101,7 +101,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHPD
 Date: 2024-04-16
-Comment: " x="895.35" y="189.91">I</text>
+Comment: " vial="AHPD" x="895.35" y="189.91">A</text>
 <title>Vial    :AHPD
 Date: 2024-04-16
 Comment: </title>
@@ -109,7 +109,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AZUG
 Date: 2024-04-27
-Comment: " x="915.46" y="189.91">I</text>
+Comment: " vial="AZUG" x="915.46" y="189.91">A</text>
 <title>Vial    :AZUG
 Date: 2024-04-27
 Comment: </title>
@@ -120,7 +120,7 @@ Comment: </title>
 <g>
 <circle cx="78.17" cy="324.38" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AWHM
 Date: 2023-01-25
-Comment: " />
+Comment: " vial="AWHM" />
 <title>Vial    :AWHM
 Date: 2023-01-25
 Comment: </title>
@@ -128,7 +128,7 @@ Comment: </title>
 <g>
 <circle cx="125.70" cy="326.72" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZAX
 Date: 2023-02-20
-Comment: " />
+Comment: " vial="AZAX" />
 <title>Vial    :AZAX
 Date: 2023-02-20
 Comment: </title>
@@ -136,7 +136,7 @@ Comment: </title>
 <g>
 <circle cx="140.33" cy="323.47" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AAVS
 Date: 2023-02-28
-Comment: " />
+Comment: " vial="AAVS" />
 <title>Vial    :AAVS
 Date: 2023-02-28
 Comment: </title>
@@ -144,7 +144,7 @@ Comment: </title>
 <g>
 <circle cx="165.92" cy="323.65" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AWZS
 Date: 2023-03-14
-Comment: " />
+Comment: " vial="AWZS" />
 <title>Vial    :AWZS
 Date: 2023-03-14
 Comment: </title>
@@ -152,7 +152,7 @@ Comment: </title>
 <g>
 <circle cx="184.20" cy="321.50" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGWT
 Date: 2023-03-24
-Comment: " />
+Comment: " vial="AGWT" />
 <title>Vial    :AGWT
 Date: 2023-03-24
 Comment: </title>
@@ -160,7 +160,7 @@ Comment: </title>
 <g>
 <circle cx="202.49" cy="328.78" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ACLW
 Date: 2023-04-03
-Comment: " />
+Comment: " vial="ACLW" />
 <title>Vial    :ACLW
 Date: 2023-04-03
 Comment: </title>
@@ -168,7 +168,7 @@ Comment: </title>
 <g>
 <circle cx="218.94" cy="310.49" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AAEM
 Date: 2023-04-12
-Comment: " />
+Comment: " vial="AAEM" />
 <title>Vial    :AAEM
 Date: 2023-04-12
 Comment: </title>
@@ -176,7 +176,7 @@ Comment: </title>
 <g>
 <circle cx="242.70" cy="305.51" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AQFK
 Date: 2023-04-25
-Comment: " />
+Comment: " vial="AQFK" />
 <title>Vial    :AQFK
 Date: 2023-04-25
 Comment: </title>
@@ -184,7 +184,7 @@ Comment: </title>
 <g>
 <circle cx="266.47" cy="315.80" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AFQH
 Date: 2023-05-08
-Comment: " />
+Comment: " vial="AFQH" />
 <title>Vial    :AFQH
 Date: 2023-05-08
 Comment: </title>
@@ -192,7 +192,7 @@ Comment: </title>
 <g>
 <circle cx="282.92" cy="325.39" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYFP
 Date: 2023-05-17
-Comment: " />
+Comment: " vial="AYFP" />
 <title>Vial    :AYFP
 Date: 2023-05-17
 Comment: </title>
@@ -200,7 +200,7 @@ Comment: </title>
 <g>
 <circle cx="306.69" cy="247.84" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AQEX
 Date: 2023-05-30
-Comment: " />
+Comment: " vial="AQEX" />
 <title>Vial    :AQEX
 Date: 2023-05-30
 Comment: </title>
@@ -208,7 +208,7 @@ Comment: </title>
 <g>
 <circle cx="330.46" cy="319.61" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AWRW
 Date: 2023-06-12
-Comment: " />
+Comment: " vial="AWRW" />
 <title>Vial    :AWRW
 Date: 2023-06-12
 Comment: </title>
@@ -216,7 +216,7 @@ Comment: </title>
 <g>
 <circle cx="356.05" cy="321.45" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AJBL
 Date: 2023-06-26
-Comment: " />
+Comment: " vial="AJBL" />
 <title>Vial    :AJBL
 Date: 2023-06-26
 Comment: </title>
@@ -224,7 +224,7 @@ Comment: </title>
 <g>
 <circle cx="372.50" cy="321.11" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APKN
 Date: 2023-07-05
-Comment: " />
+Comment: " vial="APKN" />
 <title>Vial    :APKN
 Date: 2023-07-05
 Comment: </title>
@@ -232,7 +232,7 @@ Comment: </title>
 <g>
 <circle cx="399.93" cy="329.95" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AFBC
 Date: 2023-07-20
-Comment: " />
+Comment: " vial="AFBC" />
 <title>Vial    :AFBC
 Date: 2023-07-20
 Comment: </title>
@@ -240,7 +240,7 @@ Comment: </title>
 <g>
 <circle cx="423.69" cy="314.20" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYER
 Date: 2023-08-02
-Comment: " />
+Comment: " vial="AYER" />
 <title>Vial    :AYER
 Date: 2023-08-02
 Comment: </title>
@@ -248,7 +248,7 @@ Comment: </title>
 <g>
 <circle cx="458.43" cy="316.15" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADBM
 Date: 2023-08-21
-Comment: " />
+Comment: " vial="ADBM" />
 <title>Vial    :ADBM
 Date: 2023-08-21
 Comment: </title>
@@ -256,7 +256,7 @@ Comment: </title>
 <g>
 <circle cx="484.02" cy="336.58" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARFP
 Date: 2023-09-04
-Comment: " />
+Comment: " vial="ARFP" />
 <title>Vial    :ARFP
 Date: 2023-09-04
 Comment: </title>
@@ -264,7 +264,7 @@ Comment: </title>
 <g>
 <circle cx="513.27" cy="332.57" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AHHT
 Date: 2023-09-20
-Comment: " />
+Comment: " vial="AHHT" />
 <title>Vial    :AHHT
 Date: 2023-09-20
 Comment: </title>
@@ -276,7 +276,7 @@ Comment: Note:
 - Transparent Lid/Cover replaced
 - Now it&apos;s a narrower green funnel 
 - Pics show bottle `:C` is attached
-- Gauge confirmed to have no-num" />
+- Gauge confirmed to have no-num" vial="AUSZ" />
 <title>Vial    :AUSZ
 Date: 2023-10-05
 Comment: Note:
@@ -288,7 +288,7 @@ Comment: Note:
 <g>
 <circle cx="569.94" cy="343.38" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYNS
 Date: 2023-10-21
-Comment: " />
+Comment: " vial="AYNS" />
 <title>Vial    :AYNS
 Date: 2023-10-21
 Comment: </title>

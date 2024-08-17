@@ -121,7 +121,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :START
 Date: 2023-07-20
-Comment: daily sampler replaced with bottle `:A`" x="399.93" y="189.91">I</text>
+Comment: daily sampler replaced with bottle `:A`" vial="START" x="399.93" y="189.91">A</text>
 <title>Vial    :START
 Date: 2023-07-20
 Comment: daily sampler replaced with bottle `:A`</title>
@@ -141,7 +141,7 @@ Comment: Note:
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ACYG
 Date: 2023-11-03
-Comment: " x="593.71" y="189.91">I</text>
+Comment: " vial="ACYG" x="593.71" y="189.91">A</text>
 <title>Vial    :ACYG
 Date: 2023-11-03
 Comment: </title>
@@ -149,7 +149,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AAMR
 Date: 2023-11-21
-Comment: " x="626.62" y="189.91">I</text>
+Comment: " vial="AAMR" x="626.62" y="189.91">A</text>
 <title>Vial    :AAMR
 Date: 2023-11-21
 Comment: </title>
@@ -157,7 +157,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ACNU
 Date: 2023-12-12
-Comment: Rat bite!!! Probably missing data" x="665.01" y="189.91">I</text>
+Comment: Rat bite!!! Probably missing data" vial="ACNU" x="665.01" y="189.91">A</text>
 <title>Vial    :ACNU
 Date: 2023-12-12
 Comment: Rat bite!!! Probably missing data</title>
@@ -165,7 +165,7 @@ Comment: Rat bite!!! Probably missing data</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AECU
 Date: 2023-12-23
-Comment: I think Nong re-fixes the cables (wrong wiring)" x="685.12" y="189.91">I</text>
+Comment: I think Nong re-fixes the cables (wrong wiring)" vial="AECU" x="685.12" y="189.91">A</text>
 <title>Vial    :AECU
 Date: 2023-12-23
 Comment: I think Nong re-fixes the cables (wrong wiring)</title>
@@ -173,7 +173,7 @@ Comment: I think Nong re-fixes the cables (wrong wiring)</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AEFF
 Date: 2024-01-04
-Comment: Bottle has hole bitten out of it!" x="707.05" y="189.91">I</text>
+Comment: Bottle has hole bitten out of it!" vial="AEFF" x="707.05" y="189.91">A</text>
 <title>Vial    :AEFF
 Date: 2024-01-04
 Comment: Bottle has hole bitten out of it!</title>
@@ -181,7 +181,7 @@ Comment: Bottle has hole bitten out of it!</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ALVQ
 Date: 2024-01-21
-Comment: bottle and tube disconnected" x="738.13" y="189.91">I</text>
+Comment: bottle and tube disconnected" vial="ALVQ" x="738.13" y="189.91">A</text>
 <title>Vial    :ALVQ
 Date: 2024-01-21
 Comment: bottle and tube disconnected</title>
@@ -189,7 +189,7 @@ Comment: bottle and tube disconnected</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2024-02-06
-Comment: bottle has hole (different from before). No water" x="767.38" y="189.91">I</text>
+Comment: bottle has hole (different from before). No water" vial="EMPTY" x="767.38" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2024-02-06
 Comment: bottle has hole (different from before). No water</title>
@@ -197,7 +197,7 @@ Comment: bottle has hole (different from before). No water</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ANKS
 Date: 2024-02-22
-Comment: Nong says: &apos;lesswater&apos;" x="796.63" y="189.91">I</text>
+Comment: Nong says: &apos;lesswater&apos;" vial="ANKS" x="796.63" y="189.91">A</text>
 <title>Vial    :ANKS
 Date: 2024-02-22
 Comment: Nong says: 'lesswater'</title>
@@ -207,7 +207,7 @@ Comment: Nong says: 'lesswater'</title>
 Date: 2024-03-07
 Comment: Notes:
 No water in A. Nong waited for drip but it didn&apos;t, adjusted cone.
-i see the limestone from the drip is cover on the rim side of the cone and it&apos;s look too near to go out side, then i though it&apos;s might move out from the original" x="822.23" y="189.91">I</text>
+i see the limestone from the drip is cover on the rim side of the cone and it&apos;s look too near to go out side, then i though it&apos;s might move out from the original" vial="EMPTY" x="822.23" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2024-03-07
 Comment: Notes:
@@ -220,7 +220,7 @@ Date: 2024-03-29
 Comment: Wires reattached
 New top cone
 Nong says: &apos;I see one drop is droping here then I move the cone to this direction&apos;
-Logger was changed, but previous logger wasn&apos;t actually connected b/c wires had been broken :)" x="862.45" y="189.91">I</text>
+Logger was changed, but previous logger wasn&apos;t actually connected b/c wires had been broken :)" vial="EMPTY" x="862.45" y="189.91">D</text>
 <title>Vial    :EMPTY
 Date: 2024-03-29
 Comment: Wires reattached
@@ -231,7 +231,7 @@ Logger was changed, but previous logger wasn't actually connected b/c wires had 
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ACSU
 Date: 2024-04-16
-Comment: " x="895.35" y="189.91">I</text>
+Comment: " vial="ACSU" x="895.35" y="189.91">A</text>
 <title>Vial    :ACSU
 Date: 2024-04-16
 Comment: </title>
@@ -239,7 +239,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :APCT
 Date: 2024-04-27
-Comment: SD Card file is Empty!!" x="915.46" y="189.91">I</text>
+Comment: SD Card file is Empty!!" vial="APCT" x="915.46" y="189.91">A</text>
 <title>Vial    :APCT
 Date: 2024-04-27
 Comment: SD Card file is Empty!!</title>
@@ -250,7 +250,7 @@ Comment: SD Card file is Empty!!</title>
 <g>
 <circle cx="423.69" cy="319.98" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AXWC
 Date: 2023-08-02
-Comment: " />
+Comment: " vial="AXWC" />
 <title>Vial    :AXWC
 Date: 2023-08-02
 Comment: </title>
@@ -258,7 +258,7 @@ Comment: </title>
 <g>
 <circle cx="458.43" cy="312.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AERJ
 Date: 2023-08-21
-Comment: " />
+Comment: " vial="AERJ" />
 <title>Vial    :AERJ
 Date: 2023-08-21
 Comment: </title>
@@ -266,7 +266,7 @@ Comment: </title>
 <g>
 <circle cx="484.02" cy="330.14" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AAYW
 Date: 2023-09-04
-Comment: " />
+Comment: " vial="AAYW" />
 <title>Vial    :AAYW
 Date: 2023-09-04
 Comment: </title>
@@ -274,7 +274,7 @@ Comment: </title>
 <g>
 <circle cx="513.27" cy="335.69" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ATMB
 Date: 2023-09-20
-Comment: " />
+Comment: " vial="ATMB" />
 <title>Vial    :ATMB
 Date: 2023-09-20
 Comment: </title>
@@ -282,7 +282,7 @@ Comment: </title>
 <g>
 <circle cx="540.69" cy="341.48" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ACWM
 Date: 2023-10-05
-Comment: " />
+Comment: " vial="ACWM" />
 <title>Vial    :ACWM
 Date: 2023-10-05
 Comment: </title>
@@ -290,7 +290,7 @@ Comment: </title>
 <g>
 <circle cx="569.94" cy="342.36" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYKX
 Date: 2023-10-21
-Comment: " />
+Comment: " vial="AYKX" />
 <title>Vial    :AYKX
 Date: 2023-10-21
 Comment: </title>
