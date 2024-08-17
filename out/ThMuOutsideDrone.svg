@@ -5,6 +5,122 @@
 <g>
 <text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="950.00" y="30.00">d18O</text>
 </g>
+<g>
+<g>
+<circle cx="184.20" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-03-24
+Comment: No rain" />
+<title>Date: 2023-03-24
+Comment: No rain</title>
+</g>
+<g>
+<circle cx="242.70" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-04-25
+Comment: bottle still broken" />
+<title>Date: 2023-04-25
+Comment: bottle still broken</title>
+</g>
+<g>
+<circle cx="266.47" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-08
+Comment: bottle still broken" />
+<title>Date: 2023-05-08
+Comment: bottle still broken</title>
+</g>
+<g>
+<circle cx="282.92" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-17
+Comment: bottle still broken" />
+<title>Date: 2023-05-17
+Comment: bottle still broken</title>
+</g>
+<g>
+<circle cx="306.69" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-05-30
+Comment: Looks like Nong fixed it?" />
+<title>Date: 2023-05-30
+Comment: Looks like Nong fixed it?</title>
+</g>
+<g>
+<circle cx="526.07" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-09-27
+Comment: Note:
+-`:RG06` (ie. `:RG86`) at bottle `:D`.. ie. `:ThMuOutsideDrone` was replaced with a new rain gauge (no RG number) and logger `:R06`
+- bottle `:D` had a small hole added so water doesn&apos;t sit in tube due to backpressure
+- gauge has a ton of ants!" />
+<title>Date: 2023-09-27
+Comment: Note:
+-`:RG06` (ie. `:RG86`) at bottle `:D`.. ie. `:ThMuOutsideDrone` was replaced with a new rain gauge (no RG number) and logger `:R06`
+- bottle `:D` had a small hole added so water doesn't sit in tube due to backpressure
+- gauge has a ton of ants!</title>
+</g>
+<g>
+<circle cx="593.71" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-03
+Comment: " />
+<title>Date: 2023-11-03
+Comment: </title>
+</g>
+<g>
+<circle cx="626.62" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-21
+Comment: Pics show `:R03` but that was in-cave last time" />
+<title>Date: 2023-11-21
+Comment: Pics show `:R03` but that was in-cave last time</title>
+</g>
+<g>
+<circle cx="665.01" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-12
+Comment: " />
+<title>Date: 2023-12-12
+Comment: </title>
+</g>
+<g>
+<circle cx="685.12" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-23
+Comment: Bottle `:D` snapped off tube" />
+<title>Date: 2023-12-23
+Comment: Bottle `:D` snapped off tube</title>
+</g>
+<g>
+<circle cx="707.05" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-04
+Comment: " />
+<title>Date: 2024-01-04
+Comment: </title>
+</g>
+<g>
+<circle cx="738.13" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-21
+Comment: Rat bite! Missing datav. Outside this time :S" />
+<title>Date: 2024-01-21
+Comment: Rat bite! Missing datav. Outside this time :S</title>
+</g>
+<g>
+<circle cx="767.38" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-06
+Comment: " />
+<title>Date: 2024-02-06
+Comment: </title>
+</g>
+<g>
+<circle cx="796.63" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-22
+Comment: " />
+<title>Date: 2024-02-22
+Comment: </title>
+</g>
+<g>
+<circle cx="822.23" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-07
+Comment: " />
+<title>Date: 2024-03-07
+Comment: </title>
+</g>
+<g>
+<circle cx="862.45" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-29
+Comment: " />
+<title>Date: 2024-03-29
+Comment: </title>
+</g>
+<g>
+<circle cx="895.35" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-16
+Comment: " />
+<title>Date: 2024-04-16
+Comment: </title>
+</g>
+<g>
+<circle cx="915.46" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-27
+Comment: " />
+<title>Date: 2024-04-27
+Comment: </title>
+</g>
+</g>
 <polyline fill="none" points="569.94,525.00 540.69,381.18 513.27,355.26 484.02,354.70 458.43,321.80 423.69,265.32 399.93,275.76 372.50,306.43 356.05,236.65 330.46,290.78 218.94,223.29 202.49,239.43 165.92,75.00 140.33,217.03 125.70,249.05 78.17,313.80" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
 <g>
 <g>

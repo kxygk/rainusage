@@ -331,9 +331,9 @@
 
 
 (->> collections
-                                       collection/normalize-samples
-                                       (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
-                                       (filterv #(= :ThMuCh0ConjoinedBottom
-                                                    (-> %
-                                                        :location)))
-                                       collection/time-vs-18O)
+     collection/normalize-samples
+     (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+     (filterv #(= :ThMuCh0ConjoinedBottom
+                  (-> %
+                      :location)))
+     collection/time-vs-18O)

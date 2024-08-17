@@ -132,13 +132,29 @@
   (or just a bare axis made by `plot/axis`)"
   [plot
    isotope-values]
-  (let [data (->> isotope-values
-                  (filter (fn filter-to-collections-with-data
-                            [collection-point]
-                            (->> collection-point
-                                 second
-                                 some?))))]
+  (let [data    (->> isotope-values
+                     (filterv (fn filter-to-collections-with-data
+                                [collection-point]
+                                (->> collection-point
+                                     second
+                                     some?))))
+        missing (->> isotope-values
+                     (filterv (fn filter-to-collections-with-data
+                                [collection-point]
+                                (->> collection-point
+                                     second
+                                     nil?))))]
     (-> plot
+        (update :data
+                #(into %
+                       (quickthing/adjustable-circles (->> missing
+                                                           (mapv (fn [empty-collection-point]
+                                                                   (assoc empty-collection-point
+                                                                          1
+                                                                          -1.0))))
+                                                      {:scale   10
+                                                       :attribs {:fill   "#8008"
+                                                                 :stroke "#8004"}})))
         (update :data
                 #(into %
                        (quickthing/dashed-line data
@@ -217,11 +233,13 @@
                           vals
                           (apply concat)
                           (mapv second)
+                          (filterv some?)
                           (apply min))
         y-oxygen-max (->> isotope-by-location
                           vals
                           (apply concat)
                           (mapv second)
+                          (filterv some?)
                           (apply max))]
     (->> logs-by-location
          (map (fn print-each-logs-plot

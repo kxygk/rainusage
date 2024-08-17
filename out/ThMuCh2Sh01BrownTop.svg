@@ -1,9 +1,111 @@
 <?xml version="1.0"?>
-<svg version="1.1" width="100%" height="100%" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" viewBox="0 0 1000 600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 <g>
 <g>
 <g>
 <text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="950.00" y="30.00">d18O</text>
+</g>
+<g>
+<g>
+<circle cx="529.72" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-09-29
+Comment: Note:
+- Wasn&apos;t monitored before
+- New gauge installed (with legs)
+- A bit tricky b/c at the edge
+- Not enough tubing to connect water collector
+- `:R19` connected" />
+<title>Date: 2023-09-29
+Comment: Note:
+- Wasn't monitored before
+- New gauge installed (with legs)
+- A bit tricky b/c at the edge
+- Not enough tubing to connect water collector
+- `:R19` connected</title>
+</g>
+<g>
+<circle cx="569.94" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-10-21
+Comment: Note:
+- no bottle attached
+- notes say `:R15`, but unclear how it could have been already attached" />
+<title>Date: 2023-10-21
+Comment: Note:
+- no bottle attached
+- notes say `:R15`, but unclear how it could have been already attached</title>
+</g>
+<g>
+<circle cx="593.71" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-03
+Comment: Nong: `Just installed the bottle`" />
+<title>Date: 2023-11-03
+Comment: Nong: `Just installed the bottle`</title>
+</g>
+<g>
+<circle cx="626.62" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-11-21
+Comment: Nong: `Just installed the bottle` - little water" />
+<title>Date: 2023-11-21
+Comment: Nong: `Just installed the bottle` - little water</title>
+</g>
+<g>
+<circle cx="665.01" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-12
+Comment: " />
+<title>Date: 2023-12-12
+Comment: </title>
+</g>
+<g>
+<circle cx="685.12" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2023-12-23
+Comment: " />
+<title>Date: 2023-12-23
+Comment: </title>
+</g>
+<g>
+<circle cx="707.05" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-04
+Comment: " />
+<title>Date: 2024-01-04
+Comment: </title>
+</g>
+<g>
+<circle cx="738.13" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-01-21
+Comment: " />
+<title>Date: 2024-01-21
+Comment: </title>
+</g>
+<g>
+<circle cx="767.38" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-06
+Comment: TODO: Logger not changed! Still `:R15` Ask Nong" />
+<title>Date: 2024-02-06
+Comment: TODO: Logger not changed! Still `:R15` Ask Nong</title>
+</g>
+<g>
+<circle cx="796.63" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-02-22
+Comment: " />
+<title>Date: 2024-02-22
+Comment: </title>
+</g>
+<g>
+<circle cx="822.23" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-07
+Comment: " />
+<title>Date: 2024-03-07
+Comment: </title>
+</g>
+<g>
+<circle cx="862.45" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-03-29
+Comment: " />
+<title>Date: 2024-03-29
+Comment: </title>
+</g>
+<g>
+<circle cx="895.35" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-16
+Comment: " />
+<title>Date: 2024-04-16
+Comment: </title>
+</g>
+<g>
+<circle cx="915.46" cy="219.81" fill="#8008" r="3.3333333333333335" stroke="#8004" tooltip="Date: 2024-04-27
+Comment: SD Card doesn&apos;t read!!
+Weird.. last time it was the same logger. Maybe he didn&apos;t change it" />
+<title>Date: 2024-04-27
+Comment: SD Card doesn't read!!
+Weird.. last time it was the same logger. Maybe he didn't change it</title>
+</g>
 </g>
 <polyline fill="none" points="" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
 <g>
