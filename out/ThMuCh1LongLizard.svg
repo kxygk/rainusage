@@ -245,7 +245,8 @@ Date: 2024-04-27
 Comment: SD Card file is Empty!!</title>
 </g>
 </g>
-<polyline fill="none" points="569.94,342.36 540.69,341.48 513.27,335.69 484.02,330.14 458.43,312.53 423.69,319.98" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
+<polyline fill="none" points="569.94,342.36 540.69,341.48" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="513.27,335.69 484.02,330.14 458.43,312.53 423.69,319.98" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
 <g>
 <g>
 <circle cx="423.69" cy="319.98" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AXWC

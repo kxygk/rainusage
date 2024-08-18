@@ -123,7 +123,7 @@ Date: 2024-04-27
 Comment: No logger! B/c wire is broken (from last time)</title>
 </g>
 </g>
-<polyline fill="none" points="569.94,340.85 540.69,340.70" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
+<polyline fill="none" points="569.94,340.85 540.69,340.70" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
 <g>
 <g>
 <circle cx="540.69" cy="340.70" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AUNG

@@ -132,18 +132,28 @@
   (or just a bare axis made by `plot/axis`)"
   [plot
    isotope-values]
-  (let [data    (->> isotope-values
-                     (filterv (fn filter-to-collections-with-data
-                                [collection-point]
-                                (->> collection-point
-                                     second
-                                     some?))))
-        missing (->> isotope-values
-                     (filterv (fn filter-to-collections-with-data
-                                [collection-point]
-                                (->> collection-point
-                                     second
-                                     nil?))))]
+  (let [data        (->> isotope-values
+                         (filterv (fn filter-to-collections-with-data
+                                    [collection-point]
+                                    (->> collection-point
+                                         second
+                                         some?))))
+        data-groups (->> isotope-values ;; data clusters with no nils
+                         (partition-by #(-> %
+                                            second
+                                            nil?))
+                         (filterv (fn remove-nil-groups
+                                    [group]
+                                    (-> group
+                                        first
+                                        second
+                                        some?))))
+        missing     (->> isotope-values
+                         (filterv (fn filter-to-collections-with-data
+                                    [collection-point]
+                                    (->> collection-point
+                                         second
+                                         nil?))))]
     (-> plot
         (update :data
                 #(into %
@@ -152,22 +162,26 @@
                                                                 (let [display-letter (case (-> empty-collection-point
                                                                                                (get 3)
                                                                                                :vial)
-                                                                                       nil "I"
+                                                                                       nil    "I"
                                                                                        :EMPTY "D"
                                                                                        "A")]
-                                                                (-> empty-collection-point
-                                                                    (assoc 1
-                                                                           0.0)
-                                                                    (assoc 2
-                                                                           display-letter))))))
+                                                                  (-> empty-collection-point
+                                                                      (assoc 1
+                                                                             0.0)
+                                                                      (assoc 2
+                                                                             display-letter))))))
                                                    {:scale   80
                                                     :attribs {:fill   "#8008"
                                                               :stroke "none" #_ "#8004"}})))
         (update :data
                 #(into %
-                       (quickthing/dashed-line data
-                                               {:attribs {:fill   "#0088"
-                                                          :stroke "#0084"}})))
+                       (->> data-groups
+                            (mapv (fn make-dashed-line-for-data-group
+                                    [data-group]
+                                    (quickthing/dashed-line data-group
+                                                            {:attribs {:fill   "#0808"
+                                                                       :stroke "#0804"}})))
+                            flatten)))
         (update :data
                 #(into %
                        (quickthing/adjustable-circles data

@@ -157,7 +157,10 @@ Date: 2024-04-27
 Comment: </title>
 </g>
 </g>
-<polyline fill="none" points="569.94,525.00 540.69,381.18 513.27,355.26 484.02,354.70 458.43,321.80 423.69,265.32 399.93,275.76 372.50,306.43 356.05,236.65 330.46,290.78 218.94,223.29 202.49,239.43 165.92,75.00 140.33,217.03 125.70,249.05 78.17,313.80" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0084" />
+<polyline fill="none" points="569.94,525.00 540.69,381.18" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="513.27,355.26 484.02,354.70 458.43,321.80 423.69,265.32 399.93,275.76 372.50,306.43 356.05,236.65 330.46,290.78" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="218.94,223.29 202.49,239.43" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="165.92,75.00 140.33,217.03 125.70,249.05 78.17,313.80" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
 <g>
 <g>
 <circle cx="78.17" cy="313.80" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARAL
