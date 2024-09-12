@@ -1,0 +1,9 @@
+{ ;; notes on testing all the still available loggers after madgtech ones installed in cave
+:R14 {:ldo 2.7 :log false :date 2024-07-03}
+:R19 {:ldo 3.0 :log false :date 2024-07-05 :note "corroded board"}
+:R08 {:ldo 3.2 :log true  :date 2024-09-12}
+:R10 {:ldo 3.2 :log false :note "SD card was dead. Since LDO looked good I also tried with SD card from R19 - also didn't work"}
+:R13 {:ldo 3.2 :log true  :date 2024-09-12}
+:R07 {:ldo 3.4 :log false :date 2024-07-25 :note "Even tried shorting the internal pins. I retested this later.. and managed to get one log! Randomly.."}
+:R01 {:ldo 3.4 :log true  :date 2024-06-24}
+:R11 {:ldo 3.4 :log true  :date 2024-07-25}
