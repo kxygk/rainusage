@@ -188,3 +188,16 @@
 (->> location-logs
      :ThMuCh1LongLizard
      log2timediff)
+
+(defn
+  minmax
+  [logs]
+  (let [unixtimes (-> logs
+                      (ds/column "unixtime"))]
+    [(apply min
+            unixtimes)
+     (apply max
+            unixtimes)]))
+#_
+(-> location-logs
+    minmax)

@@ -28,7 +28,7 @@
 <text dominant-baseline="text-bottom" dy="-12.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" x="500.00" y="90.00">Years 2023 to 2024</text>
 </g>
 <g>
-<text dominant-baseline="central" dx="12.0" dy="12.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" text-orientation="sideways" writing-mode="vertical-lr" x="850.00" y="300.00">log(Drips per day)</text>
+<text dominant-baseline="hanging" dx="18.0" dy="18.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="beginning" text-orientation="sideways" x="150.00" y="90.00">log(Drips per day)</text>
 </g>
 <polyline fill="none" points="573.43,176.15 573.43,176.15 573.43,176.15 573.43,176.15 573.43,176.15 573.43,176.15 573.43,176.15 573.43,223.42 573.43,176.15 573.43,176.15" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#aaa" />
 <g>
@@ -81,8 +81,8 @@
 <line x1="150.00" x2="850.00" y1="510.00" y2="510.00" />
 </g>
 <g stroke="black">
-<line x1="150.00" x2="140.00" y1="510.00" y2="510.00" />
-<line x1="150.00" x2="140.00" y1="216.29" y2="216.29" />
+<line x1="150.00" x2="138.00" y1="510.00" y2="510.00" />
+<line x1="150.00" x2="138.00" y1="216.29" y2="216.29" />
 <g fill="black" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="end">
 <text x="141.00" y="501.00">0</text>
 <text x="141.00" y="207.29">10</text>

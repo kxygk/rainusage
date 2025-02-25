@@ -3,13 +3,13 @@
 <g>
 <g>
 <g>
-<text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="950.00" y="30.00">d18O</text>
+<text dominant-baseline="hanging" dx="-18.0" dy="18.0" fill="#0088" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="end" text-orientation="sideways" x="910.00" y="54.00">d18O</text>
 </g>
 <g>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-06-12
-Comment: It&apos;s been raining but sidechamber is dry-ish" vial="EMPTY" x="240.14" y="189.91">D</text>
+Comment: It&apos;s been raining but sidechamber is dry-ish" vial="EMPTY" x="263.24" y="199.69">D</text>
 <title>Vial    :EMPTY
 Date: 2023-06-12
 Comment: It's been raining but sidechamber is dry-ish</title>
@@ -17,7 +17,7 @@ Comment: It's been raining but sidechamber is dry-ish</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-06-26
-Comment: Still no water at all. Nong sent video" vial="EMPTY" x="256.27" y="189.91">D</text>
+Comment: Still no water at all. Nong sent video" vial="EMPTY" x="277.94" y="199.69">D</text>
 <title>Vial    :EMPTY
 Date: 2023-06-26
 Comment: Still no water at all. Nong sent video</title>
@@ -25,7 +25,7 @@ Comment: Still no water at all. Nong sent video</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-07-05
-Comment: No water again - See photo" vial="EMPTY" x="266.65" y="189.91">D</text>
+Comment: No water again - See photo" vial="EMPTY" x="287.39" y="199.69">D</text>
 <title>Vial    :EMPTY
 Date: 2023-07-05
 Comment: No water again - See photo</title>
@@ -33,7 +33,7 @@ Comment: No water again - See photo</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :EMPTY
 Date: 2023-07-20
-Comment: No water again - See photo" vial="EMPTY" x="283.93" y="189.91">D</text>
+Comment: No water again - See photo" vial="EMPTY" x="303.14" y="199.69">D</text>
 <title>Vial    :EMPTY
 Date: 2023-07-20
 Comment: No water again - See photo</title>
@@ -44,7 +44,7 @@ Date: 2023-09-29
 Comment: Note:
 - This had: `:RG02` and `X` (see pics)
 - Installed `:RG06`, which was outside before, but now had legs added
-- No pic showing `:R11` and `:RG86` at the same time" x="365.75" y="189.91">I</text>
+- No pic showing `:R11` and `:RG86` at the same time" x="377.68" y="199.69">I</text>
 <title>Vial    
 Date: 2023-09-29
 Comment: Note:
@@ -55,7 +55,7 @@ Comment: Note:
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ABUQ
 Date: 2024-07-06
-Comment: SD Card messed up" vial="ABUQ" x="689.56" y="189.91">A</text>
+Comment: SD Card messed up" vial="ABUQ" x="672.71" y="199.69">A</text>
 <title>Vial    :ABUQ
 Date: 2024-07-06
 Comment: SD Card messed up</title>
@@ -63,7 +63,7 @@ Comment: SD Card messed up</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AECJ
 Date: 2024-07-25
-Comment: SD Card messed up" vial="AECJ" x="711.46" y="189.91">A</text>
+Comment: SD Card messed up" vial="AECJ" x="692.66" y="199.69">A</text>
 <title>Vial    :AECJ
 Date: 2024-07-25
 Comment: SD Card messed up</title>
@@ -71,7 +71,7 @@ Comment: SD Card messed up</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AUPR
 Date: 2024-09-10
-Comment: " vial="AUPR" x="765.62" y="189.91">A</text>
+Comment: " vial="AUPR" x="742.01" y="199.69">A</text>
 <title>Vial    :AUPR
 Date: 2024-09-10
 Comment: </title>
@@ -79,7 +79,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ANET
 Date: 2024-10-04
-Comment: Full of water and can&apos;t be measured" vial="ANET" x="793.28" y="189.91">A</text>
+Comment: Full of water and can&apos;t be measured" vial="ANET" x="767.21" y="199.69">A</text>
 <title>Vial    :ANET
 Date: 2024-10-04
 Comment: Full of water and can't be measured</title>
@@ -87,7 +87,7 @@ Comment: Full of water and can't be measured</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AVMA
 Date: 2024-10-22
-Comment: Full of water and can&apos;t be measured.. again?" vial="AVMA" x="814.02" y="189.91">A</text>
+Comment: Full of water and can&apos;t be measured.. again?" vial="AVMA" x="786.11" y="199.69">A</text>
 <title>Vial    :AVMA
 Date: 2024-10-22
 Comment: Full of water and can't be measured.. again?</title>
@@ -95,7 +95,7 @@ Comment: Full of water and can't be measured.. again?</title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AHRV
 Date: 2024-11-11
-Comment: " vial="AHRV" x="837.07" y="189.91">A</text>
+Comment: " vial="AHRV" x="807.11" y="199.69">A</text>
 <title>Vial    :AHRV
 Date: 2024-11-11
 Comment: </title>
@@ -103,7 +103,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AMNM
 Date: 2024-11-30
-Comment: " vial="AMNM" x="858.96" y="189.91">A</text>
+Comment: " vial="AMNM" x="827.06" y="199.69">A</text>
 <title>Vial    :AMNM
 Date: 2024-11-30
 Comment: </title>
@@ -111,7 +111,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AQNJ
 Date: 2024-12-15
-Comment: " vial="AQNJ" x="876.25" y="189.91">A</text>
+Comment: " vial="AQNJ" x="842.80" y="199.69">A</text>
 <title>Vial    :AQNJ
 Date: 2024-12-15
 Comment: </title>
@@ -119,7 +119,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :AGAX
 Date: 2025-01-15
-Comment: " vial="AGAX" x="911.97" y="189.91">A</text>
+Comment: " vial="AGAX" x="875.35" y="199.69">A</text>
 <title>Vial    :AGAX
 Date: 2025-01-15
 Comment: </title>
@@ -127,7 +127,7 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ARBE
 Date: 2025-01-30
-Comment: " vial="ARBE" x="929.26" y="189.91">A</text>
+Comment: " vial="ARBE" x="891.10" y="199.69">A</text>
 <title>Vial    :ARBE
 Date: 2025-01-30
 Comment: </title>
@@ -135,18 +135,18 @@ Comment: </title>
 <g>
 <text dominant-baseline="central" fill="#8008" font-size="26.666666666666668" stroke="none" text-anchor="middle" tooltip="Vial    :ADCJ
 Date: 2025-02-17
-Comment: " vial="ADCJ" x="950.00" y="189.91">A</text>
+Comment: " vial="ADCJ" x="910.00" y="199.69">A</text>
 <title>Vial    :ADCJ
 Date: 2025-02-17
 Comment: </title>
 </g>
 </g>
-<polyline fill="none" points="675.74,307.89 667.67,319.23 648.08,304.30 630.79,258.81 608.90,233.54 596.22,236.01 575.48,245.30 550.13,265.98 533.99,274.78 515.56,289.16 497.12,301.55 477.53,308.26 463.70,321.78 451.02,327.53 426.82,332.98 406.08,345.92 391.10,374.99 372.66,275.93" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
-<polyline fill="none" points="355.38,353.41 336.94,348.46 320.81,308.77 298.91,287.71" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
-<polyline fill="none" points="225.16,251.96 210.18,284.39 199.81,259.03 184.83,243.92 169.85,259.13 159.48,280.35 147.95,300.26 136.43,306.53 120.29,310.32 111.08,315.89 81.11,325.83 62.68,330.22" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="660.12,307.19 652.77,317.52 634.92,303.92 619.17,262.47 599.22,239.45 587.67,241.70 568.77,250.17 545.67,269.00 530.97,277.02 514.17,290.12 497.38,301.41 479.53,307.53 466.93,319.84 455.38,325.08 433.33,330.04 414.43,341.84 400.78,368.33 383.98,278.07" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="368.23,348.66 351.43,344.15 336.73,307.99 316.79,288.80" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
+<polyline fill="none" points="249.59,256.23 235.94,285.78 226.49,262.67 212.84,248.90 199.19,262.77 189.74,282.10 179.24,300.24 168.75,305.95 154.05,309.40 145.65,314.48 118.35,323.53 101.55,327.54" stroke-dasharray="3.6 3.6" stroke-width="3.6" stroke="#0804" />
 <g>
 <g>
-<circle cx="62.68" cy="330.22" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ASGE
+<circle cx="101.55" cy="327.54" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ASGE
 Date: 2023-01-09
 Comment: " vial="ASGE" />
 <title>Vial    :ASGE
@@ -154,7 +154,7 @@ Date: 2023-01-09
 Comment: </title>
 </g>
 <g>
-<circle cx="81.11" cy="325.83" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AFTC
+<circle cx="118.35" cy="323.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AFTC
 Date: 2023-01-25
 Comment: " vial="AFTC" />
 <title>Vial    :AFTC
@@ -162,7 +162,7 @@ Date: 2023-01-25
 Comment: </title>
 </g>
 <g>
-<circle cx="111.08" cy="315.89" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ACET
+<circle cx="145.65" cy="314.48" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ACET
 Date: 2023-02-20
 Comment: " vial="ACET" />
 <title>Vial    :ACET
@@ -170,7 +170,7 @@ Date: 2023-02-20
 Comment: </title>
 </g>
 <g>
-<circle cx="120.29" cy="310.32" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADWW
+<circle cx="154.05" cy="309.40" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADWW
 Date: 2023-02-28
 Comment: " vial="ADWW" />
 <title>Vial    :ADWW
@@ -178,7 +178,7 @@ Date: 2023-02-28
 Comment: </title>
 </g>
 <g>
-<circle cx="136.43" cy="306.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AVYG
+<circle cx="168.75" cy="305.95" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AVYG
 Date: 2023-03-14
 Comment: " vial="AVYG" />
 <title>Vial    :AVYG
@@ -186,7 +186,7 @@ Date: 2023-03-14
 Comment: </title>
 </g>
 <g>
-<circle cx="147.95" cy="300.26" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARBS
+<circle cx="179.24" cy="300.24" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ARBS
 Date: 2023-03-24
 Comment: " vial="ARBS" />
 <title>Vial    :ARBS
@@ -194,7 +194,7 @@ Date: 2023-03-24
 Comment: </title>
 </g>
 <g>
-<circle cx="159.48" cy="280.35" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGDX
+<circle cx="189.74" cy="282.10" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGDX
 Date: 2023-04-03
 Comment: " vial="AGDX" />
 <title>Vial    :AGDX
@@ -202,7 +202,7 @@ Date: 2023-04-03
 Comment: </title>
 </g>
 <g>
-<circle cx="169.85" cy="259.13" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALLH
+<circle cx="199.19" cy="262.77" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALLH
 Date: 2023-04-12
 Comment: " vial="ALLH" />
 <title>Vial    :ALLH
@@ -210,7 +210,7 @@ Date: 2023-04-12
 Comment: </title>
 </g>
 <g>
-<circle cx="184.83" cy="243.92" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALRR
+<circle cx="212.84" cy="248.90" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALRR
 Date: 2023-04-25
 Comment: " vial="ALRR" />
 <title>Vial    :ALRR
@@ -218,7 +218,7 @@ Date: 2023-04-25
 Comment: </title>
 </g>
 <g>
-<circle cx="199.81" cy="259.03" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AENE
+<circle cx="226.49" cy="262.67" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AENE
 Date: 2023-05-08
 Comment: " vial="AENE" />
 <title>Vial    :AENE
@@ -226,7 +226,7 @@ Date: 2023-05-08
 Comment: </title>
 </g>
 <g>
-<circle cx="210.18" cy="284.39" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AREC
+<circle cx="235.94" cy="285.78" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AREC
 Date: 2023-05-17
 Comment: " vial="AREC" />
 <title>Vial    :AREC
@@ -234,7 +234,7 @@ Date: 2023-05-17
 Comment: </title>
 </g>
 <g>
-<circle cx="225.16" cy="251.96" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ASHS
+<circle cx="249.59" cy="256.23" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ASHS
 Date: 2023-05-30
 Comment: " vial="ASHS" />
 <title>Vial    :ASHS
@@ -242,7 +242,7 @@ Date: 2023-05-30
 Comment: </title>
 </g>
 <g>
-<circle cx="298.91" cy="287.71" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGWM
+<circle cx="316.79" cy="288.80" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGWM
 Date: 2023-08-02
 Comment: Water is finally back! Pic of stalagtite" vial="AGWM" />
 <title>Vial    :AGWM
@@ -250,7 +250,7 @@ Date: 2023-08-02
 Comment: Water is finally back! Pic of stalagtite</title>
 </g>
 <g>
-<circle cx="320.81" cy="308.77" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AALY
+<circle cx="336.73" cy="307.99" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AALY
 Date: 2023-08-21
 Comment: Water is finally back! Pic of stalagtite" vial="AALY" />
 <title>Vial    :AALY
@@ -258,7 +258,7 @@ Date: 2023-08-21
 Comment: Water is finally back! Pic of stalagtite</title>
 </g>
 <g>
-<circle cx="336.94" cy="348.46" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZXA
+<circle cx="351.43" cy="344.15" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZXA
 Date: 2023-09-04
 Comment: " vial="AZXA" />
 <title>Vial    :AZXA
@@ -266,7 +266,7 @@ Date: 2023-09-04
 Comment: </title>
 </g>
 <g>
-<circle cx="355.38" cy="353.41" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ABBP
+<circle cx="368.23" cy="348.66" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ABBP
 Date: 2023-09-20
 Comment: " vial="ABBP" />
 <title>Vial    :ABBP
@@ -274,7 +274,7 @@ Date: 2023-09-20
 Comment: </title>
 </g>
 <g>
-<circle cx="372.66" cy="275.93" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APGR
+<circle cx="383.98" cy="278.07" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APGR
 Date: 2023-10-05
 Comment: " vial="APGR" />
 <title>Vial    :APGR
@@ -282,7 +282,7 @@ Date: 2023-10-05
 Comment: </title>
 </g>
 <g>
-<circle cx="391.10" cy="374.99" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APUL
+<circle cx="400.78" cy="368.33" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APUL
 Date: 2023-10-21
 Comment: " vial="APUL" />
 <title>Vial    :APUL
@@ -290,7 +290,7 @@ Date: 2023-10-21
 Comment: </title>
 </g>
 <g>
-<circle cx="406.08" cy="345.92" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AASZ
+<circle cx="414.43" cy="341.84" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AASZ
 Date: 2023-11-03
 Comment: Nong say : &apos;Less water&apos;" vial="AASZ" />
 <title>Vial    :AASZ
@@ -298,7 +298,7 @@ Date: 2023-11-03
 Comment: Nong say : 'Less water'</title>
 </g>
 <g>
-<circle cx="426.82" cy="332.98" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEVW
+<circle cx="433.33" cy="330.04" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEVW
 Date: 2023-11-21
 Comment: Rat bite cable! So probably missing data" vial="AEVW" />
 <title>Vial    :AEVW
@@ -306,7 +306,7 @@ Date: 2023-11-21
 Comment: Rat bite cable! So probably missing data</title>
 </g>
 <g>
-<circle cx="451.02" cy="327.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYYB
+<circle cx="455.38" cy="325.08" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYYB
 Date: 2023-12-12
 Comment: Gauge replaced b/c of previous rat bite" vial="AYYB" />
 <title>Vial    :AYYB
@@ -314,7 +314,7 @@ Date: 2023-12-12
 Comment: Gauge replaced b/c of previous rat bite</title>
 </g>
 <g>
-<circle cx="463.70" cy="321.78" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADKN
+<circle cx="466.93" cy="319.84" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ADKN
 Date: 2023-12-23
 Comment: Rat bites the cable again! Nong fixes it" vial="ADKN" />
 <title>Vial    :ADKN
@@ -322,7 +322,7 @@ Date: 2023-12-23
 Comment: Rat bites the cable again! Nong fixes it</title>
 </g>
 <g>
-<circle cx="477.53" cy="308.26" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AVXC
+<circle cx="479.53" cy="307.53" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AVXC
 Date: 2024-01-04
 Comment: " vial="AVXC" />
 <title>Vial    :AVXC
@@ -330,7 +330,7 @@ Date: 2024-01-04
 Comment: </title>
 </g>
 <g>
-<circle cx="497.12" cy="301.55" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGTC
+<circle cx="497.38" cy="301.41" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AGTC
 Date: 2024-01-21
 Comment: " vial="AGTC" />
 <title>Vial    :AGTC
@@ -338,7 +338,7 @@ Date: 2024-01-21
 Comment: </title>
 </g>
 <g>
-<circle cx="515.56" cy="289.16" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZWT
+<circle cx="514.17" cy="290.12" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AZWT
 Date: 2024-02-06
 Comment: Very little water" vial="AZWT" />
 <title>Vial    :AZWT
@@ -346,7 +346,7 @@ Date: 2024-02-06
 Comment: Very little water</title>
 </g>
 <g>
-<circle cx="533.99" cy="274.78" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ANQB
+<circle cx="530.97" cy="277.02" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ANQB
 Date: 2024-02-22
 Comment: " vial="ANQB" />
 <title>Vial    :ANQB
@@ -354,7 +354,7 @@ Date: 2024-02-22
 Comment: </title>
 </g>
 <g>
-<circle cx="550.13" cy="265.98" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEPE
+<circle cx="545.67" cy="269.00" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEPE
 Date: 2024-03-07
 Comment: " vial="AEPE" />
 <title>Vial    :AEPE
@@ -362,7 +362,7 @@ Date: 2024-03-07
 Comment: </title>
 </g>
 <g>
-<circle cx="575.48" cy="245.30" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AUVH
+<circle cx="568.77" cy="250.17" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AUVH
 Date: 2024-03-29
 Comment: Empty File!!" vial="AUVH" />
 <title>Vial    :AUVH
@@ -370,7 +370,7 @@ Date: 2024-03-29
 Comment: Empty File!!</title>
 </g>
 <g>
-<circle cx="596.22" cy="236.01" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AMDM
+<circle cx="587.67" cy="241.70" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AMDM
 Date: 2024-04-16
 Comment: SD Card file was sent twice! But one of them was empty" vial="AMDM" />
 <title>Vial    :AMDM
@@ -378,7 +378,7 @@ Date: 2024-04-16
 Comment: SD Card file was sent twice! But one of them was empty</title>
 </g>
 <g>
-<circle cx="608.90" cy="233.54" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AELB
+<circle cx="599.22" cy="239.45" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AELB
 Date: 2024-04-27
 Comment: SD Card file doesn&apos;t read!!" vial="AELB" />
 <title>Vial    :AELB
@@ -386,7 +386,7 @@ Date: 2024-04-27
 Comment: SD Card file doesn't read!!</title>
 </g>
 <g>
-<circle cx="630.79" cy="258.81" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEXQ
+<circle cx="619.17" cy="262.47" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AEXQ
 Date: 2024-05-16
 Comment: Is it `:R12` or `:R13`.. photo seems mislabeled? There is a `:R13` further down at `:ThMuCh2Sh01BrownTop`" vial="AEXQ" />
 <title>Vial    :AEXQ
@@ -394,7 +394,7 @@ Date: 2024-05-16
 Comment: Is it `:R12` or `:R13`.. photo seems mislabeled? There is a `:R13` further down at `:ThMuCh2Sh01BrownTop`</title>
 </g>
 <g>
-<circle cx="648.08" cy="304.30" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APKH
+<circle cx="634.92" cy="303.92" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :APKH
 Date: 2024-05-31
 Comment: " vial="APKH" />
 <title>Vial    :APKH
@@ -402,7 +402,7 @@ Date: 2024-05-31
 Comment: </title>
 </g>
 <g>
-<circle cx="667.67" cy="319.23" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYLR
+<circle cx="652.77" cy="317.52" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :AYLR
 Date: 2024-06-17
 Comment: Very little of water" vial="AYLR" />
 <title>Vial    :AYLR
@@ -410,7 +410,7 @@ Date: 2024-06-17
 Comment: Very little of water</title>
 </g>
 <g>
-<circle cx="675.74" cy="307.89" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALZV
+<circle cx="660.12" cy="307.19" fill="#0088" r="3.3333333333333335" stroke="#0088" tooltip="Vial    :ALZV
 Date: 2024-06-24
 Comment: " vial="ALZV" />
 <title>Vial    :ALZV
@@ -419,70 +419,70 @@ Comment: </title>
 </g>
 </g>
 <g stroke="#0088">
-<line x1="931.23" x2="931.23" y1="30.00" y2="30.00" />
-<line x1="895.50" x2="895.50" y1="30.00" y2="30.00" />
-<line x1="859.78" x2="859.78" y1="30.00" y2="30.00" />
-<line x1="825.21" x2="825.21" y1="30.00" y2="30.00" />
-<line x1="789.48" x2="789.48" y1="30.00" y2="30.00" />
-<line x1="754.91" x2="754.91" y1="30.00" y2="30.00" />
-<line x1="719.19" x2="719.19" y1="30.00" y2="30.00" />
-<line x1="683.47" x2="683.47" y1="30.00" y2="30.00" />
-<line x1="648.90" x2="648.90" y1="30.00" y2="30.00" />
-<line x1="613.17" x2="613.17" y1="30.00" y2="30.00" />
-<line x1="578.60" x2="578.60" y1="30.00" y2="30.00" />
-<line x1="542.88" x2="542.88" y1="30.00" y2="30.00" />
-<line x1="509.46" x2="509.46" y1="30.00" y2="30.00" />
-<line x1="473.74" x2="473.74" y1="30.00" y2="30.00" />
-<line x1="438.01" x2="438.01" y1="30.00" y2="30.00" />
-<line x1="403.44" x2="403.44" y1="30.00" y2="30.00" />
-<line x1="367.72" x2="367.72" y1="30.00" y2="30.00" />
-<line x1="333.15" x2="333.15" y1="30.00" y2="30.00" />
-<line x1="297.42" x2="297.42" y1="30.00" y2="30.00" />
-<line x1="261.70" x2="261.70" y1="30.00" y2="30.00" />
-<line x1="227.13" x2="227.13" y1="30.00" y2="30.00" />
-<line x1="191.41" x2="191.41" y1="30.00" y2="30.00" />
-<line x1="156.83" x2="156.83" y1="30.00" y2="30.00" />
-<line x1="121.11" x2="121.11" y1="30.00" y2="30.00" />
-<line x1="88.84" x2="88.84" y1="30.00" y2="30.00" />
-<line x1="53.12" x2="53.12" y1="30.00" y2="30.00" />
+<line x1="892.89" x2="892.89" y1="54.00" y2="54.00" />
+<line x1="860.35" x2="860.35" y1="54.00" y2="54.00" />
+<line x1="827.80" x2="827.80" y1="54.00" y2="54.00" />
+<line x1="796.30" x2="796.30" y1="54.00" y2="54.00" />
+<line x1="763.75" x2="763.75" y1="54.00" y2="54.00" />
+<line x1="732.25" x2="732.25" y1="54.00" y2="54.00" />
+<line x1="699.71" x2="699.71" y1="54.00" y2="54.00" />
+<line x1="667.16" x2="667.16" y1="54.00" y2="54.00" />
+<line x1="635.66" x2="635.66" y1="54.00" y2="54.00" />
+<line x1="603.11" x2="603.11" y1="54.00" y2="54.00" />
+<line x1="571.61" x2="571.61" y1="54.00" y2="54.00" />
+<line x1="539.07" x2="539.07" y1="54.00" y2="54.00" />
+<line x1="508.62" x2="508.62" y1="54.00" y2="54.00" />
+<line x1="476.07" x2="476.07" y1="54.00" y2="54.00" />
+<line x1="443.52" x2="443.52" y1="54.00" y2="54.00" />
+<line x1="412.02" x2="412.02" y1="54.00" y2="54.00" />
+<line x1="379.48" x2="379.48" y1="54.00" y2="54.00" />
+<line x1="347.98" x2="347.98" y1="54.00" y2="54.00" />
+<line x1="315.43" x2="315.43" y1="54.00" y2="54.00" />
+<line x1="282.88" x2="282.88" y1="54.00" y2="54.00" />
+<line x1="251.38" x2="251.38" y1="54.00" y2="54.00" />
+<line x1="218.84" x2="218.84" y1="54.00" y2="54.00" />
+<line x1="187.34" x2="187.34" y1="54.00" y2="54.00" />
+<line x1="154.79" x2="154.79" y1="54.00" y2="54.00" />
+<line x1="125.39" x2="125.39" y1="54.00" y2="54.00" />
+<line x1="92.84" x2="92.84" y1="54.00" y2="54.00" />
 <g fill="none" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="start" transform="translate(9.0 0.0)">
-<text x="931.23" y="23.74">Feb</text>
-<text x="895.50" y="23.74">Jan</text>
-<text x="859.78" y="23.74">Dec</text>
-<text x="825.21" y="23.74">Nov</text>
-<text x="789.48" y="23.74">Oct</text>
-<text x="754.91" y="23.74">Sep</text>
-<text x="719.19" y="23.74">Aug</text>
-<text x="683.47" y="23.74">Jul</text>
-<text x="648.90" y="23.74">Jun</text>
-<text x="613.17" y="23.74">May</text>
-<text x="578.60" y="23.74">Apr</text>
-<text x="542.88" y="23.74">Mar</text>
-<text x="509.46" y="23.74">Feb</text>
-<text x="473.74" y="23.74">Jan</text>
-<text x="438.01" y="23.74">Dec</text>
-<text x="403.44" y="23.74">Nov</text>
-<text x="367.72" y="23.74">Oct</text>
-<text x="333.15" y="23.74">Sep</text>
-<text x="297.42" y="23.74">Aug</text>
-<text x="261.70" y="23.74">Jul</text>
-<text x="227.13" y="23.74">Jun</text>
-<text x="191.41" y="23.74">May</text>
-<text x="156.83" y="23.74">Apr</text>
-<text x="121.11" y="23.74">Mar</text>
-<text x="88.84" y="23.74">Feb</text>
-<text x="53.12" y="23.74">Jan</text>
+<text x="892.89" y="47.74">Feb</text>
+<text x="860.35" y="47.74">Jan</text>
+<text x="827.80" y="47.74">Dec</text>
+<text x="796.30" y="47.74">Nov</text>
+<text x="763.75" y="47.74">Oct</text>
+<text x="732.25" y="47.74">Sep</text>
+<text x="699.71" y="47.74">Aug</text>
+<text x="667.16" y="47.74">Jul</text>
+<text x="635.66" y="47.74">Jun</text>
+<text x="603.11" y="47.74">May</text>
+<text x="571.61" y="47.74">Apr</text>
+<text x="539.07" y="47.74">Mar</text>
+<text x="508.62" y="47.74">Feb</text>
+<text x="476.07" y="47.74">Jan</text>
+<text x="443.52" y="47.74">Dec</text>
+<text x="412.02" y="47.74">Nov</text>
+<text x="379.48" y="47.74">Oct</text>
+<text x="347.98" y="47.74">Sep</text>
+<text x="315.43" y="47.74">Aug</text>
+<text x="282.88" y="47.74">Jul</text>
+<text x="251.38" y="47.74">Jun</text>
+<text x="218.84" y="47.74">May</text>
+<text x="187.34" y="47.74">Apr</text>
+<text x="154.79" y="47.74">Mar</text>
+<text x="125.39" y="47.74">Feb</text>
+<text x="92.84" y="47.74">Jan</text>
 </g>
-<line x1="50.00" x2="950.00" y1="30.00" y2="30.00" />
+<line x1="90.00" x2="910.00" y1="54.00" y2="54.00" />
 </g>
 <g stroke="#0088">
-<line x1="950.00" x2="962.00" y1="488.92" y2="488.92" />
-<line x1="950.00" x2="962.00" y1="189.91" y2="189.91" />
+<line x1="910.00" x2="922.00" y1="472.13" y2="472.13" />
+<line x1="910.00" x2="922.00" y1="199.69" y2="199.69" />
 <g fill="#0088" font-family="Arial, sans-serif" font-size="18.0" stroke="none" text-anchor="beginning">
-<text x="959.00" y="479.92">-10</text>
-<text x="959.00" y="180.91">0</text>
+<text x="919.00" y="463.13">-10</text>
+<text x="919.00" y="190.69">0</text>
 </g>
-<line x1="950.00" x2="950.00" y1="570.00" y2="30.00" />
+<line x1="910.00" x2="910.00" y1="546.00" y2="54.00" />
 </g>
 </g>
 <g>
@@ -520,7 +520,7 @@ Comment: </title>
 <text dominant-baseline="hanging" dx="-36.0" dy="18.0" fill="#0004" font-family="Arial, sans-serif" font-size="36" stroke="none" text-anchor="end" x="910.00" y="98.73">ThMuCh0ConjoinedBottom</text>
 </g>
 <g>
-<text dominant-baseline="text-bottom" dy="0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" x="500.00" y="54.00">Years 2022 to 2025</text>
+<text dominant-baseline="text-bottom" dy="-9.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="middle" x="500.00" y="54.00">Years 2022 to 2025</text>
 </g>
 <g>
 <text dominant-baseline="hanging" dx="18.0" dy="18.0" fill="black" font-family="Arial, sans-serif" font-size="18.0" font-style="italic" stroke="none" text-anchor="beginning" text-orientation="sideways" x="90.00" y="54.00">log(Drips per day)</text>

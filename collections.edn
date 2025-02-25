@@ -1,5 +1,486 @@
 [;; Chronological listing of collection times by Nong
+
+
+ {:date    #inst"2025-02-17"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :NONE
+             :comment  "NONG: no water, no rain for more then a month already"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :ADCJ
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :ASEU
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :AKLX
+             :comment  ""}]
+  :comment ""}
+ 
+ {:date    #inst"2025-01-30"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :NONE
+             :comment  "The previous time the rubber hose was broken, it's been replaced"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :ARBE
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AXTY
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :NONE ;; !!!!!!!!!!!!!!!!!!!!!! He didn't take a picture where you can see it
+             :comment  "Photo is bad, doesn't include label"}]
+  :comment ""}
+
+{:date    #inst"2025-01-15"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :ATNY
+             :comment  "NONG:
+rat bite the tube from out side one.
+I collect water anyway but i didn't level the water"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :AGAX
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AKKM
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :AFAA
+             :comment  ""}]
+ :comment "NONG:
+Every bottle still have water, but less then last time.
+Cave is more dry now, but the water level is not lowest yet"}
+
+;; One of Nong's neices died and there was just a huge gap in time again
+
+ ;; ALL BELOW PAID FOR ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+ 
+;; 
+;; 2024-11-08 Nong went to cave but water level was high
+;; and he didn't want to go inside
+
+ {:date    #inst"2024-12-15"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :AYGU
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :AQNJ
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AGCU
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :APZC
+             :comment  ""}]
+  :comment "Cave is more dry. Water level is low. Still walking in water a bit"}
+
+ {:date    #inst"2024-11-30"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :AWLB
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :AMNM
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AGAU
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :ABXJ
+             :comment  ""}]
+  :comment ""}
+
+ {:date    #inst"2024-11-11"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :AEMS
+             :comment  "The bottle :C from inside was placed outside in place of D which had a rat bite"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :AHRV
+             :watercc  267
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AWAY
+             :watercc  199
+             :comment  "Less Water says Nong"}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :ACND
+             :comment  ""}]
+  :comment ""}
+
+
+ {:date    #inst"2024-10-22"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :NOLABEL ;; TODO: CHECK THIS LABEL MANUALLY. MISSING IN PIC
+             :comment  "Water was collected from tube b/c bottle had rate bite"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :AVMA
+             :comment  "Full of water and can't be measured.. again?"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :ANPN
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :MTECH4
+             :vial     :ANRA
+             :comment  ""}]
+  :comment ""}
+
+ {:date    #inst"2024-10-04"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :MTECH1
+             :vial     :AJJD
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :MTECH2
+             :vial     :ANET
+             :comment  "Full of water and can't be measured"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :MTECH3
+             :vial     :AUXM
+             :comment  ""}]
+  :comment "We no longer monitor B.
+  Will monitor H - had a cone finally installed"}
+
+;; ;; Only one water collection happened while I was there...
+;; ;; Madgtech Loggers were installed. No more Rainuses now
+
+ {:date    #inst"2024-09-10"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R14
+             :vial     :ALGE
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :NONE
+             :vial     :AUPR
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R19
+             :vial     :AAGQ
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :EMPTY
+             :comment  "No Water? Unclear. Pic says cone is aligned. Maybe was misaligned"}]
+  :comment ""}
+
+
+;; ;; The next collection happened when I went there in person
+;; ;; Was a very long time till he got better and wasn't busy
+;; ;; Nong got dengue fever on Aug 08
+
+ {:date    #inst"2024-07-25"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R11
+             :vial     :AKMZ
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R07
+             :vial     :AECJ
+             :comment  "SD Card messed up"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R14
+             :vial     :ANDY
+             :comment  "Cone was dry, drop directly into hole"}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :EMPTY
+             :comment  "No Water? Unclear. Pic says cone is aligned. Maybe was misaligned"}]
+  :comment "All dates were written wrong again as 25 7 24
+  Water level in cave is getting higher"}
+
+ {:date    #inst"2024-07-06"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R19
+             :vial     :APQX
+             :comment  "Logger has water inside somehow"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R10
+             :vial     :ABUQ
+             :comment  "SD Card messed up"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R14
+             :vial     :ADLA
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :NONE
+             :vial     :NONE
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :EMPTY
+             :comment  "No Water. Maybe issue with cone alignment. Nong adjusted"}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  "Missing.."}]
+  :comment "All dates were written backwards as
+  2024
+  6
+  7
+  Cave is kind of dry overall even there is a lot of rain outside"}
+
+;; ;; I left Ao Leuk and flew back to Taipei with stalagmites
+
+ {:date    #inst"2024-06-24"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R15
+             :vial     :ANKH
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R13
+             :vial     :ALZV
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R07
+             :vial     :AZPC
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :R08
+             :vial     :AATV
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R01
+             :vial     :APTW
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R11
+             :vial     :ACWQ
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall ;;!!!!!!!!!!!!!!!!!!!!!!!
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  "Missing.."}]
+  :comment "C is missing"}
+
+ {:date    #inst"2024-06-17"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R02
+             :vial     :AUYX
+             :comment  ""}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R10
+             :vial     :AYLR
+             :comment  "Very little of water"}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R19
+             :vial     :EMPTY
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop ;;!!!!!!!!!!!!!!!!!!!!!!!
+             :bottle   :S
+             :board    :NONE
+             :vial     :ALSC
+             :comment  "Not in the images.. Not sure why"}
+            {:location :ThMuCh2Sh01Thumb ;;!!!!!!!!!!!!!!!!!!!!!!!
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  "Not in the images.. Not sure why"}
+            {:location :ThMuCH2Sh02WhiteLoner ;;!!!!!!!!!!!!!!!!!!!!!!!
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall ;;!!!!!!!!!!!!!!!!!!!!!!!
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :NONE
+             :vial     :NONE
+             :comment  "Not in the images.. Not sure why"}]
+  :comment "My guess is I brought back the rain gauges for testing and re-wiring"}
+
+ ;; 06-15 drilled two weeks at the end of the A4 freeway
+ ;; took a video
+ {:date    #inst"2024-05-31"
+  :samples [{:location :ThMuOutsideDrone
+             ;;:bottle   :D
+             ;;:gauge    :RG01
+             :board    :R11
+             :vial     :EMPTY
+             :comment  "No Water b/c bottle was replaced"}
+            {:location :ThMuCh0ConjoinedBottom
+             ;;:bottle :X
+             ;;:gauge :RG06
+             :board    :R16
+             :vial     :APKH
+             :comment  ""}
+            {:location :ThMuCh1LongLizard
+             ;;:bottle :A
+             ;;:gauge nil
+             :board    :R01
+             :vial     :AMNE
+             :comment  ""}
+            {:location :ThMuCh2Sh01BrownTop
+             :bottle   :S
+             :board    :nil
+             :vial     :ALSC
+             :comment  ""}
+            {:location :ThMuCh2Sh01Thumb
+             ;;:bottle :B
+             ;;:gauge nil
+             :board    :R04
+             :vial     :ADNM
+             :comment  ""}
+            {:location :ThMuCH2Sh02WhiteLoner
+             ;;:bottle   :H
+             ;;:guage    nil
+             :board    :R15
+             :vial     :AXXJ
+             :comment  ""}
+            {:location :ThMuCH2Sh02PairTall
+             ;;:bottle :C
+             ;;:gauge nil
+             :board    :R06
+             :vial     :AHKX
+             :comment  ""}]
+  :comment ""}
+
+ ;; 05-31 We finally went to the cave
+ ;; 05-24 Nong gave me SIM card
+ ;; 05-23 I got check :ThMuOutsideDrone and it's flooded
+ ;; maybe due to intense wind in the previous day bringing in grass
+ ;; 05-20 Arrived in Krabi
  ;;
+ ;; ALL BELOW PAID FOR ;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
  {:date    #inst"2024-05-16"
   :samples [#_{:location :ThMuOutsideWasp
                :bottle   :P
