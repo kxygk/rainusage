@@ -139,17 +139,20 @@
 
 (defn
   parse-excel-file
-  [file-str]
-  (let [sheets    (->> file-str
-                       docjure/load-workbook
-                       docjure/sheet-seq)
+  [& file-strs]
+  (let [sheets    (->> file-strs
+                       (mapv #(-> %
+                                  docjure/load-workbook
+                                  docjure/sheet-seq))
+                       (mapcat identity))
         vial-data (->> sheets
                        (mapv get-sheet-data))]
     (->> vial-data
          flatten
          (apply ds/concat))))
 #_
-(parse-excel-file "George (NTU).xlsx")
+(parse-excel-file "George (NTU).xlsx"
+                  "20250107-adjusted.xlsx")
 
 (defn get-data
   [vials-table

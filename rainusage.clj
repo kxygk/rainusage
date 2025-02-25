@@ -279,12 +279,18 @@
        (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
        (filterv #(= :ThMuCh0ConjoinedBottom
                     (-> %
-                        :location)))
+                        :location))) ;;))
        collection/time-vs-18O))
 #_
 (->> time-18o-pairs)
+#_
+(->> time-18o-pairs
+     (mapv first)
+     (apply max)
+     tock/unix-time-sec2date
+     (tick/format (tick/formatter "yyyy")))
 
-
+#_
 (->> locations
      (mapv (fn plot-location-isotope
              [location]
@@ -323,17 +329,32 @@
 
 (let [o18-by-location (update-vals (->> collections
                                         collection/normalize-samples
-                                        (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
+                                        (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"
+                                                                                        "20250107-adjusted.xlsx"))
                                         (group-by :location))
                                    collection/time-vs-18O)]
+  #_
+  (->> o18-by-location
+       vals
+       (mapcat identity)
+       (mapv first))
+  ;;#_
   (plot/write-all-locations location-logs
                             o18-by-location))
 
 
+
+
+
+#_
 (->> collections
      collection/normalize-samples
      (collection/import-vials (vial/parse-excel-file "George (NTU).xlsx"))
      (filterv #(= :ThMuCh0ConjoinedBottom
                   (-> %
                       :location)))
-     collection/time-vs-18O)
+     collection/time-vs-18O
+     (mapv first))
+#_
+(->> location-logs
+     (into []))

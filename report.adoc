@@ -20,12 +20,14 @@ image::out/ThMuCh1LongLizard.svg[]
 
 Loggers: 
 
-#{:R08 :R15 :R06 :R16 :FR6 :R05 :R12 :R20 :R11 :FR1 :R14 :FR4 :FR5 :R10 :FR3 :R13 :R09 :FR2 :R19 :R02 :R07 :R04 :R03 :R01}
+#{:R08 :R15 :MTECH4 :R06 :R16 :NONE :FR6 :R05 :R12 :R20 :R11 :FR1 :R14 :MTECH2 :MTECH1 :nil :FR4 :FR5 :R10 :FR3 :R13 :R09 :FR2 :R19 :MTECH3 :R02 :R07 :R04 :R03 :R01}
 
 image::out/R08.svg[]
 image::out/R15.svg[]
+image::out/MTECH4.svg[]
 image::out/R06.svg[]
 image::out/R16.svg[]
+image::out/NONE.svg[]
 image::out/FR6.svg[]
 image::out/R05.svg[]
 image::out/R12.svg[]
@@ -33,6 +35,9 @@ image::out/R20.svg[]
 image::out/R11.svg[]
 image::out/FR1.svg[]
 image::out/R14.svg[]
+image::out/MTECH2.svg[]
+image::out/MTECH1.svg[]
+image::out/nil.svg[]
 image::out/FR4.svg[]
 image::out/FR5.svg[]
 image::out/R10.svg[]
@@ -41,6 +46,7 @@ image::out/R13.svg[]
 image::out/R09.svg[]
 image::out/FR2.svg[]
 image::out/R19.svg[]
+image::out/MTECH3.svg[]
 image::out/R02.svg[]
 image::out/R07.svg[]
 image::out/R04.svg[]

@@ -247,10 +247,22 @@
   [logs-by-location
    isotope-by-location]
   (let [locations    (keys logs-by-location)
-        [x-min
-         x-max
+        [x-drip-min
+         x-drip-max
          y-drip-min
          y-drip-max] (data-ranges logs-by-location)
+        isotope-times (->> isotope-by-location
+                           vals   
+                           (mapcat identity)
+                           (mapv first))
+        x-iso-min (apply min
+                         isotope-times)
+        x-iso-max (apply max
+                         isotope-times)
+        x-min (min x-drip-min
+                   x-iso-min)
+        x-max (max x-drip-max
+                   x-iso-max)
         y-oxygen-min (->> isotope-by-location
                           vals
                           (apply concat)
